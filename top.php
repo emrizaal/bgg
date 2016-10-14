@@ -131,46 +131,43 @@
     <ul>
 
       <li>
-        <a href="http://saujana.com.my/#">CLUB</a>
+        <a href="#">CLUB</a>
         <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
           <div class="menudesc">A golfing excursion in Malaysia is never complete without a visit to Bandung Giri Gahana Golf &amp; Country Club.</div>
-          <div class="col sub20 border"><a href="http://saujana.com.my/club_history.html"><h4>History &amp; Board Of Directors</h4></a><h5>The first proprietary club in the country.</h5></div>
-          <div class="col sub20 border"><a href="http://saujana.com.my/club_accolades.php"><h4>Accolades &amp; Host Venue</h4></a><h5>World wide recognition over the years.</h5></div>
-          <div class="col sub20 border"><a href="http://saujana.com.my/club_facilities.html"><h4>Facilities</h4></a><h5>The club offers more than just golf.</h5></div>
-          <div class="col sub20 border"><a href="http://saujana.com.my/club_csr.php"><h4>CSR</h4></a><h5>Community driven activities &amp; initiatives.</h5></div>
-          <div class="col sub20 border"><a href="http://saujana.com.my/club_academy.html"><h4>Golf Academy</h4></a><h5>Golf lessons by the Pros.</h5></div>
+          <div class="col sub20 border"><a href="club_history.php"><h4>History &amp; Board Of Directors</h4></a><h5>The first proprietary club in the country.</h5></div>
+          <div class="col sub20 border"><a href="club_accolades.php"><h4>Accolades &amp; Host Venue</h4></a><h5>World wide recognition over the years.</h5></div>
+          <div class="col sub20 border"><a href="club_facilities.php"><h4>Facilities</h4></a><h5>The club offers more than just golf.</h5></div>
+          <div class="col sub20 border"><a href="club_csr.php"><h4>CSR</h4></a><h5>Community driven activities &amp; initiatives.</h5></div>
           <div class="col subbottom"><span class="copy">Make your tee-off reservation now</span><a href="http://www.saujanaonline.com.my/" target="_blank"><span class="button-menu">ONLINE BOOKING</span></a><a href="http://saujana.com.my/club_news.php"><h4 class="floatR">NEWS UPDATES</h4></a></div>
           <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
           <!-- /cbp-hrsub -->
         </li>
 
         <li>
-          <a href="http://saujana.com.my/#">COURSES</a>
+          <a href="#">COURSES</a>
           <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
             <div class="col subdesc-L"><p class="menudesc">Bandung Giri Gahana Golf &amp; Country Club offers two championship golf courses, the 'Palm Course' and the 'Bunga Raya Course'.</p></div>
             <div class="col sub60 border"><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tbody><tr>
-                <td width="50%" valign="top"><div class="img-t-coursepalm"></div></td>
-                <td width="50%" class="border"><div class="img-t-coursebunga"></div></td>
+                <td width="100%" valign="top" align="center">
+                  <img src="assets/image/bgggolf.jpg">
+                </td>
               </tr>
               <tr>
-                <td valign="top"><a href="http://saujana.com.my/course_palm.html"><h4>Palm Course</h4></a></td>
-                <td valign="top"><a href="http://saujana.com.my/course_bungaraya.html"><h4>Bunga Raya Course</h4></a></td>
+                <td valign="top" align="center"><a href="course.php"><h4>Palm Course</h4></a></td>
               </tr>
               <tr>
-                <td valign="top"><h5>Carved out of an oil palm plantation, the Palm Course boasts of a rugged terrain, with slopes which drop to steep ravines.</h5></td>
-                <td valign="top"><h5>Consisting of a wide expanse of water and undulating greenery that creates a sense of freedom and space.</h5></td>
+                <td valign="top" align="center"><h5>Carved out of an oil palm plantation, the Palm Course boasts of a rugged terrain, with slopes which drop to steep ravines.</h5></td>
               </tr>
               <tr>
-                <td valign="top"><a href="http://saujana.com.my/course_palm1.html"><h4>Hole Descriptions</h4></a></td>
-                <td valign="top"><a href="http://saujana.com.my/course_br1.html"><h4>Hole Descriptions</h4></a></td>
+                <td valign="top" align="center"><a href="hole_description.php"><h4>Hole Descriptions</h4></a></td>
               </tr>
             </tbody></table>
           </div>
           <div class="col sub20 border">
             <ul class="menulist">
-              <li><a href="http://saujana.com.my/course_conditions.php"><h4>Course Condition</h4></a></li>
-              <li><a href="http://saujana.com.my/course_scorecard.html"><h4>Score Card</h4></a></li></ul></div>
+              <li><a href="course_conditions.php"><h4>Course Condition</h4></a></li>
+              <li><a href="course_scorecard.php"><h4>Score Card</h4></a></li></ul></div>
               <div class="col subbottom"><span class="copy">Make your tee-off reservation now</span><a href="http://www.saujanaonline.com.my/" target="_blank"><span class="button-menu">ONLINE BOOKING</span></a></div>
               <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
               <!-- /cbp-hrsub -->

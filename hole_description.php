@@ -1,5 +1,6 @@
 
 <?php include "top.php" ?>
+<div id="ticker" style="overflow: hidden; position: relative; height: 24px;"></div>
 <script src="assets/js/jssor.slider-21.1.6.min.js" type="text/javascript"></script>
 <script type="text/javascript">
   jssor_1_slider_init = function() {
@@ -181,8 +182,9 @@
         
       </style>
 
-
-      <div id="jssor_1" style="position: relative; margin: 0 auto; top: 125px; left: 0px; width: 800px; height: 435px; overflow: hidden; visibility: hidden; background-color: #24262e;margin-bottom:132px;">
+      <div class="page-section mar-T20" style="margin-top: 100px;"><h1>Hole Descriptions</h1></div>
+      <h2 align="center">West | East | South</h2><!-- Jadiin menu -->
+      <div id="jssor_1" style="position: relative; margin: 0 auto;  left: 0px; width: 800px; height: 435px; overflow: hidden; visibility: hidden; background-color: #24262e;margin-bottom:132px;">
         <!-- Loading Screen -->
         <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
           <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
