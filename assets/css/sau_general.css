@@ -462,5 +462,5 @@ input.submit-form:hover, input.submit-form:focus { color:#C2A13D; background-col
 
 /* MOBILE */
 #mb-header { position:relative; background:#2F1A0C; text-align:center; display:none; }
-#mb-header a { background:url(../../assets/image/logo.png) center no-repeat; display:block; width:150px; height:70px; margin:0 auto; }
+#mb-header a { background:url(../../assets/image/small-logo.png) center no-repeat; display:block; width:150px; height:80px; margin:0 auto; }
 #mb-menu { position:relative; }
