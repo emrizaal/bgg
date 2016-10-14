@@ -62,7 +62,7 @@
 
 <!-- =========== top =========== -->
 
-<div id="mb-header"><a href="http://saujana.com.my/index.php"></a></div>
+<div id="mb-header"><a href="#"></a></div>
 <div id="mb-menu"><div class="slicknav_menu"><a href="http://saujana.com.my/#" aria-haspopup="true" tabindex="0" class="slicknav_btn" style=""><span class="slicknav_menutxt">NAVIGATE</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><ul id="mobilemenu" class="slicknav_nav slicknav_hidden" style="display: none;" aria-hidden="true" role="menu">
   <li class="slicknav_collapsed slicknav_parent"><a href="http://saujana.com.my/#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item" style="">CLUB<span class="slicknav_arrow"> ►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">
     <li><a href="http://saujana.com.my/club_history.html" class="navlink" role="menuitem" tabindex="-1">History &amp; Board Of Directors</a></li>
@@ -125,7 +125,7 @@
 <!-- =========== top =========== -->
 
 <div id="sticky"><div class="wrap-menu">
-  <div id="idfull"><a href="http://saujana.com.my/index.php"></a></div>
+  
   <div id="register"><ul><li><a href="http://www.saujanaonline.com.my/" target="_blank">Members Login</a></li></ul></div>
   <div id="cbp-hrmenu" class="cbp-hrmenu">
     <ul>
@@ -204,6 +204,8 @@
                     <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                     <!-- /cbp-hrsub -->
                   </li>
+
+                  <li class="logos"><a href="#"><img src="assets/image/logo.png"></a></li>
 
                   <li>
                     <a href="http://saujana.com.my/#">HOTEL</a>

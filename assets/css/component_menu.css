@@ -8,7 +8,7 @@
 #et-logo a { width:120px; height:100px; display:block; background:url(../image/ET-logo.png) left no-repeat; float:left; }
 
 .cbp-hrmenu {
-	float:right;
+	/*float:right;*/
 	padding-top:52px;
 }
 
@@ -181,6 +181,20 @@
 
 
  }
+
+ .logos{
+ 	margin-top:-50px !important;
+ }
+
+ .logos a {
+ 	color: transparent;
+ 	background:none;
+}
+
+.logos a:hover {
+	color: transparent;
+	background-color: transparent !important;
+}
      
 /* Landscape smartphone to portrait tablet */
 @media (max-width: 767px) { 
