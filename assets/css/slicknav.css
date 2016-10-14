@@ -1,0 +1,106 @@
+.slicknav_menu {
+	display:none;
+}
+
+@media screen and (max-width: 767px) {
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}
+}
+
+/*
+    Mobile Menu Core Style
+*/
+
+.slicknav_btn { position: relative; display: block; vertical-align: middle; float: left;  cursor: pointer; }
+.slicknav_menu  .slicknav_menutxt { display: block; float: left; }
+.slicknav_menu .slicknav_icon { float: left; margin: 2px 5px 2px 7px; }
+.slicknav_menu .slicknav_no-text { margin: 0 }
+.slicknav_menu .slicknav_icon-bar { display: block; width: 15px; height: 1px; margin:3px 0; }
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {  }
+.slicknav_nav { clear: both }
+.slicknav_nav ul,
+.slicknav_nav li { display: block }
+.slicknav_nav .slicknav_arrow { display:none; }
+.slicknav_nav .slicknav_item { display: block; cursor: pointer; }
+.slicknav_nav a { display: block }
+.slicknav_nav .slicknav_item a { display: inline }
+.slicknav_menu:before,
+.slicknav_menu:after { content: " "; display: table; }
+.slicknav_menu:after { clear: both }
+/* IE6/7 support */
+.slicknav_menu { *zoom: 1 }
+
+/* 
+    User Default Style
+    Change the following styles to modify the appearance of the menu.
+*/
+
+.slicknav_menu {
+	font-size:12px;
+}
+/* Button */
+.slicknav_btn {
+	margin: 0;
+	padding:7px 15px;
+	text-decoration:none;
+	font-family: 'trajan-pro-3', serif; font-weight:600; 
+}
+/* Button Text */
+.slicknav_menu  .slicknav_menutxt {	
+	color: #C2A13D;
+}
+/* Button Lines */
+.slicknav_menu .slicknav_icon-bar {
+  background-color: #C2A13D;
+}
+.slicknav_menu {
+	background:#004520;
+	border-top:solid 1px #006E33;
+}
+.slicknav_nav {
+	margin:0;	
+	padding:0;
+	background:#005327;
+}
+.slicknav_nav, .slicknav_nav ul {
+	list-style: none;
+	overflow:hidden;
+}
+.slicknav_nav ul {
+	padding:0;
+	margin:0;
+}
+.slicknav_nav .slicknav_item {
+	padding:6px 15px;
+	margin:0px;
+
+}
+.slicknav_nav a{
+	padding:6px 15px;
+	margin:0;
+	text-decoration:none;
+	color:#C2A13D;
+}
+.slicknav_nav .slicknav_item a {
+	padding:0;
+	margin:0;
+
+}
+.slicknav_nav .slicknav_item:hover {
+	background:#004520;
+	color:#FFFFFF;	
+}
+.slicknav_nav a:hover{
+	background:#004520;
+	color:#FFFFFF;	
+}
+.slicknav_nav .slicknav_txtnode {
+      
+}
+.navlink { color:#FFFFFF!important; background:#005B25; }
+.navlink:hover { color:#C2A13D!important; }

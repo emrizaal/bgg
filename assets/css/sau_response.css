@@ -1,0 +1,201 @@
+
+
+
+/* RESPONSIVE */
+
+/* Large desktop */
+@media (min-width: 1052px) and (max-width: 1200px) {
+
+.wrap, .wrap-menu, #page-content .row-section { width:94%; margin:0 3%; }
+#cover-bottom { width:100%; }
+.slides { width:100%; }
+
+
+ }
+ 
+ /* Interval */
+@media (min-width: 1025px) and (max-width: 1051px) { 
+ 
+body { font-size:13px; line-height:18px; }
+.wrap, .wrap-menu, #page-content .row-section { width:96%; margin:0 2%; }
+#footer .footnewsmail p { font-size:13px; }
+#page-title-top { padding:135px 0 7px 0; font-size:13px; }
+.button-form a { padding:5px 10px; }
+#page-content { padding-top:115px; }
+
+ 
+ }
+     
+/* IPAD potrait to landscape */
+@media (min-width: 768px) and (max-width: 1024px) { 
+
+body { font-size:13px; line-height:18px; }
+.wrap, .wrap-menu, #page-content .row-section { width:96%; margin:0 2%; }
+
+#footer { padding:10px 0; }
+#footer .footnewsmail { width:100%; margin-right:0; padding-right:0; background:none; margin-bottom:10px; padding-bottom:15px; border-bottom:solid 1px #006E33; text-align:center; }
+#footer .footnewsmail p { font-size:13px; margin-bottom:10px; }
+#footer .footmenu { width:100%; }
+#footer .misc { padding:5px 0; margin:10px 0; }
+#footer .miscmenu li { padding-right:10px; }
+#footer .miscmenu li a { font-size:11px; }
+#footer .disclaimer { margin-bottom:10px; }
+.button-form a { padding:5px 10px; float:none; letter-spacing:0; }
+
+.tickercol { width:100%; float:none; }
+.ticker-title a { font-size:11px; letter-spacing:0px; }
+#ticker li { font-size:12px; }
+#cover-feed .newsupdate { font-size:15px; line-height:22px; }
+.discover a { display:none; }
+.feed, .feed a  { font-size:13px; letter-spacing:0px; }
+
+#page-title-top { padding:115px 0 7px 0; font-size:13px; letter-spacing:0; }
+#page-up { padding:5px 0; }
+
+#page-content { padding-top:105px; }
+#page-content .row-section { padding-bottom:20px; }
+#page-content .block-70-C { width:96%; margin:0 auto; }
+#page-content .block-80-C { width:96%; margin:0 auto; }
+.page-section h1 { font-size:20px; letter-spacing:1px; line-height:30px; }
+
+.up a { padding-top:35px; letter-spacing:0; }
+.down a { letter-spacing:0; }
+
+#course-cell .block-22L { display:none; }
+#course-cell .block-100 { display:block; }
+#course-cell .block-48C { width:72%; padding-right:2%; padding-left:0; float:left; }
+#course-cell .block-22R { width:22%; padding-left:2%; float:left; }
+#course-cell .navi { margin:5px 0; padding-bottom:5px; letter-spacing:0px; }
+#course-cell .content { float:none; clear:both; margin:0px 0 20px 0; }
+
+.slide-col80C { width:90%; margin:0 auto; }
+blockquote { font-size:15px; line-height:20px; }
+
+.yardage { text-align:right; }
+
+#page-content h2 { font-size:16px; letter-spacing:1px; line-height:26px; } 
+
+.merit .month { padding-left:20px; font-size:13px; }
+
+.list-noborder li { padding:2px 0; padding-left:15px; background:url(../../img/bullet-gr.png) 0px 5px no-repeat;  }
+
+.t20 { font-size:16px; line-height:26px; }
+.t15 { font-size:13px; line-height:18px; }
+.t13 { font-size:12px; line-height:17px; }
+.f16 { font-size:14px; line-height:24px; }
+.ls1 { letter-spacing:0px; } 
+
+
+
+ }
+     
+/* Landscape smartphone to portrait tablet */
+@media (max-width: 767px) { 
+body { font-size:13px; line-height:18px; }
+.wrap, .wrap-menu, #page-content .row-section { width:90%; margin:0 5%; }
+
+#mb-header { display:block; }
+
+#footer { padding:10px 0; }
+#footer .footnewsmail { width:100%; margin-right:0; padding-right:0; background:none; padding-bottom:10px; text-align:center; }
+#footer .footnewsmail p { font-size:13px; margin-bottom:10px; }
+#footer .footmenu { display:none; }
+#footer .misc { padding:5px 0; margin:10px 0; text-align:center; }
+#footer .misc .col-partners { width:100%; float:none; background:url(../../img/partner_small.gif) no-repeat center; display:block; height:35px; border-bottom:solid 1px #006E33; padding-bottom:10px; }
+#footer .misc .col-social { width:100%; float:none; color:#FFFFFF; font-size:12px; text-align:center; padding-top:10px; }
+#footer .miscmenu li { padding-right:10px; float:none; }
+#footer .miscmenu li a { font-size:11px; }
+#footer .disclaimer { margin-bottom:10px; }
+.button-form a, .button-dl a { padding:5px 10px; float:none; letter-spacing:0; }
+
+#cover-feed .newsupdate { font-size:13px; line-height:17px; }
+#cover-feed { padding:10px 0; }
+#cover-feed .col-48-L { width:94%; padding:2% 3%; float:none; }
+#cover-feed .col-48-R { width:94%; padding:2% 3%; float:none; background:none; }
+#cover-feed .newsupdate { font-size:13px; line-height:22px; }
+#cover-foot { display:none; }
+.feed, .feed a  { font-size:13px; letter-spacing:0px; margin-bottom:0; }
+
+#page-title-top { padding:7px 0 7px 0; font-size:13px; letter-spacing:0; position:relative; }
+
+#page-content { padding-top:0px; }
+#page-content .row-section { padding-bottom:20px; }
+#page-content .block-70-C, #page-content .block-80-C { width:100%; margin:0 auto; }
+#page-content .block-48-L, #page-content .block-48-R { width:100%; padding:0; float:none; }
+#page-content .block-74-L, #page-content .block-22-R  { width:100%; padding:0; float:none; }
+#page-content .layout33 { width:47%; margin:1.5%; float:left; }
+.page-section h1 { font-size:20px; letter-spacing:1px; line-height:30px; }
+.slides { height:0; display:none;  }
+
+.border-L, .border-R  { background:none; }
+.up a, .down a, #page-up, #page-down { display:none; }
+.list li, .list-L li { padding:5px 0; text-align:left; }
+.pro-rate { font-size:12px; }
+.rates td  { padding:5px; }
+.cont td { padding:5px; text-align:left; }
+
+.album li { width:100%; margin:10px 0; float:none; }
+#gallery li { width:47%; margin:2%; }
+
+#horizon .thumb { width:70%; }
+
+#course-cell { position:relative; bottom:0px; width:100%; background:none; padding:0; }
+#course-cell .block-22L { display:none; }
+#course-cell .block-100, #course-cell .block-100-info { display:block; }
+#course-cell .block-48C { width:72%; padding-right:2%; padding-left:0; float:left; }
+#course-cell .block-22R { width:22%; padding-left:2%; float:left; }
+#course-cell .navi { display:none; }
+#course-cell .navimb { display:block; }
+#course-cell .content { float:none; clear:both; margin:0px 0 20px 0; }
+#course-cell .content .fw { color:#000000; }
+#course-cell .content .pad-20LR { padding:0; }
+
+.condition { margin:10px 0; font-size:11px; }
+.condition .table-title, .condition .table-title-alt, .condition .table-detail, .condition .table-detail-alt { padding:5px; }
+
+.liquid-slider { display:none; }
+
+.block-img-big { display:none; }
+.block-img-small, .block-img-small-margin { display:block; }
+.slider-wrapper { display:none; }
+
+
+.slide-col80C { width:90%; margin:0 auto; }
+blockquote {  font-weight:300; font-size:15px; line-height:20px; }
+
+.yardage .par { float:none; }
+.yardage .yred, .yardage .yblu, .yardage .ybla, .yardage .ywhi { float:none; padding:3px 10px 3px 20px; }
+.yardage .y50 { width:100%; float:none; }
+
+#page-content h2 { font-size:16px; letter-spacing:1px; line-height:26px; margin-bottom:10px; } 
+
+.merit .month { padding-left:20px; font-size:13px; }
+.merit td { padding:7px; }
+.event-result { font-size:11px; }
+.event-result .table-title, .event-result .table-detail { padding:3px 5px; }
+
+.list-noborder li { padding:2px 0; padding-left:15px; background:url(../../img/bullet-gr.png) 0px 5px no-repeat;  }
+
+.t20 { font-size:16px; line-height:26px; }
+.t15 { font-size:13px; line-height:18px; }
+.t13 { font-size:12px; line-height:17px; }
+.f16 { font-size:14px; line-height:24px; }
+.ls1 { letter-spacing:0px; } 
+
+.pad-20 { padding:10px 0; }
+.mar-T20 { padding-top:15px; }
+p { margin-bottom:10px; }
+
+
+ }
+     
+
+
+
+/* Potrait smartphone *
+@media screen and (max-width: 480px) { 
+
+
+ }*/
+ 
+ 

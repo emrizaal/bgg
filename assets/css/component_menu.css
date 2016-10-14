@@ -1,0 +1,201 @@
+#sticky-anchor { position:absolute; top:0px; }
+#sticky { position:fixed; width:100%; z-index: 11000; background:#2F1A0C; top:0px;}
+#sticky.stick { position: fixed; top: 0px; }
+
+#idfull { z-index:100; }
+#idfull a { width:180px; height:100px; display:block; background:url(../image/logo.png) left no-repeat; float:left; }
+#et-logo { z-index:100; }
+#et-logo a { width:120px; height:100px; display:block; background:url(../image/ET-logo.png) left no-repeat; float:left; }
+
+.cbp-hrmenu {
+	float:right;
+	padding-top:52px;
+}
+
+/* general ul style */
+.cbp-hrmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+/* first level ul style */
+.cbp-hrmenu > ul,
+.cbp-hrmenu .cbp-hrsub-inner {
+	margin: 0 auto;
+}
+
+.cbp-hrmenu > ul {  }
+	
+.cbp-hrmenu > ul > li {
+	display: block;
+	float:left;
+	margin: 0;
+	padding: 0;
+}
+
+.cbp-hrmenu > ul > li > a {
+	font-size:14px;
+	padding: 15px 10px;
+	letter-spacing:1px;
+	color: #AC8504;
+	display: inline-block;
+	font-family: 'trajan-pro-3', serif;
+	font-weight:600;
+	/* padding-right:25px; background:url(../../img/arrow_menu_d.gif) right center no-repeat;*/
+}
+
+.cbp-hrmenu > ul > li > a:hover {
+	background-color: #C4951B;
+	color: #FFFFFF;
+}
+
+.cbp-hrmenu > ul > li.cbp-hropen a,
+.cbp-hrmenu > ul > li.cbp-hropen > a:hover {
+	background-color:#C4951B;
+}
+
+/* sub-menu */
+.cbp-hrmenu .cbp-hrsub {
+	display: none;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	text-align:left;
+}
+
+.cbp-hrsub-inner { background:url(../image/bg_menu.png); }
+
+.cbp-hropen .cbp-hrsub {
+	display: block;
+}
+
+.cbp-hrmenu .cbp-hrsub-inner .col {
+	float: left;
+	color:#FFFFFF;
+}
+
+
+.sub20 { width:14%; padding:0 3%; }
+.sub30 { width:24%; padding:0 3%; }
+/*.sub40 { width:34%; padding:0 3%; }*/
+.sub60 { width:60%; }
+.sub60 td { padding:0 6%; }
+.subauto { width:auto; padding:0 3% } 
+.subdesc-L { width:17%; padding-right:3%; }
+.subbottom { width:100%; padding-top:10px; margin-top:10px; border-top:solid 1px #C2A13D; }
+.subbottom .copy { float:left; font-family: 'trajan-pro-3', serif; font-weight:600; color: #FFFFFF; font-size:12px; line-height:12px; letter-spacing:1px; text-transform:uppercase; padding-right:10px; }
+.border { background:url(../image/line_gover.gif) no-repeat top left; }
+
+.wrapsub { width:1200px; margin:0 auto; position:relative; padding:25px 0; }
+.cbp-hrmenu .blockleft { }
+.img-t-coursepalm { width:100%; background:url(../image/t_menupalm.jpg) no-repeat; height:120px; margin-bottom:10px }
+.img-t-coursebunga { width:100%; background:url(../image/t_menubunga.jpg) no-repeat; height:120px; margin-bottom:10px }
+
+.button-menu { display:block; color: #C2A13D; padding-left:10px; font-size:11px; letter-spacing:1px; text-align:left; margin:0 auto; background:url(../image/arrow_but_r.gif) left center no-repeat; float:left; line-height:12px; }
+.button-menu:hover { color:#FFFFFF; }
+
+.cbp-hrmenu .cbp-hrsub-inner:before,
+.cbp-hrmenu .cbp-hrsub-inner:after {
+	content: " ";
+	display: table;
+}
+
+.cbp-hrmenu .cbp-hrsub-inner:after {
+	clear: both;
+}
+
+
+.cbp-hrsub .menudesc { color: #FFFFFF; margin-bottom:20px; font-size:14px; line-height:20px; font-weight:300; text-align:left; }
+.cbp-hrsub h4 { font-family: 'trajan-pro-3', serif; font-weight:600; color: #C2A13D; margin-bottom:0px; font-size:12px; line-height:14px; letter-spacing:1px; text-transform:uppercase; }
+.cbp-hrsub h4:hover, .cbp-hrsub h6:hover { color: #FFFFFF; }
+.cbp-hrsub h5 { margin:10px 0; font-size:12px; line-height:17px; color:#FFFFFF; } 
+.cbp-hrsub h6 { margin-bottom:0px; font-family: 'Open Sans', Arial, sans-serif; font-size:12px; line-height:17px; color:#C2A13D; }
+.cbp-hrsub p { margin-bottom:0px; }
+
+.cbp-hrsub .menumisc { display:block; color: #C2A13D; margin-top:10px; padding-left:10px; background:url(../image/arrow_but_r.gif) left center no-repeat; }
+.cbp-hrsub .menumisc:hover { color: #FFFFFF; }
+
+.menulist { }
+.menulist ul { padding:0px; margin:0px; }
+.menulist li { list-style:none; display:block; padding-bottom:5px; margin-bottom:5px; border-bottom:solid 1px #C2A13D; } 
+
+/*.cbp-hrsub .menulist-inline ul { padding:0px; margin:0px; }
+.cbp-hrsub .menulist-inline li { list-style:none; display:block; float:left; font-family: 'trajan-pro-3', serif; font-weight:600; color: #C2A13D; margin-bottom:0px; font-size:12px; line-height:14px; letter-spacing:1px; text-transform:uppercase; padding:0 3%; } 
+.cbp-hrsub .menulist-inline li a { color: #C2A13D; }
+.cbp-hrsub .menulist-inline li a:hover { color: #FFFFFF; }*/
+
+/* Examples for media queries */
+
+@media (min-width: 1052px) and (max-width: 1200px) {
+
+.wrapsub { width:94%; margin:0 3%; }
+
+ }
+
+/* Small screen computer */
+@media (min-width: 1025px) and (max-width: 1051px) { 
+
+.wrapsub { width:96%; margin:0 2%; padding:20px 0; }
+
+#idfull { text-align:center; }
+#idfull a { width:120px; height:90px; float:none; clear:both; margin:0 auto; }
+
+#et-logo { text-align:center; }
+#et-logo a { width:120px; height:90px; float:none; clear:both; margin:0 auto; }
+
+.cbp-hrmenu { float:none; clear:both; padding:0; text-align:center; }
+.cbp-hrmenu > ul > li { display:inline-block; float:none; clear:both; }
+.cbp-hrmenu > ul > li > a { font-size:13px; padding: 10px 7px; letter-spacing:1px; }
+
+ }
+ 
+ /* IPAD potrait to landscape */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.wrapsub { width:96%; margin:0 2%; padding:15px 0; }
+
+#idfull { text-align:center; }
+#idfull a { width:85px; height:70px; display:block; background:url(image/logo.png) center no-repeat; float:none; clear:both; margin:0 auto; }
+#et-logo { text-align:center; }
+#et-logo a { width:85px; height:70px; display:block; background:url(../image/et-logo-med.png) center no-repeat; float:none; clear:both; margin:0 auto; }
+.subdesc-L, .menudesc { display:none; }
+
+.sub20 { width:17%; padding:0 1.5%; }
+.sub30 { width:30%; padding:0 1.5%; }
+.sub60 { width:80%; }
+.subauto { width:auto; padding:0 1.5% }
+.subbottom .copy { letter-spacing:0px; }
+
+.cbp-hrmenu { float:none; clear:both; padding:0; text-align:center; }
+.cbp-hrmenu > ul > li { display:inline-block; float:none; clear:both; }
+.cbp-hrmenu > ul > li > a { font-size:13px; padding: 10px 6px; letter-spacing:0px; }
+.cbp-hrsub h4 { letter-spacing:0px; }
+.cbp-hrsub h5 { margin:5px 0; } 
+.sub60 td { padding:0 2%; }
+
+.button-menu { letter-spacing:0px; }
+
+
+.img-t-coursepalm, .img-t-coursebunga { height:100px; }
+
+
+ }
+     
+/* Landscape smartphone to portrait tablet */
+@media (max-width: 767px) { 
+
+#sticky { display:none; }
+
+ }
+     
+
+
+
+/* Potrait smartphone 
+@media screen and (max-width: 480px) { 
+
+ } */
+ 
+     
+
