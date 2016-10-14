@@ -59,13 +59,13 @@
   background-color: #C2A13D;
 }
 .slicknav_menu {
-	background:#004520;
-	border-top:solid 1px #006E33;
+	background:#2F1A0C;
+	border-top:solid 1px #AC8504;
 }
 .slicknav_nav {
 	margin:0;	
 	padding:0;
-	background:#005327;
+	background:#3f2e06;
 }
 .slicknav_nav, .slicknav_nav ul {
 	list-style: none;
@@ -92,15 +92,15 @@
 
 }
 .slicknav_nav .slicknav_item:hover {
-	background:#004520;
+	background:#2F1A0C;
 	color:#FFFFFF;	
 }
 .slicknav_nav a:hover{
-	background:#004520;
+	background:#2F1A0C;
 	color:#FFFFFF;	
 }
 .slicknav_nav .slicknav_txtnode {
       
 }
-.navlink { color:#FFFFFF!important; background:#005B25; }
+.navlink { color:#FFFFFF!important; background:#654908; }
 .navlink:hover { color:#C2A13D!important; }

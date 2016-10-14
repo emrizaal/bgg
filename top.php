@@ -63,8 +63,10 @@
 <!-- =========== top =========== -->
 
 <div id="mb-header"><a href="#"></a></div>
-<div id="mb-menu"><div class="slicknav_menu"><a href="http://saujana.com.my/#" aria-haspopup="true" tabindex="0" class="slicknav_btn" style=""><span class="slicknav_menutxt">NAVIGATE</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><ul id="mobilemenu" class="slicknav_nav slicknav_hidden" style="display: none;" aria-hidden="true" role="menu">
-  <li class="slicknav_collapsed slicknav_parent"><a href="http://saujana.com.my/#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item" style="">CLUB<span class="slicknav_arrow"> ►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">
+<div id="mb-menu">
+    <div class="slicknav_menu">
+        <ul id="mobilemenu" class="slicknav_nav slicknav_hidden" style="display: none;" aria-hidden="true" role="menu">
+  <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item" style="">CLUB<span class="slicknav_arrow"> ►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">
     <li><a href="http://saujana.com.my/club_history.html" class="navlink" role="menuitem" tabindex="-1">History &amp; Board Of Directors</a></li>
     <li><a href="http://saujana.com.my/club_accolades.php" class="navlink" role="menuitem" tabindex="-1">Accolades &amp; Host Venue</a></li>
     <li><a href="http://saujana.com.my/club_facilities.html" class="navlink" role="menuitem" tabindex="-1">Facilities</a></li>

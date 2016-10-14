@@ -7,7 +7,7 @@
 	var
 	// default settings object.
 	defaults = {
-		label: 'NAVIGATE',
+		label: 'MENU',
 		duplicate: false,
 		duration: 200,
 		easingOpen: 'swing',

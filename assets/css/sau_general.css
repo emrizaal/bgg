@@ -461,6 +461,6 @@ input.submit-form:hover, input.submit-form:focus { color:#C2A13D; background-col
 #register li a:hover { color:#FFFFFF; background-color: #C4951B; padding: 6px 10px;}
 
 /* MOBILE */
-#mb-header { position:relative; background:#004520; text-align:center; display:none; }
-#mb-header a { background:url(../../img/Saujana_ID_med.png) center no-repeat; display:block; width:85px; height:70px; margin:0 auto; }
+#mb-header { position:relative; background:#2F1A0C; text-align:center; display:none; }
+#mb-header a { background:url(../../assets/image/logo.png) center no-repeat; display:block; width:150px; height:70px; margin:0 auto; }
 #mb-menu { position:relative; }

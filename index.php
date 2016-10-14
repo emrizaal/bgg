@@ -3,7 +3,7 @@
 <div id="top"></div>
 <div style="background-image: url('assets/image/slider1.jpg'); height: 599px;" class="slides"></div><!-- =========== end slides =========== -->
 
-<div class="block-img-small"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB_files/mb_cover_01.jpg" class="source-image"></div>
+<div class="block-img-small"><img src="assets/image/bgggolf2.jpg" class="source-image"></div>
 
 <!-- =========== cover foot =========== -->
 <div id="cover-foot">
