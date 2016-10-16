@@ -1,0 +1,36 @@
+ .accordion {
+        margin: 0;
+        padding:10px 20px;
+        border-top:#C2A13D 1px solid;
+        text-decoration:none;
+		font-size:15px;
+		letter-spacing:1px;
+		line-height:25px;
+		font-weight:300px;
+        color: #444444;
+    }
+.accordion:hover { cursor:pointer; cursor:hand; color:#C2A13D; background:#EFEFEF; }
+.accordion-open { border-top:#005327 1px solid; color:#C2A13D; }
+.accordion-open span { display:block; float:right; padding:10px; }
+.accordion-open span { background:url(../../img/arrow_acc_u.gif) center center no-repeat; }
+
+.accordion-close span { display:block; float:right; background:url(../../img/arrow_acc_d.gif) center center no-repeat; padding:10px; }
+
+div.container { padding:20px; margin:0; }
+div.content {  }
+code { overflow:auto; }
+
+/* IPAD potrait to landscape */
+@media (min-width: 768px) and (max-width: 1024px) { 
+
+.accordion {  padding:5px 20px; font-size:13px; }
+
+}
+
+/* Landscape smartphone to portrait tablet */
+@media (max-width: 767px) { 
+
+.accordion {  padding:5px 10px; font-size:13px; line-height:20px; }
+div.container { padding:10px; margin:0; }
+
+}

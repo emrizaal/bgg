@@ -1,0 +1,37 @@
+
+/* Generic Utility */
+.hide { position: absolute; top: -9999px; left: -9999px; }
+
+/* Specific to example two */
+
+
+#tab p { font-size:inherit; line-height:inherit; }
+#tab ul { list-style: none; }
+#tab .navlist { overflow: hidden; }
+#tab .navlist li { float:left; margin: 0; width:50%; }
+#tab .navlist li a { display: block; padding: 10px 0; font-family: 'trajan-pro-3', serif; font-size:16px; line-height:26px; color:#999999; letter-spacing:1px; text-align: center; border-top: solid 1px #FFFFFF; border-bottom: solid 1px #CCCCCC;  }
+#tab .navlist li a:hover {  color:#999999; background:#EFEFEF; outline:none; }
+#tab li a.current { background-color: #FFFFFF !important; color:#C2A13D; border: solid 1px #C2A13D; border-bottom:solid 1px #FFFFFF; }
+#tab li a.current:hover { color:#C2A13D; cursor:default; }
+#tab .list-wrap { padding:20px 0;}
+
+#tab3 ul { list-style: none; }
+#tab3 .navlist { overflow: hidden; }
+#tab3 .navlist li { float:left; width:50%; } /*width:33%;*/
+#tab3 .navlist .last { float:left; width:50%; } /*width:34%;*/
+#tab3 .navlist li a { display: block; padding: 10px 0; font-family: 'trajan-pro-3', serif; font-size:16px; line-height:26px; color:#999999; letter-spacing:1px; text-align: center; border-top: solid 1px #FFFFFF; border-bottom: solid 1px #CCCCCC; }
+#tab3 .navlist li a:hover {  color:#999999; background:#EFEFEF; outline:none; }
+#tab3 li a.current { background-color: #FFFFFF !important; color:#C2A13D; border: solid 1px #C2A13D; border-bottom:solid 1px #FFFFFF; }
+#tab3 li a.current:hover { color:#C2A13D; cursor:default; }
+#tab3 .list-wrap { padding:20px 0;}
+
+
+
+/* IPAD potrait to landscape */
+@media (max-width: 1024px) { 
+
+#tab .list-wrap, #tab3 .list-wrap { padding:10px 0;}
+
+#tab .navlist li a, #tab3 .navlist li a { padding: 7px 0; font-size:14px; line-height:24px; letter-spacing:0px; }
+
+}
