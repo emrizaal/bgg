@@ -133,7 +133,6 @@
     <div id="register"><ul><li><a href="http://www.saujanaonline.com.my/" target="_blank">Members Login</a></li></ul></div>
     <div id="cbp-hrmenu" class="cbp-hrmenu">
       <ul>
-      <li>&nbps;</li><li>&nbps;</li>
         <li>
           <a href="#">CLUB</a>
           <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
