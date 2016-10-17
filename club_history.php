@@ -21,8 +21,7 @@
 
   <!-- ////// ROW 2 \\\\\\\\ -->
   <div class="break"></div>
-  <div class="block-img-small"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB_files/mb_history2.jpg" class="source-image"></div>
-  <div class="block-img-big"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB_files/img_history2.jpg" class="source-image"></div>
+  <div class="block-img-big"><img src="assets/image/slider1.jpg" class="source-image"></div>
   <div class="row-section">
 
     <div class="page-section"><h1>Vision</h1></div>
