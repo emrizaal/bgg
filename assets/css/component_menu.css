@@ -77,7 +77,14 @@
 	text-align:left;
 }
 
-.cbp-hrsub-inner { background:url(../image/bg_menu.png); }
+.cbp-hrsub-inner {
+    /*background:url(../image/bg_menu.png); */
+    background: #4B2D10; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#4B2D10, #271B0A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#4B2D10, #271B0A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#4B2D10, #271B0A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4B2D10, #271B0A); /* Standard syntax */
+}
 
 .cbp-hropen .cbp-hrsub {
 	display: block;
