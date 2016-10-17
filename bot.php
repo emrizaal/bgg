@@ -10,11 +10,11 @@
           <div class="footmenu">
             <div class="link">
               <span class="f12 ls1 fw">MEMBERSHIP</span>
-              <p class="t12 fw"><a href="http://saujana.com.my/members_general.php">General information on our membership</a></p>
+              <p class="t12 fw"><a href="members_general.php">General information on our membership</a></p>
             </div>
             <div class="link">
               <span class="f12 ls1 fw">PROMOTIONS</span>
-              <p class="t13 fw"><a href="http://saujana.com.my/rates_golf.html">Golf Packages &amp; F&amp;B </a></p>
+              <p class="t13 fw"><a href="rates_golf.php">Golf Packages &amp; F&amp;B </a></p>
             </div>
             <div class="link">
               <span class="f12 ls1 fw">FACTSHEET</span>
@@ -22,9 +22,7 @@
             </div>
             <div class="link">
               <span class="f12 ls1 fw">HOTEL</span>
-              <p class="t12 fw"><a href="http://saujana.com.my/hotel_thesaujana.html">Bandung Giri Gahana Hotel</a></p>
-              <p class="t12 fw"><a href="http://saujana.com.my/hotel_theclub.html">Bandung Giri Gahana Resort</a></p>
-              <p class="t12 fw"><a href="http://saujana.com.my/hotel_thespa.html">The Spa, The Club Bandung Giri Gahana Resort</a></p>
+              <p class="t12 fw"><a href="resort.php">Resort</a></p>
             </div>
             <div class="link">
               <span class="f12 ls1 fw">BOOKING</span>

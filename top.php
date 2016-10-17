@@ -210,22 +210,16 @@
                     </li>
 
                     <li>
-                      <a href="#">HOTEL</a>
-                      <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
-                        <div class="menudesc">Saujana Golf &amp; Country Club is nestled alongside two hotels, namely The Saujana Hotel Kuala Lumpur and The Club Saujana Resort. Managed by Saujana Hotels &amp; Resorts, the prestigious heritage mansion, Carcosa Seri Negara also falls under their portfolio.</div>
-                        <div class="col sub30 border"><a href="http://saujana.com.my/hotel_thesaujana.html"><h4>The Saujana Hotel Kuala Lumpur</h4></a><h5>Scenic beauty and unconditional privacy abound, The Saujana combines comfort and adventure of lush tropical garden.</h5><a href="http://www.thesaujanahotel.com/" target="_blank"><h6>www.thesaujanahotel.com</h6></a></div>
-                        <div class="col sub30 border"><a href="http://saujana.com.my/hotel_theclub.html"><h4>The Club Saujana Resort</h4></a><h5>Ultimate urban retreat offering complete luxury and personalised services.</h5><a href="http://www.theclubsaujanaresort.com/" target="_blank"><h6>www.theclubsaujanaresort.com</h6></a></div>
-                        <div class="col sub30 border"><a href="http://saujana.com.my/hotel_thespa.html"><h4>The Spa, The Club Saujana Resort</h4></a><h5>Dedicated to the restoration of strength, beauty, balance of mind, body and soul.</h5><a href="http://www.thespa-theclubsaujanaresort.com/" target="_blank"><h6>www.thespa-theclubsaujanaresort.com</h6></a></div>
-                        <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
-                        <!-- /cbp-hrsub -->
+                      <a onclick="window.location.href=&#39;resort.php&#39;;return false;" href="resort.php">RESORT</a>
+                      
                       </li>
                       <li><a onclick="window.location.href=&#39;pressmedia.php&#39;;return false;" href="pressmedia.php">MEDIA</a></li>
 
                       <li>
-                        <a href="http://saujana.com.my/#">CONTACTS</a>
+                        <a href="#">CONTACTS</a>
                         <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
-                          <div class="col subauto border"><a href="http://saujana.com.my/contacts_management.php"><h4>Management &amp; Committees</h4></a></div>
-                          <div class="col subauto border"><a href="http://saujana.com.my/contacts_location.html"><h4>Location</h4></a></div>
+                          <div class="col subauto border"><a href="contacts_management.php"><h4>Management &amp; Committees</h4></a></div>
+                          <div class="col subauto border"><a href="contacts_location.php"><h4>Location</h4></a></div>
                           <!--<div class="col subauto border"><a href="inquiry.html"><h4>Inquiry</h4></a></div>-->
                           <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                           <!-- /cbp-hrsub -->
