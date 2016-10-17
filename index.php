@@ -37,7 +37,7 @@
         <p class="newsupdate"><a href="http://saujana.com.my/club_news.php">MPI Saujana Amateur Championship 2015 - Draw &amp; Results</a></p>
         <p class="newsupdate"><a href="http://saujana.com.my/club_news.php">Palm Course closure for upgrading works</a></p>
         <p class="newsupdate"><a href="http://saujana.com.my/club_news.php">Discounted Rates during Palm Course closure</a></p>
-        <span><a href="http://www.horizongolf.com.my/" target="_blank"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB_files/spotball.png" border="0"></a></span>
+<!--        <span><a href="http://www.horizongolf.com.my/" target="_blank"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB_files/spotball.png" border="0"></a></span>-->
       </div><!-- end news -->
       <div class="col-48-R"><span class="feed">SOCIAL FEEDS</span>
         <div class="fb-feed"></div><p style="margin-bottom:5px;" class="t13 fw">Follow us on facebook</p>

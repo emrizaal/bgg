@@ -152,7 +152,7 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 .feed a { font-family: 'trajan-pro-3', serif; font-weight:600; display:block; padding:7px 0; margin-bottom:10px; color: #C2A13D; font-size:14px; letter-spacing:1px; text-align:left; float:left; }
 .feed a:hover { color:#FFFFFF; }
 
-.up a { display:block; padding-top:40px; background:url(../image/arrow_butbig_ugo.gif) center no-repeat; margin:0 auto; color:#9D7704; font-size:11px; letter-spacing:1px; }
+.up a { display:block; padding-top:40px; background:url(../image/up.png) right no-repeat; margin:0 auto; color:#9D7704; font-size:11px; letter-spacing:1px;}
 .up a:hover { color:#2F1A0C; }
 
 .down a { display:block; padding-bottom:40px; background:url(../../img/arrow_butbig_dwhi.gif) center no-repeat; margin:0 auto; color:#FFFFFF; font-size:11px; letter-spacing:1px; }
@@ -246,7 +246,7 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 #page-content .block-wrap-50R { width:50%; float:left; }*/
 #page-content .block-break { width:100%; border-top:solid 1px #E1D2B6; border-bottom:solid 1px #E1D2B6; padding:10px 0; margin-top:20px; clear:both; }
 /*#page-content .inblock { width:100%; border-bottom:solid 1px #E1D2B6; padding:10px 0; font-size:14px; line-height:20px; }*/
-#page-content h2 { font-family: 'trajan-pro-3', serif; font-weight:600; font-size:20px; letter-spacing:2px; line-height:30px; color:#006E33; margin-bottom:20px; }
+#page-content h2 { font-family: 'trajan-pro-3', serif; font-weight:600; font-size:20px; letter-spacing:2px; line-height:30px; color:#4B2D10; margin-bottom:20px; }
 #page-content h3 { font-size:15px; line-height:20px; margin-bottom:10px; }
 #page-content p:last-child { margin-bottom:0px; }
 #page-content .break { padding:15px 0; clear:both; }
@@ -269,7 +269,7 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 .list-L li ul li { display:block; list-style:none; padding:7px 0; padding-left:15px; border:none; background:url(../../img/bullet-gr.png) 0 10px no-repeat; }
 
 .list-inline ul { padding:0; margin:0;  text-align:justify; }
-.list-inline li { display:inline; list-style:none; padding:1% 2%; border-left:solid 1px #006E33; text-align:justify; }
+.list-inline li { display:inline; list-style:none; padding:1% 2%; border-left:solid 1px #4B2D10; text-align:justify; }
 
 .list-noborder ul { padding:0; margin:0;  }
 .list-noborder li { display:block; list-style:none; padding:4px 0; padding-left:15px; background:url(../../img/bullet-gr.png) 0px 5px no-repeat; line-height:17px; }
@@ -283,7 +283,7 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 /*.reci-club { width:100%; position:relative; padding:7px 0; border-bottom:solid 1px #E1D2B6; }*/
 
 .cont td { padding:7px; border-bottom:solid 1px #E1D2B6; text-align:center; }
-.cont a { color:#006E33; }
+.cont a { color:#4B2D10; }
 .cont a:hover { color:#999999; }
 
 .contact-detail { font-size:13px; }
@@ -301,7 +301,7 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 .td-border-bottom { border-bottom:solid 1px #E1D2B6; }
 
 .condition { border-bottom:solid 1px #C2A13D; margin:15px 0; }
-.condition .table-title { background:#005327; color:#FFFFFF; padding:7px; }
+.condition .table-title { background:#4B2D10; color:#FFFFFF; padding:7px; }
 .condition .table-title-alt { color:#C2A13D; padding:7px; border-top:solid 1px #C2A13D; border-right:solid 1px #C2A13D; }
 /*.condition .table-title-alt { background:#00622E; color:#FFFFFF; padding:7px; }*/
 .condition .table-detail { padding:7px; border-right:solid 1px #C2A13D; }
@@ -315,7 +315,7 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 .merit a:hover { color: #999999; }
 
 .event-result { position:relative; }
-.event-result a { display:block; color:#006E33; padding:0 0 0 12px; margin-top:15px; font-size:13px; background:url(../../img/arrow_but_r.gif) left center no-repeat; } 
+.event-result a { display:block; color:#4B2D10; padding:0 0 0 12px; margin-top:15px; font-size:13px; background:url(../../img/arrow_but_r.gif) left center no-repeat; }
 .event-result a:hover { color: #999999; }
 .event-result .table-title { background:#005327; color:#FFFFFF; padding:3px 7px; border-bottom:solid 1px #E1D2B6; }
 .event-result .table-detail { padding:3px 7px; border-bottom:solid 1px #E1D2B6; }

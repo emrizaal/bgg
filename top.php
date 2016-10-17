@@ -8,7 +8,7 @@
 <script src="assets/js/jquery.js"></script>
 <script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
 <script src="assets/js/modernizr.custom.js"></script>
-<script type="text/javascript" src="assets/js/pgu6lcb.js"></script>
+<!--<script type="text/javascript" src="assets/js/pgu6lcb.js"></script>-->
 <script type="text/javascript" src="assets/js/vticker.js"></script>
 
 <style type="text/css">.tk-trajan-pro-3{font-family:"trajan-pro-3",sans-serif;}</style><style type="text/css">@font-face{font-family:trajan-pro-3;src:url(https://fonts.typekit.net/af/eb79d7/000000000000000000012e8f/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:700;font-style:normal;}@font-face{font-family:trajan-pro-3;src:url(https://fonts.typekit.net/af/a6c357/000000000000000000012e93/27/l?subset_id=2&fvd=n6) format("woff2");font-weight:600;font-style:normal;}</style>
