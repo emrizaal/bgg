@@ -5,7 +5,7 @@
         <div class="wrap">
           <div class="footnewsmail"><div class="padLR30">
             <p>Receive updates, events and more to your inbox.</p>
-            <span class="button-form"><a class="sign fancybox" data-fancybox-type="iframe" href="http://saujana.com.my/newsmail.php">SIGN UP FOR NEWSMAIL</a></span>
+            <span class="button-form"><a class="sign fancybox" data-fancybox-type="iframe" href="#">SIGN UP FOR NEWSMAIL</a></span>
           </div></div>
           <div class="footmenu">
             <div class="link">
@@ -18,7 +18,7 @@
             </div>
             <div class="link">
               <span class="f12 ls1 fw">FACTSHEET</span>
-              <p class="t12 fw"><a href="http://saujana.com.my/doc/SGCC_Factsheet.pdf" target="_blank">Download the club's factsheet</a></p>
+              <p class="t12 fw"><a href="#" target="_blank">Download the club's factsheet</a></p>
             </div>
             <div class="link">
               <span class="f12 ls1 fw">HOTEL</span>
@@ -26,8 +26,8 @@
             </div>
             <div class="link">
               <span class="f12 ls1 fw">BOOKING</span>
-              <p class="t12 fw"><a href="http://www.saujanaonline.com.my/" target="_blank">Make your reservations online now</a></p>
-              <p class="t12 fw"><a href="http://saujana.com.my/doc/SGCC_Booking_Form.pdf" target="_blank">Booking Form</a></p>
+              <p class="t12 fw"><a href="#" target="_blank">Make your reservations online now</a></p>
+              <p class="t12 fw"><a href="#" target="_blank">Booking Form</a></p>
             </div>
           </div>
 
@@ -43,7 +43,7 @@
 
                 </tr>
                 <tr>
-                  <td valign="top"><div class="miscmenu"><ul><li><a href="http://saujana.com.my/inquiry.html">Inquiry</a></li><li><a href="http://saujana.com.my/terms.html">Terms &amp; Conditions</a></li>
+                  <td valign="top"><div class="miscmenu"><ul><li><a href="#">Inquiry</a></li><li><a href="#">Terms &amp; Conditions</a></li>
                   </ul></div></td>
                 </tr>
               </tbody></table>

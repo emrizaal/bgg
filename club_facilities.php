@@ -116,70 +116,70 @@
         .jssora02r.jssora02rds { background-position: -63px -33px; opacity: .3; pointer-events: none; }
       </style>
       <div id="ticker" style="overflow: hidden; position: relative; height: 24px;"></div>
-      <div style="margin-top:100px">
-        <!-- =========== CONTENT =========== -->
-        <div id="page-content" class="div1">
-          <!-- ////// ROW 1 \\\\\\\\ -->
-          <div class="row-section">
+      
+      <!-- =========== CONTENT =========== -->
+      <div id="page-content" class="div1">
+        <!-- ////// ROW 1 \\\\\\\\ -->
+        <div class="row-section">
 
-            <div class="page-section mar-T20">
-              <h1>Facilities</h1>
-            </div>
-
-
-            <div class="block-70-C tjus"><div class="pad-20">
-              <p>Saujana Golf &amp; Country Club also features other recreational facilities and F&amp;B outlets.</p>
-              <div class="block-48-L">
-                <span class="f16 fgr">COUNTRY CLUB</span>
-                <ul type="bullet"><li>Outdoor flood-lit tennis courts</li><li>Olympic-size swimming pool</li><li>Sauna</li><li>Pro shop</li></ul>
-              </div>
-              <div class="block-48-R">
-                <span class="f16 fgr">FOOD &amp; BEVERAGE OUTLETS</span>
-                <ul type="bullet"><li>Golfers' Terrace</li></ul>
-              </div>
-
-              <div class="clear"></div></div></div>
-
-            </div>
-
-            <div class="block-img-small-margin"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB f_files/mb_faci1.jpg" class="source-image"></div>
-            <div class="block-img-small-margin"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB f_files/mb_faci2.jpg" class="source-image"></div>
-            <div class="block-img-small-margin"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB f_files/mb_faci3.jpg" class="source-image"></div>
-            <div class="block-img-small-margin"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB f_files/mb_faci4.jpg" class="source-image"></div>
-
-            <!-- SLIDER-->   
-            <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; visibility: hidden;">
-              <!-- Loading Screen -->
-              <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-                <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-                <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
-              </div>
-              <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden;">
-                <div data-p="112.50" style="display: none;">
-                  <img data-u="image" src="assets/image/bgggolf.jpg" />
-                  <div data-u="caption" data-t="0" style="position: absolute; top: 320px; left: 30px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">mobile ready, touch swipe</div>
-                </div>
-                <div data-p="112.50" style="display: none;">
-                  <img data-u="image" src="assets/image/bgggolf2.jpg" />
-                  <div data-u="caption" data-t="1" data-3d="1" style="position: absolute; top: -50px; left: 125px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">time lined layer animation</div>
-                </div>
-                <div data-p="112.50" style="display: none;">
-                  <img data-u="image" src="assets/image/bggresort.jpg" />
-                  <div data-u="caption" data-t="2" style="position: absolute; top: 30px; left: -380px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">finger catchable right to left</div>
-                </div>
-                <div data-p="112.50" style="display: none;">
-                  <img data-u="image" src="assets/image/bgggresort2.jpg" />
-                  <div data-u="caption" data-t="3" style="position: absolute; top: 30px; left: 30px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">responsive, scale smoothly</div>
-                </div>
-              </div>
-              <!-- Bullet Navigator -->
-              <div data-u="navigator" class="jssorb01" style="bottom:16px;right:16px;">
-                <div data-u="prototype" style="width:12px;height:12px;"></div>
-              </div>
-              <!-- Arrow Navigator -->
-              <span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
-              <span data-u="arrowright" class="jssora02r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
-            </div>
-            <script type="text/javascript">jssor_1_slider_init();</script>
+          <div class="page-section mar-T20">
+            <h1>Facilities</h1>
           </div>
+
+
+          <div class="block-70-C tjus"><div class="pad-20">
+            <p>Saujana Golf &amp; Country Club also features other recreational facilities and F&amp;B outlets.</p>
+            <div class="block-48-L">
+              <span class="f16 fgr">COUNTRY CLUB</span>
+              <ul type="bullet"><li>Outdoor flood-lit tennis courts</li><li>Olympic-size swimming pool</li><li>Sauna</li><li>Pro shop</li></ul>
+            </div>
+            <div class="block-48-R">
+              <span class="f16 fgr">FOOD &amp; BEVERAGE OUTLETS</span>
+              <ul type="bullet"><li>Golfers' Terrace</li></ul>
+            </div>
+
+            <div class="clear"></div></div></div>
+
+          </div>
+
+          <div class="block-img-small-margin"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB f_files/mb_faci1.jpg" class="source-image"></div>
+          <div class="block-img-small-margin"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB f_files/mb_faci2.jpg" class="source-image"></div>
+          <div class="block-img-small-margin"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB f_files/mb_faci3.jpg" class="source-image"></div>
+          <div class="block-img-small-margin"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB f_files/mb_faci4.jpg" class="source-image"></div>
+
+          <!-- SLIDER-->   
+          <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; visibility: hidden;">
+            <!-- Loading Screen -->
+            <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+              <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+              <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+            </div>
+            <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden;">
+              <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="assets/image/bgggolf.jpg" />
+                <div data-u="caption" data-t="0" style="position: absolute; top: 320px; left: 30px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">mobile ready, touch swipe</div>
+              </div>
+              <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="assets/image/bgggolf2.jpg" />
+                <div data-u="caption" data-t="1" data-3d="1" style="position: absolute; top: -50px; left: 125px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">time lined layer animation</div>
+              </div>
+              <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="assets/image/bggresort.jpg" />
+                <div data-u="caption" data-t="2" style="position: absolute; top: 30px; left: -380px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">finger catchable right to left</div>
+              </div>
+              <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="assets/image/bgggresort2.jpg" />
+                <div data-u="caption" data-t="3" style="position: absolute; top: 30px; left: 30px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">responsive, scale smoothly</div>
+              </div>
+            </div>
+            <!-- Bullet Navigator -->
+            <div data-u="navigator" class="jssorb01" style="bottom:16px;right:16px;">
+              <div data-u="prototype" style="width:12px;height:12px;"></div>
+            </div>
+            <!-- Arrow Navigator -->
+            <span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
+            <span data-u="arrowright" class="jssora02r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
+          </div>
+          <script type="text/javascript">jssor_1_slider_init();</script>
+          
           <?php include "bot.php" ?>
