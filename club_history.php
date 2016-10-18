@@ -1,4 +1,5 @@
 <?php include "top.php" ?>
+
 <div id="ticker" style="overflow: hidden; position: relative; height: 24px;"></div>
 <div style="margin-top:100px">
   <!-- ////// ROW 1 \\\\\\\\ -->

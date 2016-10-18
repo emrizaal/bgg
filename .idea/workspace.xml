@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58015b68-e827-48e2-a320-3db5db34e696" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/club_history.php" afterPath="$PROJECT_DIR$/club_history.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/component_menu.css" afterPath="$PROJECT_DIR$/assets/css/component_menu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hole_description.php" afterPath="$PROJECT_DIR$/hole_description.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/sau_general.css" afterPath="$PROJECT_DIR$/assets/css/sau_general.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/top.php" afterPath="$PROJECT_DIR$/top.php" />
     </list>
     <ignored path="bgg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +33,16 @@
       <file leaf-file-name="component_menu.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/component_menu.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="4182">
+            <state line="14" column="26" selection-start="572" selection-end="572" vertical-scroll-proportion="-9.52" vertical-offset="0" max-vertical-offset="4199">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hole_description.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hole_description.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="186" column="63" selection-start="8127" selection-end="8127" vertical-scroll-proportion="0.4055666" vertical-offset="2958" max-vertical-offset="4437">
               <folding />
             </state>
           </provider>
@@ -38,9 +51,21 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="78" selection-start="93" selection-end="166" vertical-scroll-proportion="-1.0" vertical-offset="0" max-vertical-offset="884">
+            <state line="2" column="0" selection-start="71" selection-end="91" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="884">
               <folding>
-                <element signature="e#93#166#0" expanded="true" />
+                <element signature="e#100#173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="club_history.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/club_history.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.33333334" vertical-offset="0" max-vertical-offset="1122">
+              <folding>
+                <element signature="e#45#104#0" expanded="true" />
+                <element signature="e#117#141#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,16 +74,16 @@
       <file leaf-file-name="bot.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bot.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="63" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2176">
+            <state line="0" column="63" selection-start="63" selection-end="63" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2176">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sau_general.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sau_general.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/sau_general.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="460" column="51" selection-start="25255" selection-end="25255" vertical-scroll-proportion="0.33333334" vertical-offset="7645" max-vertical-offset="8551">
+            <state line="443" column="24" selection-start="23881" selection-end="23881" vertical-scroll-proportion="-8.08" vertical-offset="7329" max-vertical-offset="8585">
               <folding />
             </state>
           </provider>
@@ -94,8 +119,16 @@
       <file leaf-file-name="top.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/top.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="3859">
-              <folding />
+            <state line="220" column="20" selection-start="14407" selection-end="14407" vertical-scroll-proportion="-7.372549" vertical-offset="3364" max-vertical-offset="3859">
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#7;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,11 +154,13 @@
         <option value="$PROJECT_DIR$/assets/js/jquery.slicknav.js" />
         <option value="$PROJECT_DIR$/assets/css/slicknav.css" />
         <option value="$PROJECT_DIR$/bot.php" />
-        <option value="$PROJECT_DIR$/assets/css/component_menu.css" />
-        <option value="$PROJECT_DIR$/top.php" />
         <option value="$PROJECT_DIR$/assets/css/sau_response.css" />
+        <option value="$PROJECT_DIR$/club_history.php" />
+        <option value="$PROJECT_DIR$/top.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/css/sau_general.css" />
+        <option value="$PROJECT_DIR$/assets/css/component_menu.css" />
+        <option value="$PROJECT_DIR$/hole_description.php" />
       </list>
     </option>
   </component>
@@ -162,6 +197,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -214,18 +250,38 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="58015b68-e827-48e2-a320-3db5db34e696" name="Default" comment="" />
@@ -243,7 +299,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19469696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19772728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -270,24 +326,18 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/css/sau_response.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="55" selection-start="6476" selection-end="6478" vertical-scroll-proportion="0.0" vertical-offset="2686" max-vertical-offset="3519">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/component_menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="161" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="3995">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/top.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="209" column="75" selection-start="15024" selection-end="15028" vertical-scroll-proportion="0.0" vertical-offset="3387" max-vertical-offset="4148">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#7;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -295,7 +345,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="64" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="884">
           <folding>
-            <element signature="e#93#166#0" expanded="true" />
+            <element signature="e#100#173#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -335,23 +385,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="63" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/jquery.slicknav.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="22" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4284">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/top.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="3859">
           <folding />
         </state>
       </provider>
@@ -363,25 +399,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/component_menu.css">
+    <entry file="file://$PROJECT_DIR$/bot.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="4182">
+        <state line="0" column="63" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/club_history.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.33333334" vertical-offset="0" max-vertical-offset="1122">
+          <folding>
+            <element signature="e#45#104#0" expanded="true" />
+            <element signature="e#117#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="220" column="20" selection-start="14407" selection-end="14407" vertical-scroll-proportion="-7.372549" vertical-offset="3364" max-vertical-offset="3859">
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#7;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="78" selection-start="93" selection-end="166" vertical-scroll-proportion="-1.0" vertical-offset="0" max-vertical-offset="884">
+        <state line="2" column="0" selection-start="71" selection-end="91" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="884">
           <folding>
-            <element signature="e#93#166#0" expanded="true" />
+            <element signature="e#100#173#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/sau_general.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="460" column="51" selection-start="25255" selection-end="25255" vertical-scroll-proportion="0.33333334" vertical-offset="7645" max-vertical-offset="8551">
+        <state line="443" column="24" selection-start="23881" selection-end="23881" vertical-scroll-proportion="-8.08" vertical-offset="7329" max-vertical-offset="8585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/component_menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="26" selection-start="572" selection-end="572" vertical-scroll-proportion="-9.52" vertical-offset="0" max-vertical-offset="4199">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hole_description.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="186" column="63" selection-start="8127" selection-end="8127" vertical-scroll-proportion="0.4055666" vertical-offset="2958" max-vertical-offset="4437">
           <folding />
         </state>
       </provider>

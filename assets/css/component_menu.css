@@ -12,6 +12,7 @@
     background: -o-linear-gradient(#000, #4B2D10); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#000, #4B2D10); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#000, #4B2D10); /* Standard syntax */
+    border-bottom: solid 10px #C2A13D;
 }
 #sticky.stick { position: fixed; top: 0px; }
 
@@ -181,7 +182,7 @@ margin-left: 90px;
 .wrapsub { width:96%; margin:0 2%; padding:15px 0; }
 
 #idfull { text-align:center; }
-#idfull a { width:85px; height:70px; display:block; background:url(image/logo.png) center no-repeat; float:none; clear:both; margin:0 auto; }
+#idfull a { width:85px; height:70px; display:block; background:url(../image/logo.png) center no-repeat; float:none; clear:both; margin:0 auto; }
 #et-logo { text-align:center; }
 #et-logo a { width:85px; height:70px; display:block; background:url(../image/et-logo-med.png) center no-repeat; float:none; clear:both; margin:0 auto; }
 .subdesc-L, .menudesc { display:none; }

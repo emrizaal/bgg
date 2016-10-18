@@ -188,7 +188,7 @@
                     <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                     <!-- /cbp-hrsub -->
                   </li>
-                  <li class="logos"><a href="#"><img src="assets/image/logo.png"></a></li>
+                  <li class="logos"><a  onclick="window.location.href=&#39;index.php&#39;;return false;" href="index.php"><img src="assets/image/logo.png"></a></li>
                   <li>
                     <a href="#">EVENTS</a>
                     <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
@@ -199,7 +199,6 @@
                       <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                       <!-- /cbp-hrsub -->
                     </li>
-
                     <li>
                       <a onclick="window.location.href=&#39;resort.php&#39;;return false;" href="resort.php">RESORT</a>
                       
@@ -219,4 +218,5 @@
 
                       </ul></div><!-- =========== end menu =========== -->
                     </div></div>
+<div id="top"></div>
                   <!-- =========== end top =========== -->

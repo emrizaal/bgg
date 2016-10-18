@@ -152,10 +152,10 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 .feed a { font-family: 'trajan-pro-3', serif; font-weight:600; display:block; padding:7px 0; margin-bottom:10px; color: #C2A13D; font-size:14px; letter-spacing:1px; text-align:left; float:left; }
 .feed a:hover { color:#FFFFFF; }
 
-.up a { display:block; padding-top:40px; background:url(../image/up.png) right no-repeat; margin:0 auto; color:#9D7704; font-size:11px; letter-spacing:1px;}
+.up a { display:block; padding-top:40px; background:url(../image/ups.png) right no-repeat; margin:0 auto; color:#9D7704; font-size:11px; letter-spacing:1px;}
 .up a:hover { color:#2F1A0C; }
 
-.down a { display:block; padding-bottom:40px; background:url(../../img/arrow_butbig_dwhi.gif) center no-repeat; margin:0 auto; color:#FFFFFF; font-size:11px; letter-spacing:1px; }
+.down a { display:block; padding-bottom:40px; background:url(../image/down.png) center no-repeat; margin:0 auto; color:#FFFFFF; font-size:11px; letter-spacing:1px; }
 .down a:hover { color:#C2A13D; }
 
 .global-link a { display:block; color:#006E33; padding:0 0 0 12px; font-size:13px;  background:url(../../img/arrow_but_r.gif) left center no-repeat; } 
@@ -435,11 +435,13 @@ blockquote {  font-weight:300; font-size:20px; line-height:25px; }
     /*background:#2F1A0C ; */
     padding:20px 0;
 
-    background: #4B2D10; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#4B2D10, #000); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#4B2D10, #000); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#4B2D10, #000); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#4B2D10, #000); /* Standard syntax */
+    background: #36200B; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#36200B, #000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#36200B, #000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#36200B, #000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#36200B, #000); /* Standard syntax */
+
+    border-top: solid 10px #C2A13D;
 }/*#004520*/
 #footer .footnewsmail { width:21%; margin-right:2%; padding-right:2%; float:left; background:url(../image/line_gover.gif) right repeat-y; color:#FFFFFF;  }
 #footer .footnewsmail p { margin-bottom:5px; }
