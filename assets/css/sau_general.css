@@ -76,7 +76,7 @@ pre {
 .wrap { width:1200px; margin:0 auto; }
 .wrap-menu { width:1200px; margin:0 auto auto 110px;  }
 
-.slides { position:relative; display: table; vertical-align: middle; margin:0 auto; height:100%; width:100%; background: no-repeat 50% 50%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
+.slides { position:relative; display: table; margin:0 auto; height:100%; width:100%; background: no-repeat 50% 50%; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  }
 
 /*div1, .div2, .div3, .div4 { opacity:0; }*/
 
@@ -458,7 +458,7 @@ blockquote {  font-weight:300; font-size:20px; line-height:25px; }
 #footer .miscmenu li { list-style:none; display:inline-block; float:left; padding-right:15px; }
 #footer .miscmenu li a { font-size:12px; color:#C2A13D; }
 #footer .miscmenu li a:hover { color:#FFFFFF; }
-#footer .disclaimer { font-size:10px; color:#FFFFFF; text-align:center; }
+#footer .disclaimer { font-size:10px; color:#AC8504; text-align:center; }
 
 
 #footer .misc .col-social { width:35%; float:left; color:#FFFFFF; font-size:12px; }
