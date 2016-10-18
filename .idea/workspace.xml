@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="58015b68-e827-48e2-a320-3db5db34e696" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/sau_general.css" afterPath="$PROJECT_DIR$/assets/css/sau_general.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/sau_response.css" afterPath="$PROJECT_DIR$/assets/css/sau_response.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bgg.iws" />
@@ -36,11 +35,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="54" selection-start="136" selection-end="142" vertical-scroll-proportion="0.1017964" vertical-offset="0" max-vertical-offset="884">
-              <folding />
+            <state line="3" column="78" selection-start="93" selection-end="166" vertical-scroll-proportion="-1.0" vertical-offset="0" max-vertical-offset="884">
+              <folding>
+                <element signature="e#93#166#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sau_general.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sau_general.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/sau_general.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="220" column="96" selection-start="10193" selection-end="10193" vertical-scroll-proportion="-6.32" vertical-offset="3582" max-vertical-offset="8551">
+            <state line="460" column="51" selection-start="25255" selection-end="25255" vertical-scroll-proportion="0.33333334" vertical-offset="7645" max-vertical-offset="8551">
               <folding />
             </state>
           </provider>
@@ -93,7 +94,7 @@
       <file leaf-file-name="top.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/top.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="3995">
+            <state line="14" column="0" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="3859">
               <folding />
             </state>
           </provider>
@@ -119,11 +120,11 @@
       <list>
         <option value="$PROJECT_DIR$/assets/js/jquery.slicknav.js" />
         <option value="$PROJECT_DIR$/assets/css/slicknav.css" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/bot.php" />
         <option value="$PROJECT_DIR$/assets/css/component_menu.css" />
         <option value="$PROJECT_DIR$/top.php" />
         <option value="$PROJECT_DIR$/assets/css/sau_response.css" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/css/sau_general.css" />
       </list>
     </option>
@@ -293,7 +294,9 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="64" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="884">
-          <folding />
+          <folding>
+            <element signature="e#93#166#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -339,13 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/component_menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="4182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/jquery.slicknav.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="22" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4284">
@@ -355,7 +351,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/top.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="3995">
+        <state line="14" column="0" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="3859">
           <folding />
         </state>
       </provider>
@@ -367,16 +363,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/sau_general.css">
+    <entry file="file://$PROJECT_DIR$/assets/css/component_menu.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="220" column="96" selection-start="10193" selection-end="10193" vertical-scroll-proportion="-6.32" vertical-offset="3582" max-vertical-offset="8551">
+        <state line="41" column="0" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="4182">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="54" selection-start="136" selection-end="142" vertical-scroll-proportion="0.1017964" vertical-offset="0" max-vertical-offset="884">
+        <state line="3" column="78" selection-start="93" selection-end="166" vertical-scroll-proportion="-1.0" vertical-offset="0" max-vertical-offset="884">
+          <folding>
+            <element signature="e#93#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/sau_general.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="460" column="51" selection-start="25255" selection-end="25255" vertical-scroll-proportion="0.33333334" vertical-offset="7645" max-vertical-offset="8551">
           <folding />
         </state>
       </provider>
