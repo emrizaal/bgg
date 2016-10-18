@@ -218,7 +218,7 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 /* #cover-feed .fb {  margin-bottom:15px; clear:both;  font-size:13px; line-height:18px; color:#FFFFFF; padding-left:25px; background:url(../../img/ico_fb.gif) top left no-repeat }
 #cover-feed .fb a { color:#C2A13D; }
 #cover-feed .fb a:hover { color:#FFFFFF; text-decoration:underline; }*/
-#cover-feed .newsupdate { margin-bottom:7px; padding-bottom:7px; border-bottom:solid 1px #666666; clear:both;  font-size:18px; line-height:25px; color:#FFFFFF; }
+#cover-feed .newsupdate { margin-bottom:7px; padding-bottom:7px; border-bottom:solid 1px #C2A13D; clear:both;  font-size:18px; line-height:25px; color:#FFFFFF; }
 #cover-feed .newsupdate a { color:#FFFFFF; }
 #cover-feed .newsupdate a:hover { color:#C2A13D; }
 
