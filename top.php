@@ -3,6 +3,7 @@
 <html xmlns:fb="http://ogp.me/ns/fb#" class="js wf-trajanpro3-n6-active wf-trajanpro3-n7-active wf-active"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
+<meta content="width=device-width; initial-scale=1.0" name="viewport">
 
 <title>Bandung Giri Gahana Golf and Resort</title>
 
