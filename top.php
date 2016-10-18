@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<!-- saved from url=(0022)http://saujana.com.my/ -->
-<html xmlns:fb="http://ogp.me/ns/fb#" class="js wf-trajanpro3-n6-active wf-trajanpro3-n7-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<html xmlns:fb="http://ogp.me/ns/fb#" class="js wf-trajanpro3-n6-active wf-trajanpro3-n7-active wf-active"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 
 <title>Bandung Giri Gahana Golf and Resort</title>
 
@@ -69,55 +71,45 @@
   <div class="slicknav_menu">
     <ul id="mobilemenu" class="slicknav_nav slicknav_hidden" style="display: none;" aria-hidden="true" role="menu">
       <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item" style="">CLUB<span class="slicknav_arrow"> ►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">
-        <li><a href="http://saujana.com.my/club_history.html" class="navlink" role="menuitem" tabindex="-1">History &amp; Board Of Directors</a></li>
-        <li><a href="http://saujana.com.my/club_accolades.php" class="navlink" role="menuitem" tabindex="-1">Accolades &amp; Host Venue</a></li>
-        <li><a href="http://saujana.com.my/club_facilities.html" class="navlink" role="menuitem" tabindex="-1">Facilities</a></li>
-        <li><a href="http://saujana.com.my/club_csr.php" class="navlink" role="menuitem" tabindex="-1">Corporate Social Responsibility</a></li>
-        <li><a href="http://saujana.com.my/club_academy.html" class="navlink" role="menuitem" tabindex="-1">Golf Academy</a></li>
-        <li><a href="http://saujana.com.my/club_news.php" class="navlink" role="menuitem" tabindex="-1">News Updates</a></li>
+        <li><a href="club_history.php" class="navlink" role="menuitem" tabindex="-1">History &amp; Board Of Directors</a></li>
+        <li><a href="club_accolades.php" class="navlink" role="menuitem" tabindex="-1">Accolades &amp; Host Venue</a></li>
+        <li><a href="club_facilities.php" class="navlink" role="menuitem" tabindex="-1">Facilities</a></li>
+        <li><a href="club_csr.php" class="navlink" role="menuitem" tabindex="-1">Corporate Social Responsibility</a></li>
       </ul> </li>
 
-      <li class="slicknav_collapsed slicknav_parent"><a href="http://saujana.com.my/#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item" style="">COURSES<span class="slicknav_arrow"> ►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">
-        <li><a href="http://saujana.com.my/course_palm.html" class="navlink" role="menuitem" tabindex="-1">Palm Course</a></li>
-        <li><a href="http://saujana.com.my/course_bungaraya.html" class="navlink" role="menuitem" tabindex="-1">Bunga Raya Course</a></li>
-        <li><a href="http://saujana.com.my/course_conditions.php" class="navlink" role="menuitem" tabindex="-1">Course Conditions</a></li>
+      <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item" style="">COURSES<span class="slicknav_arrow"> ►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">
+        <li><a href="course.php" class="navlink" role="menuitem" tabindex="-1">Palm Course</a></li>
+        <li><a href="course_conditions.php" class="navlink" role="menuitem" tabindex="-1">Course Conditions</a></li>
       </ul> </li>
 
-      <li class="slicknav_collapsed slicknav_parent"><a href="http://saujana.com.my/#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item" style="">MEMBERSHIP<span class="slicknav_arrow"> ►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">
-        <li><a href="http://saujana.com.my/members_general.php" class="navlink" role="menuitem" tabindex="-1">General Information</a></li>
-        <li><a href="http://saujana.com.my/members_reciprocal.php" class="navlink" role="menuitem" tabindex="-1">Reciprocal Clubs</a></li>
-        <li><a href="http://saujana.com.my/members_checklist.html" class="navlink" role="menuitem" tabindex="-1">Application Checklist</a></li>
+      <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item" style="">MEMBERSHIP<span class="slicknav_arrow"> ►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">
+        <li><a href="members_general.php" class="navlink" role="menuitem" tabindex="-1">General Information</a></li>
+        <li><a href="members_reciprocal.php" class="navlink" role="menuitem" tabindex="-1">Reciprocal Clubs</a></li>
+        <li><a href="members_checklist.php" class="navlink" role="menuitem" tabindex="-1">Application Checklist</a></li>
       </ul> </li>
 
-      <li class="slicknav_collapsed slicknav_parent"><a href="http://saujana.com.my/#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item" style="">RATES<span class="slicknav_arrow"> ►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">
-        <li><a href="http://saujana.com.my/rates_golf.php" class="navlink" role="menuitem" tabindex="-1">Golf Rates &amp; Promotions</a></li>
-        <li><a href="http://saujana.com.my/rates_sport.php" class="navlink" role="menuitem" tabindex="-1">Sports Rates</a></li>
-        <li><a href="http://saujana.com.my/terms.html" class="navlink" role="menuitem" tabindex="-1">Terms &amp; Conditions</a></li>
+      <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item" style="">RATES<span class="slicknav_arrow"> ►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">
+        <li><a href="rates_golf.php" class="navlink" role="menuitem" tabindex="-1">Golf Rates &amp; Promotions</a></li>
+        <li><a href="rates_sport.php" class="navlink" role="menuitem" tabindex="-1">Sports Rates</a></li>
+        <li><a href="terms.php" class="navlink" role="menuitem" tabindex="-1">Terms &amp; Conditions</a></li>
       </ul> </li>
 
-      <li class="slicknav_collapsed slicknav_parent"><a href="http://saujana.com.my/#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item" style="">EVENTS<span class="slicknav_arrow"> ►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">
-        <li><a href="http://saujana.com.my/event_calendar.html" class="navlink" role="menuitem" tabindex="-1">Event Calendar</a></li>
-        <li><a href="http://saujana.com.my/event_orderofmerit.php" class="navlink" role="menuitem" tabindex="-1">Order of Merit &amp; Monthly Medal</a></li>
-        <li><a href="http://saujana.com.my/event_results.php" class="navlink" role="menuitem" tabindex="-1">Competition Results</a></li>
+      <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item" style="">EVENTS<span class="slicknav_arrow"> ►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">
+        <li><a href="event_calendar.php" class="navlink" role="menuitem" tabindex="-1">Event Calendar</a></li>
+        <li><a href="event_orderofmerit.php" class="navlink" role="menuitem" tabindex="-1">Order of Merit &amp; Monthly Medal</a></li>
+        <li><a href="event_results.php" class="navlink" role="menuitem" tabindex="-1">Competition Results</a></li>
       </ul> </li>
 
-      <li><a href="http://saujana.com.my/horizon.html" role="menuitem" tabindex="-1">HORIZON</a></li>
+      <li><a href="resort.php" role="menuitem" tabindex="-1">RESORT</a></li>
+      <li><a href="pressmedia.php" role="menuitem" tabindex="-1">PRESS &amp; MEDIA</a></li>
 
-      <li class="slicknav_collapsed slicknav_parent"><a href="http://saujana.com.my/#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item" style="">HOTEL<span class="slicknav_arrow"> ►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">
-        <li><a href="http://saujana.com.my/hotel_thesaujana.html" class="navlink" role="menuitem" tabindex="-1">Bandung Giri Gahana Hotel</a></li>
-        <li><a href="http://saujana.com.my/hotel_theclub.html" class="navlink" role="menuitem" tabindex="-1">Bandung Giri Gahana Resort</a></li>
-        <li><a href="http://saujana.com.my/hotel_thespa.html" class="navlink" role="menuitem" tabindex="-1">The Spa, The Club Bandung Giri Gahana Resort</a></li>
-      </ul> </li>
-
-      <li><a href="http://saujana.com.my/pressmedia.php" role="menuitem" tabindex="-1">PRESS &amp; MEDIA</a></li>
-
-      <li class="slicknav_collapsed slicknav_parent"><a href="http://saujana.com.my/#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item" style="">CONTACTS<span class="slicknav_arrow"> ►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">
-        <li><a href="http://saujana.com.my/contacts_management.php" class="navlink" role="menuitem" tabindex="-1">Management &amp; Committees</a></li>
-        <li><a href="http://saujana.com.my/contacts_location.html" class="navlink" role="menuitem" tabindex="-1">Location</a></li>
+      <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item" style="">CONTACTS<span class="slicknav_arrow"> ►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">
+        <li><a href="contacts_management.php" class="navlink" role="menuitem" tabindex="-1">Management &amp; Committees</a></li>
+        <li><a href="contacts_location.php" class="navlink" role="menuitem" tabindex="-1">Location</a></li>
         <!--<li><a href="inquiry.html" class="navlink">Inquiry</a></li>-->
       </ul> </li>
 
-      <li><a href="http://www.saujanaonline.com.my/" target="_blank" role="menuitem" tabindex="-1">ONLINE BOOKING</a></li>
+      <li><a href="#" target="_blank" role="menuitem" tabindex="-1">ONLINE BOOKING</a></li>
 
     </ul></div>
 
@@ -130,7 +122,7 @@
 
   <div id="sticky"><div class="wrap-menu">
 
-    <div id="register"><ul><li><a href="http://www.saujanaonline.com.my/" target="_blank">Members Login</a></li></ul></div>
+    <div id="register"><ul><li><a href="#" target="_blank">Members Login</a></li></ul></div>
     <div id="cbp-hrmenu" class="cbp-hrmenu">
       <ul>
         <li>
@@ -141,7 +133,7 @@
             <div class="col sub20 border"><a href="club_accolades.php"><h4>Accolades &amp; Host Venue</h4></a><h5>World wide recognition over the years.</h5></div>
             <div class="col sub20 border"><a href="club_facilities.php"><h4>Facilities</h4></a><h5>The club offers more than just golf.</h5></div>
             <div class="col sub20 border"><a href="club_csr.php"><h4>CSR</h4></a><h5>Community driven activities &amp; initiatives.</h5></div>
-            <div class="col subbottom"><span class="copy">Make your tee-off reservation now</span><a href="http://www.saujanaonline.com.my/" target="_blank"><span class="button-menu">ONLINE BOOKING</span></a><a href="http://saujana.com.my/club_news.php"><h4 class="floatR">NEWS UPDATES</h4></a></div>
+            <div class="col subbottom"><span class="copy">Make your tee-off reservation now</span><a href="#" target="_blank"><span class="button-menu">ONLINE BOOKING</span></a><a href="#"><h4 class="floatR">NEWS UPDATES</h4></a></div>
             <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
             <!-- /cbp-hrsub -->
           </li>
@@ -171,7 +163,7 @@
               <ul class="menulist">
                 <li><a href="course_conditions.php"><h4>Course Condition</h4></a></li>
                 <li><a href="course_scorecard.php"><h4>Score Card</h4></a></li></ul></div>
-                <div class="col subbottom"><span class="copy">Make your tee-off reservation now</span><a href="http://www.saujanaonline.com.my/" target="_blank"><span class="button-menu">ONLINE BOOKING</span></a></div>
+                <div class="col subbottom"><span class="copy">Make your tee-off reservation now</span><a href="#" target="_blank"><span class="button-menu">ONLINE BOOKING</span></a></div>
                 <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                 <!-- /cbp-hrsub -->
               </li>
@@ -180,9 +172,9 @@
                 <a href="#">MEMBERSHIP</a>
                 <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
                   <div class="menudesc">Club membership offer you more benefits and privilleges.</div>
-                  <div class="col sub30 border"><a href="members_general.php"><h4>General Information</h4></a><h5>Overview of Saujana Golf &amp; Country Club Membership.</h5><a href="http://saujana.com.my/mime/SGCC_Membership_GeneralInfo.pdf" target="_blank"><h6>Download document</h6></a></div>
-                  <div class="col sub30 border"><a href="members_reciprocal.php"><h4>Reciprocal Clubs</h4></a><h5>List of our worldwide reciprocal clubs.</h5><a href="http://saujana.com.my/doc/SGCC_Membership_Reciprocal.pdf" target="_blank"><h6>Download document</h6></a></div>
-                  <div class="col sub30 border"><a href="members_checklist.php"><h4>Application Checklist</h4></a><h5>Checklist in preparing your membership application.</h5><a href="http://saujana.com.my/mime/Membership%20Checklist%20For%20Member.pdf" target="_blank"><h6>Download document</h6></a></div>
+                  <div class="col sub30 border"><a href="members_general.php"><h4>General Information</h4></a><h5>Overview of Saujana Golf &amp; Country Club Membership.</h5><a href="#" target="_blank"><h6>Download document</h6></a></div>
+                  <div class="col sub30 border"><a href="members_reciprocal.php"><h4>Reciprocal Clubs</h4></a><h5>List of our worldwide reciprocal clubs.</h5><a href="#" target="_blank"><h6>Download document</h6></a></div>
+                  <div class="col sub30 border"><a href="members_checklist.php"><h4>Application Checklist</h4></a><h5>Checklist in preparing your membership application.</h5><a href="#" target="_blank"><h6>Download document</h6></a></div>
                   <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                   <!-- /cbp-hrsub -->
                 </li>
