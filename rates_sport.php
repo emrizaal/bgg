@@ -2,13 +2,11 @@
 <div id="ticker" style="overflow: hidden; position: relative; height: 24px;"></div>
 
 <!-- =========== CONTENT =========== -->
-<div id="page-content" class="div1">
+<div id="page-content" class="div1" style="margin-top:20px;">
 	<!-- ////// ROW 1 \\\\\\\\ -->
 
-	<div class="block-img-small"><img src="./rates sport_files/mb_rates2.jpg" class="source-image"></div>
-	<div class="block-img-big"><img src="./rates sport_files/img_rates2.jpg" class="source-image"></div>
 	<div class="row-section">
-		<div id="page-down"><span class="down"><a href="http://saujana.com.my/rates_sport.php#page-down">PAGE DOWN</a></span></div>
+		<div id="page-down"><span class="down"><a href="#page-down">PAGE DOWN</a></span></div>
 		<div class="page-section">
 			<h1>Sports</h1>
 		</div>

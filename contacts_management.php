@@ -3,10 +3,7 @@
 <!-- =========== CONTENT =========== -->
 <div id="page-content" class="div1">
 
-	<!-- ////// ROW 1 \\\\\\\\ -->
 
-	<div class="block-img-small"><img src="./management commitee_files/mb_manage1.jpg" class="source-image"></div>
-	<div class="block-img-big"><img src="./management commitee_files/img_manage1.jpg" class="source-image"></div>
 	<div class="row-section">
 		<div id="page-down"><span class="down"><a href="http://saujana.com.my/contacts_management.php#page-down">PAGE DOWN</a></span></div>
 

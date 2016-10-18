@@ -1,11 +1,9 @@
 <?php include "top.php" ?>
 <div id="ticker" style="overflow: hidden; position: relative; height: 24px;"></div>
 <!-- =========== CONTENT =========== -->
-<div id="page-content" class="div1">
-	<div class="block-img-small"><img src="./rates golf_files/mb_rates1.jpg" class="source-image"></div>
-	<div class="block-img-big"><img src="./rates golf_files/img_rates1.jpg" class="source-image"></div>
+<div id="page-content" class="div1" style="margin-top:20px;">
 	<div class="row-section">
-		<div id="page-down"><span class="down"><a href="http://saujana.com.my/rates_golf.html#page-down">PAGE DOWN</a></span></div>
+		<div id="page-down"><span class="down"><a href="#page-down">PAGE DOWN</a></span></div>
 		<div class="page-section"><h1> GOLF RATES &amp; PROMOTIONS</h1>
 		</div>
 

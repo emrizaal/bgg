@@ -4,7 +4,7 @@
 <div id="page-content" class="div1">
 
 	<div class="row-section">
-		<div id="page-down"><span class="down"><a href="http://saujana.com.my/members_checklist.html#page-down">PAGE DOWN</a></span></div>
+		<div id="page-down"><span class="down"><a href="#page-down">PAGE DOWN</a></span></div>
 		<div class="page-section mar-T20"><h1>Application Checklist</h1></div>
 
 		<div class="block-80-C"><div class="pad-20">
@@ -47,7 +47,7 @@
 
 		</div></div>
 		<div class="block-break" style="text-align:center; font-weight:300;"><p class="t20 fgr">For more information and assistance, please contact us at<br>
-			603 7846 1466 during normal office hours.</p><div class="button-dl"><a href="http://saujana.com.my/mime/Membership%20Checklist%20For%20Member.pdf" target="_blank">DOWNLOAD DOCUMENT</a></div></div>
+			603 7846 1466 during normal office hours.</p><div class="button-dl"><a href="#" target="_blank">DOWNLOAD DOCUMENT</a></div></div>
 			<div class="clear"></div></div>
 
 		</div><!-- =========== end content =========== -->
