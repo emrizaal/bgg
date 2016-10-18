@@ -18,12 +18,12 @@
 	},
 	mobileMenu = 'slicknav',
 	prefix = 'slicknav';
-	
+
 	$.fn[mobileMenu] = function (options) {
 		return this.each(function() {
 			var $this = $(this);
 			var settings = $.extend({}, defaults, options);
-			
+
 			// clone menu if needed
 			if (settings.duplicate) {
 				var mobileNav = $this.clone();
@@ -35,14 +35,14 @@
 			}
 			else
 				var mobileNav = $this;
-			
+
 			// styling class for the button
 			var iconClass = prefix+'_icon';
-			
+
 			if (settings.label == '') {
 				iconClass += ' '+prefix+'_no-text';
 			}
-			
+
 			if (settings.parentTag == 'a') {
 				settings.parentTag = 'a href="#"';
 			}

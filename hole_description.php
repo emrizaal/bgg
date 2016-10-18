@@ -183,7 +183,15 @@
       </style>
 
       <div class="page-section mar-T20" style="margin-top: 100px;"><h1>Hole Descriptions</h1></div>
-      <h2 align="center">West | East | South</h2><!-- Jadiin menu -->
+     <div class="menu_hole">
+<!--        <ul>-->
+<!--            <li>West</li>-->
+<!--            <li>East</li>-->
+<!--            <li>South</li>-->
+<!--        </ul>-->
+         <h3 class="tcen">West | East | South</h3><!-- Jadiin menu -->
+     </div>
+
       <div id="jssor_1" style="position: relative; margin: 10px auto;  left: 0px; width: 800px; height: 435px; overflow: hidden; visibility: hidden; background-color: #24262e;margin-bottom:132px;">
         <!-- Loading Screen -->
         <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
