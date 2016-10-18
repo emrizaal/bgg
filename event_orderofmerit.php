@@ -37,7 +37,7 @@
 										<td width="20%" class="table-title">Points</td>
 									</tr>
 								</tbody></table>
-								<span><a href="http://saujana.com.my/mime/" class="link" target="_blank">Complete results</a></span>
+								<span><a href="#" class="link" target="_blank">Complete results</a></span>
 								<div class="mar-B20"></div>
 								<h2>Golfer Of The Year Women 2016</h2>
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -52,7 +52,7 @@
 										<td width="20%" class="table-title">Points</td>
 									</tr>
 								</tbody></table>
-								<span><a href="http://saujana.com.my/mime/" class="link" target="_blank">Complete results</a></span>
+								<span><a href="#" class="link" target="_blank">Complete results</a></span>
 								<div class="mar-B20"></div>
 								<h2>Golfer Of The Year Men 2015</h2>
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -91,7 +91,7 @@
 										<td class="table-detail">318</td>
 									</tr>
 								</tbody></table>
-								<span><a href="http://saujana.com.my/mime/2015GOY_MenFinal%20Standings.pdf" class="link" target="_blank">Complete results</a></span>
+								<span><a href="#" class="link" target="_blank">Complete results</a></span>
 								<div class="mar-B20"></div>
 								<h2>Golfer Of The Year Women 2015</h2>
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -130,7 +130,7 @@
 										<td class="table-detail">399</td>
 									</tr>
 								</tbody></table>
-								<span><a href="http://saujana.com.my/mime/2015GOY_LadiesFinal%20Standings.pdf" class="link" target="_blank">Complete results</a></span>
+								<span><a href="#" class="link" target="_blank">Complete results</a></span>
 								<div class="mar-B20"></div>
 							</div>
 
@@ -141,67 +141,67 @@
 								<table width="100%" border="0" cellspacing="0" cellpadding="0">
 									<tbody><tr>
 										<td width="20%" class="month">ABC &amp; Monthly Medal : October 2016</td>
-										<td><a href="http://saujana.com.my/mime/ABC%20Medal%201%20Oct.pdf" target="_blank">View file</a></td>
+										<td><a href="#" target="_blank">View file</a></td>
 									</tr>
 									<tr>
 									</tr><tr>
 									<td width="20%" class="month">ABC &amp; Monthly Medal : September 2016</td>
-									<td><a href="http://saujana.com.my/mime/ABC%20Medal%204%20Sept(1).pdf" target="_blank">View file</a></td>
+									<td><a href="#" target="_blank">View file</a></td>
 								</tr>
 								<tr>
 								</tr><tr>
 								<td width="20%" class="month">ABC &amp; Monthly Medal : August 2016</td>
-								<td><a href="http://saujana.com.my/mime/ABC%20Medal%206%20August.pdf" target="_blank">View file</a></td>
+								<td><a href="#" target="_blank">View file</a></td>
 							</tr>
 							<tr>
 							</tr><tr>
 							<td width="20%" class="month">ABC &amp; Monthly Medal : July 2016</td>
-							<td><a href="http://saujana.com.my/mime/ABC%20Medal%2017%20July.pdf" target="_blank">View file</a></td>
+							<td><a href="#" target="_blank">View file</a></td>
 						</tr>
 						<tr>
 						</tr><tr>
 						<td width="20%" class="month">ABC &amp; Monthly Medal : June 2016</td>
-						<td><a href="http://saujana.com.my/mime/June%20Medal%20WS.pdf" target="_blank">View file</a></td>
+						<td><a href="#" target="_blank">View file</a></td>
 					</tr>
 					<tr>
 					</tr><tr>
 					<td width="20%" class="month">ABC &amp; Monthly Medal : May 2016</td>
-					<td><a href="http://saujana.com.my/mime/Medal%20Winnerlist%202016%20(May).pdf" target="_blank">View file</a></td>
+					<td><a href="#" target="_blank">View file</a></td>
 				</tr>
 				<tr>
 				</tr><tr>
 				<td width="20%" class="month">ABC &amp; Monthly Medal : April 2016</td>
-				<td><a href="http://saujana.com.my/mime/Medal%20Winnerlist%202016%20(April).pdf" target="_blank">View file</a></td>
+				<td><a href="#" target="_blank">View file</a></td>
 			</tr>
 			<tr>
 			</tr><tr>
 			<td width="20%" class="month">ABC &amp; Monthly Medal: March 2016</td>
-			<td><a href="http://saujana.com.my/mime/ABC_6Mar16.pdf" target="_blank">View file</a></td>
+			<td><a href="#" target="_blank">View file</a></td>
 		</tr>
 		<tr>
 		</tr><tr>
 		<td width="20%" class="month">ABC &amp; Monthly Medal: February 2016</td>
-		<td><a href="http://saujana.com.my/mime/Website_FebMedalList.pdf" target="_blank">View file</a></td>
+		<td><a href="#" target="_blank">View file</a></td>
 	</tr>
 	<tr>
 	</tr><tr>
 	<td width="20%" class="month">Order of Merit: 10 January 2016</td>
-	<td><a href="http://saujana.com.my/mime/prize%20list%202015%20oom2016.pdf" target="_blank">View file</a></td>
+	<td><a href="#" target="_blank">View file</a></td>
 </tr>
 <tr>
 </tr><tr>
 <td width="20%" class="month">ABC &amp; Ladies Monthly Medal: January 2016</td>
-<td><a href="http://saujana.com.my/mime/ABC_January16.pdf" target="_blank">View file</a></td>
+<td><a href="#" target="_blank">View file</a></td>
 </tr>
 <tr>
 </tr><tr>
 <td width="20%" class="month">Golfer of The Year 2016: January Medal (Ladies)</td>
-<td><a href="http://saujana.com.my/mime/GOY%20Ladies%20JanMedal2016.pdf" target="_blank">View file</a></td>
+<td><a href="#" target="_blank">View file</a></td>
 </tr>
 <tr>
 </tr><tr>
 <td width="20%" class="month">Golfer of The Year 2016: January Medal (Men)</td>
-<td><a href="http://saujana.com.my/mime/GOY%20Men%20JanMedal2016.pdf" target="_blank">View file</a></td>
+<td><a href="#" target="_blank">View file</a></td>
 </tr>
 <tr>
 

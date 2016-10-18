@@ -3,7 +3,7 @@
 <div id="page-content" class="div1">
 	<!-- ////// ROW 1 \\\\\\\\ -->
 	<div class="row-section">
-		<div id="page-down"><span class="down"><a href="http://saujana.com.my/members_general.php#page-down">PAGE DOWN</a></span></div>
+		<div id="page-down"><span class="down"><a href="#page-down">PAGE DOWN</a></span></div>
 
 
 		<div class="page-section mar-T20"><h1>General Information</h1></div>
@@ -75,7 +75,7 @@
 																			Operated by the biggest golf franchiser in the country and fully stocked to meet the needs of every golfer.</li>
 																			<li><span class="f16 fgr">SAUNAS</span><br>Access to members only.</li>
 																			<li><span class="f16 fgr">THE SAUJANA KUALA LUMPUR</span><br>The Saujana offers a tranquil retreat to nature with 210 rooms in a low rise
-																				setting that offers picturesque views of the property's emerald surroundings. For more information, kindly logon to <a href="http://www.thesaujanahotel.com/" target="_blank">http://www.thesaujanahotel.com</a></li>
+																				setting that offers picturesque views of the property's emerald surroundings. For more information, kindly logon to <a href="#" target="_blank">http://www.thesaujanahotel.com</a></li>
 																			</ul>
 																		</div>
 																	</div>
@@ -84,7 +84,7 @@
 
 																	<div class="block-break" style="text-align:center; font-weight:300;"><p class="t20 fgr">For more information and assistance, please contact us at<br>
 																		603 7846 1466 during normal office hours.</p>
-																		<div class="button-dl"><a href="http://saujana.com.my/mime/SGCC_Membership_GeneralInfo.pdf" target="_blank">DOWNLOAD DOCUMENT</a></div>
+																		<div class="button-dl"><a href="#" target="_blank">DOWNLOAD DOCUMENT</a></div>
 																	</div>
 
 																</div>

@@ -29,8 +29,8 @@
 					<tr>
 						<td>Tel: 603 7846 1466, 603 7625 1466<br>
 							Fax: 603 7846 7818, 603 7846 2316<br>
-							Email: <a href="mailto:golf@saujana.com.my" class="link">golf@saujana.com.my</a><br>
-							Facebook: <a href="https://www.facebook.com/saujanagolfandcountryclub" target="_blank" class="link">saujanagolfandcountryclub</a></td>
+							Email: <a href="#" class="link">golf@saujana.com.my</a><br>
+							Facebook: <a href="#" target="_blank" class="link">saujanagolfandcountryclub</a></td>
 						</tr>
 						<tr>
 							<td><span class="fgo">Operational hours:</span><br>6.30am to 9.00pm daily</td>
@@ -40,7 +40,7 @@
 						</tr>
 						<tr>
 							<td><span class="dl-link">
-								<a href="http://saujana.com.my/doc/SGCC_Location.pdf" target="_blank">Download location map</a>
+								<a href="#" target="_blank">Download location map</a>
 							</span></td>
 						</tr>
 					</tbody></table>

@@ -5,16 +5,15 @@
 <div id="page-content" class="div1">
 	<!-- ////// ROW 1 \\\\\\\\ -->
 
-	<div class="block-img-small"><img src="./reciprocal_files/mb_reciprocal1.jpg" class="source-image"></div>
-	<div class="block-img-big"><img src="./reciprocal_files/img_reciprocal1.jpg" class="source-image"></div>
+	
 	<div class="row-section">
-		<div id="page-down"><span class="down"><a href="http://saujana.com.my/members_reciprocal.php#page-down">PAGE DOWN</a></span></div>
+		<div id="page-down"><span class="down"><a href="#page-down">PAGE DOWN</a></span></div>
 		<div class="page-section"><h1>Reciprocal Clubs</h1></div>
 
 		<div class="block-48-L">
 
 			<div class="block-100"><div class="pad-20">
-				<form method="post" name="contFrm" id="contFrm" action="http://saujana.com.my/members_reciprocal.php">
+				<form method="post" name="contFrm" id="contFrm" action="members_reciprocal.php">
 					<strong>Select country to view</strong>&nbsp;&nbsp;&nbsp;<select name="view_ctry">
 					<option value="Malaysia">Malaysia</option>
 					<option value="Australia">Australia</option>
@@ -37,32 +36,32 @@
 			<table width="100%" border="0" cellspacing="0" cellpadding="0" class="recipro">
 				<tbody><tr>
 					<td valign="top"><span class="w600 fgr">Borneo Golf &amp; Country Club </span><br>Bongawan, Sabah<br>
-						<a href="http://saujana.com.my/members_reciprocal.php" target="_blank"></a></td>
+						<a href="members_reciprocal.php" target="_blank"></a></td>
 						<td align="right" valign="top">50%</td>
 					</tr>
 					<tr>
 						<td valign="top"><span class="w600 fgr">Darulaman Golf &amp; Country Club</span><br>Bandar Darulaman, 06007 Jitra, Kedah<br>
-							<a href="http://saujana.com.my/members_reciprocal.php" target="_blank"></a></td>
+							<a href="members_reciprocal.php" target="_blank"></a></td>
 							<td align="right" valign="top">MGR</td>
 						</tr>
 						<tr>
 							<td valign="top"><span class="w600 fgr">Kelab Golf Sarawak</span><br>Kuching, Sarawak<br>
-								<a href="http://saujana.com.my/www.kgswak.com" target="_blank">www.kgswak.com</a></td>
+								<a href="www.kgswak.com" target="_blank">www.kgswak.com</a></td>
 								<td align="right" valign="top">MGR</td>
 							</tr>
 							<tr>
 								<td valign="top"><span class="w600 fgr">Palm Resort Golf &amp; Country Club</span><br>Jalan Persiaran Golf, Off Jalan Jumbo, 81250 Senai, Johor<br>
-									<a href="http://saujana.com.my/www.palmresort.com" target="_blank">www.palmresort.com</a></td>
+									<a href="www.palmresort.com" target="_blank">www.palmresort.com</a></td>
 									<td align="right" valign="top">MGR</td>
 								</tr>
 								<tr>
 									<td valign="top"><span class="w600 fgr">Pulai Springs Resort</span><br>20km Jalan Pontian Lama, 81110 Pulai, Johor<br>
-										<a href="http://saujana.com.my/www.pulaisprings.com" target="_blank">www.pulaisprings.com</a></td>
+										<a href="www.pulaisprings.com" target="_blank">www.pulaisprings.com</a></td>
 										<td align="right" valign="top">MGR</td>
 									</tr>
 									<tr>
 										<td valign="top"><span class="w600 fgr">Shan-Shui Golf Resort</span><br>TB 263 Lot 4, 1st Floor Block 27, P.O Box 973, 91008 Tawau, Sabah<br>
-											<a href="http://saujana.com.my/www.shahsuigolf.com" target="_blank">www.shahsuigolf.com</a></td>
+											<a href="www.shahsuigolf.com" target="_blank">www.shahsuigolf.com</a></td>
 											<td align="right" valign="top">50%</td>
 										</tr>
 
@@ -100,7 +99,7 @@
 										</tr>
 									</tbody></table>
 								</div>
-								<div class="button-dl"><a href="http://saujana.com.my/doc/SGCC_Membership_Reciprocal.pdf" target="_blank">DOWNLOAD DOCUMENT</a></div>
+								<div class="button-dl"><a href="#" target="_blank">DOWNLOAD DOCUMENT</a></div>
 							</div>
 
 						</div><!-- =========== end row section =========== -->

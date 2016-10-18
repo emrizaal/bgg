@@ -28,22 +28,26 @@
 <script src="assets/js/jquery.slicknav.js"></script>
 <script type="text/javascript" src="assets/js/jquery.fancybox.js"></script>
 <link rel="stylesheet" type="text/css" href="assets/css/fancybox.css" media="screen">
+<script type="text/javascript" src="assets/js/accordion.js"></script>
 <script type="text/javascript">
   $(document).ready(function(){
-   $('#mobilemenu').slicknav();
+
+    $('.accordion').accordion({}); //some_id section1 
+
+    $('#mobilemenu').slicknav();
 
 
-   Resize();
+    Resize();
 
-   $(".sign").fancybox({
-    autoSize   : 'true',
-    width  : '400',
-    height : '350',
-    maxWidth  : '400',
-    maxHeight : '380'
+    $(".sign").fancybox({
+      autoSize   : 'true',
+      width  : '400',
+      height : '350',
+      maxWidth  : '400',
+      maxHeight : '380'
+    });
+
   });
-
- });
   $(window).resize(function() {
     Resize();
   });
@@ -189,7 +193,7 @@
                     <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                     <!-- /cbp-hrsub -->
                   </li>
-                  <li class="logos"><a href="#"><img src="assets/image/logo.png"></a></li>
+                  <li class="logos"><a onclick="window.location.href=&#39;index.php&#39;;return false;" href="index.php"><img src="assets/image/logo.png"></a></li>
                   <li>
                     <a href="#">EVENTS</a>
                     <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
@@ -204,20 +208,20 @@
                     <li>
                       <a onclick="window.location.href=&#39;resort.php&#39;;return false;" href="resort.php">RESORT</a>
                       
+                    </li>
+                    <li><a onclick="window.location.href=&#39;pressmedia.php&#39;;return false;" href="pressmedia.php">MEDIA</a></li>
+
+                    <li>
+                      <a href="#">CONTACTS</a>
+                      <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
+                        <div class="col subauto border"><a href="contacts_management.php"><h4>Management &amp; Committees</h4></a></div>
+                        <div class="col subauto border"><a href="contacts_location.php"><h4>Location</h4></a></div>
+                        <!--<div class="col subauto border"><a href="inquiry.html"><h4>Inquiry</h4></a></div>-->
+                        <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
+                        <!-- /cbp-hrsub -->
                       </li>
-                      <li><a onclick="window.location.href=&#39;pressmedia.php&#39;;return false;" href="pressmedia.php">MEDIA</a></li>
-
-                      <li>
-                        <a href="#">CONTACTS</a>
-                        <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
-                          <div class="col subauto border"><a href="contacts_management.php"><h4>Management &amp; Committees</h4></a></div>
-                          <div class="col subauto border"><a href="contacts_location.php"><h4>Location</h4></a></div>
-                          <!--<div class="col subauto border"><a href="inquiry.html"><h4>Inquiry</h4></a></div>-->
-                          <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
-                          <!-- /cbp-hrsub -->
-                        </li>
 
 
-                      </ul></div><!-- =========== end menu =========== -->
-                    </div></div>
+                    </ul></div><!-- =========== end menu =========== -->
+                  </div></div>
                   <!-- =========== end top =========== -->
