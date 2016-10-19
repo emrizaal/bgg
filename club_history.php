@@ -1,7 +1,7 @@
 <?php include "top.php" ?>
 
 <div id="ticker" style="overflow: hidden; position: relative; height: 24px;"></div>
-<div style="margin-top:100px">
+
   <!-- ////// ROW 1 \\\\\\\\ -->
   <div class="row-section">
     <div id="page-down"><span class="down"><a href="http://saujana.com.my/club_history.html#page-down">PAGE DOWN</a></span></div>
@@ -56,6 +56,6 @@
   <em>Alternate Director to Ms Lim Li Li</em></li>-->
 </ul>
 </div>
-</div>
+
 </div>
 <?php include "bot.php" ?>

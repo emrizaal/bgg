@@ -346,7 +346,7 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 .download-list a { display:block; color:#222222; font-size:12px; line-height:18px; } 
 .download-list a:hover { color: #C2A13D; }
 
-#course-cell { position:absolute; bottom:0px; width:100%; background:url(../../img/bg_black.png); padding:0; }
+#course-cell { position:absolute; bottom:0px; width:100%; background:url(../image/bg_black.png); padding:0; }
 #course-cell h3 { font-family: 'trajan-pro-3', serif; font-size:16px; line-height:26px; color:#C2A13D; margin-bottom:20px; text-align:center; letter-spacing:2px; }
 #course-cell p { line-height:20px; }
 #course-cell p:last-child { margin-bottom:0px; }
