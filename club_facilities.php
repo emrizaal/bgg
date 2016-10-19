@@ -142,10 +142,6 @@
 
           </div>
 
-          <div class="block-img-small-margin"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB f_files/mb_faci1.jpg" class="source-image"></div>
-          <div class="block-img-small-margin"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB f_files/mb_faci2.jpg" class="source-image"></div>
-          <div class="block-img-small-margin"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB f_files/mb_faci3.jpg" class="source-image"></div>
-          <div class="block-img-small-margin"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB f_files/mb_faci4.jpg" class="source-image"></div>
 
           <!-- SLIDER-->   
           <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; visibility: hidden;">
