@@ -27,6 +27,7 @@
     <script src="assets/js/jquery.slicknav.js"></script>
     <script type="text/javascript" src="assets/js/jquery.fancybox.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/fancybox.css" media="screen">
+    
     <script type="text/javascript">
         $(document).ready(function(){
             $('#mobilemenu').slicknav();
