@@ -1,4 +1,4 @@
-<div id="page-up" class="div8"><span class="up"><a href="#top"></a></span></div>
+<div id="page-up" class="div8"><span class="up"><a href="#top">PAGE  UP</a></span></div>
 
       <!-- =========== footer =========== -->
       <div id="footer" class="div4">
@@ -52,12 +52,6 @@
           </div>
 
           <!-- =========== end footer =========== -->
-
-
-
-
-
-
 
 
 
