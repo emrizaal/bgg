@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58015b68-e827-48e2-a320-3db5db34e696" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bot.php" afterPath="$PROJECT_DIR$/bot.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/sau_general.css" afterPath="$PROJECT_DIR$/assets/css/sau_general.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" afterPath="$PROJECT_DIR$/assets/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" afterPath="$PROJECT_DIR$/assets/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" afterPath="$PROJECT_DIR$/assets/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/cupertino/images/ui-icons_2694e8_256x240.png" afterPath="$PROJECT_DIR$/assets/cupertino/images/ui-icons_2694e8_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/fullcalendar.css" afterPath="$PROJECT_DIR$/assets/css/fullcalendar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/fullcalendar.min.js" afterPath="$PROJECT_DIR$/assets/js/fullcalendar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/fullcalendar.print.css" afterPath="$PROJECT_DIR$/assets/css/fullcalendar.print.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/cupertino/jquery-ui.min.css" afterPath="$PROJECT_DIR$/assets/cupertino/jquery-ui.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bgg.iws" />
@@ -45,71 +51,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="fullcalendar.print.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/fullcalendar.print.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="71" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="884">
+            <state line="40" column="25" selection-start="891" selection-end="891" vertical-scroll-proportion="-7.84" vertical-offset="484" max-vertical-offset="3638">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="club_history.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/club_history.php">
+      <file leaf-file-name="fullcalendar.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/fullcalendar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1122">
+            <state line="20" column="19" selection-start="279" selection-end="279" vertical-scroll-proportion="-13.6" vertical-offset="0" max-vertical-offset="24310">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fullcalendar.min.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/js/fullcalendar.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2334" column="27" selection-start="86159" selection-end="86159" vertical-scroll-proportion="0.55009454" vertical-offset="39387" max-vertical-offset="39916">
               <folding>
-                <marker date="1476787841858" expanded="true" signature="52:103" placeholder="..." />
-                <marker date="1476787841858" expanded="true" signature="124:140" placeholder="..." />
-                <marker date="1476787841858" expanded="true" signature="141:3329" placeholder="..." />
-                <marker date="1476787841858" expanded="true" signature="202:1715" placeholder="..." />
-                <marker date="1476787841858" expanded="true" signature="473:1011" placeholder="..." />
-                <marker date="1476787841858" expanded="true" signature="493:1005" placeholder="..." />
-                <marker date="1476787841858" expanded="true" signature="1041:1705" placeholder="..." />
-                <marker date="1476787841858" expanded="true" signature="1061:1699" placeholder="..." />
-                <marker date="1476787841858" expanded="true" signature="1898:2684" placeholder="..." />
-                <marker date="1476787841858" expanded="true" signature="2125:2675" placeholder="..." />
-                <marker date="1476787841858" expanded="true" signature="2149:2664" placeholder="..." />
-                <marker date="1476787841858" expanded="true" signature="2713:3322" placeholder="..." />
-                <marker date="1476787841858" expanded="true" signature="2807:3315" placeholder="..." />
-                <marker date="1476787841858" expanded="true" signature="2831:3308" placeholder="..." />
-                <marker date="1476787841858" expanded="true" signature="3220:3300" placeholder="..." />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slicknav.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/slicknav.css">
+      <file leaf-file-name="jquery-ui.min.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/cupertino/jquery-ui.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="33" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="1887">
-              <folding />
+            <state line="6" column="17932" selection-start="19761" selection-end="19761" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="204">
+              <folding>
+                <element signature="e#3186#3271#2" expanded="true" />
+                <element signature="e#11635#13984#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.slicknav.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/jquery.slicknav.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="68" selection-start="1243" selection-end="1247" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="4352">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sau_general.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sau_general.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/sau_general.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="505" column="29" selection-start="27587" selection-end="27587" vertical-scroll-proportion="0.5952381" vertical-offset="8285" max-vertical-offset="8789">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bot.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bot.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="63" selection-start="63" selection-end="63" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2074">
+            <state line="495" column="50" selection-start="27196" selection-end="27203" vertical-scroll-proportion="0.0" vertical-offset="8260" max-vertical-offset="8789">
               <folding />
             </state>
           </provider>
@@ -118,7 +104,7 @@
       <file leaf-file-name="top.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/top.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="36" selection-start="8795" selection-end="8795" vertical-scroll-proportion="-9.538462" vertical-offset="2353" max-vertical-offset="3927">
+            <state line="158" column="36" selection-start="8853" selection-end="8853" vertical-scroll-proportion="-9.538462" vertical-offset="2438" max-vertical-offset="4012">
               <folding />
             </state>
           </provider>
@@ -162,6 +148,10 @@
         <option value="$PROJECT_DIR$/top.php" />
         <option value="$PROJECT_DIR$/bot.php" />
         <option value="$PROJECT_DIR$/assets/css/sau_general.css" />
+        <option value="$PROJECT_DIR$/assets/css/fullcalendar.print.css" />
+        <option value="$PROJECT_DIR$/assets/cupertino/jquery-ui.min.css" />
+        <option value="$PROJECT_DIR$/assets/css/fullcalendar.css" />
+        <option value="$PROJECT_DIR$/assets/js/fullcalendar.min.js" />
       </list>
     </option>
   </component>
@@ -262,6 +252,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="cupertino" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bgg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bgg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -345,34 +353,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="64" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/sau_general.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="483" column="69" selection-start="26900" selection-end="26900" vertical-scroll-proportion="0.0" vertical-offset="7720" max-vertical-offset="8364">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/slicknav.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="33" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="1887">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/jquery.slicknav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="4352">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/sau_response.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="158" column="55" selection-start="6476" selection-end="6478" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="3519">
@@ -405,21 +385,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1122">
           <folding>
-            <marker date="1476787841858" expanded="true" signature="52:103" placeholder="..." />
-            <marker date="1476787841858" expanded="true" signature="124:140" placeholder="..." />
-            <marker date="1476787841858" expanded="true" signature="141:3329" placeholder="..." />
-            <marker date="1476787841858" expanded="true" signature="202:1715" placeholder="..." />
-            <marker date="1476787841858" expanded="true" signature="473:1011" placeholder="..." />
-            <marker date="1476787841858" expanded="true" signature="493:1005" placeholder="..." />
-            <marker date="1476787841858" expanded="true" signature="1041:1705" placeholder="..." />
-            <marker date="1476787841858" expanded="true" signature="1061:1699" placeholder="..." />
-            <marker date="1476787841858" expanded="true" signature="1898:2684" placeholder="..." />
-            <marker date="1476787841858" expanded="true" signature="2125:2675" placeholder="..." />
-            <marker date="1476787841858" expanded="true" signature="2149:2664" placeholder="..." />
-            <marker date="1476787841858" expanded="true" signature="2713:3322" placeholder="..." />
-            <marker date="1476787841858" expanded="true" signature="2807:3315" placeholder="..." />
-            <marker date="1476787841858" expanded="true" signature="2831:3308" placeholder="..." />
-            <marker date="1476787841858" expanded="true" signature="3220:3300" placeholder="..." />
+            <marker date="1476872279785" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1476872279785" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -445,13 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/top.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="36" selection-start="8795" selection-end="8795" vertical-scroll-proportion="-9.538462" vertical-offset="2353" max-vertical-offset="3927">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/terms.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="36" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="714">
@@ -466,10 +426,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/fullcalendar.print.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="25" selection-start="891" selection-end="891" vertical-scroll-proportion="-7.84" vertical-offset="484" max-vertical-offset="3638">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="158" column="36" selection-start="8853" selection-end="8853" vertical-scroll-proportion="-9.538462" vertical-offset="2438" max-vertical-offset="4012">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/sau_general.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="505" column="29" selection-start="27587" selection-end="27587" vertical-scroll-proportion="0.5952381" vertical-offset="8285" max-vertical-offset="8789">
+        <state line="495" column="50" selection-start="27196" selection-end="27203" vertical-scroll-proportion="0.0" vertical-offset="8260" max-vertical-offset="8789">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cupertino/jquery-ui.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17932" selection-start="19761" selection-end="19761" vertical-scroll-proportion="-4.08" vertical-offset="0" max-vertical-offset="204">
+          <folding>
+            <element signature="e#3186#3271#2" expanded="true" />
+            <element signature="e#11635#13984#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/fullcalendar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="19" selection-start="279" selection-end="279" vertical-scroll-proportion="-13.6" vertical-offset="0" max-vertical-offset="24310">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/fullcalendar.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2334" column="27" selection-start="86159" selection-end="86159" vertical-scroll-proportion="0.55009454" vertical-offset="39387" max-vertical-offset="39916">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
