@@ -16,8 +16,8 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
 		<center>
-		<img src="assets/image/bggresort.jpg"> <br><br>
-		<img src="assets/image/bggresort2.jpg">
+		<img src="<?=base_url()?>assets/image/5.jpg"> <br><br>
+		<img src="<?=base_url()?>assets/image/4.jpg">
 		</center>
 	</div>
 

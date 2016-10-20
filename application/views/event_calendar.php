@@ -1,9 +1,9 @@
 <?php include "top.php" ?>
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/cupertino/jquery-ui.min.css">
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/fullcalendar.css">
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/fullcalendar.print.css">
-<script type="text/javascript" src="<?=base_url()?>assets/js/fullcalendar.min.js"></script>
-<script type="text/javascript" src="<?=base_url()?>assets/js/moment.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/cupertino/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/fullcalendar.css">
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/fullcalendar.print.css">
+    <script type="text/javascript" src="<?=base_url()?>assets/js/fullcalendar.min.js"></script>
+    <script type="text/javascript" src="<?=base_url()?>assets/js/moment.min.js"></script>
 
 
 <script>
@@ -13,10 +13,24 @@
 		$('#calendar').fullCalendar({
 			theme: true,
 			header: {
-				left: 'prev,next today',
-				center: 'title',
-				right: 'month,agendaWeek,agendaDay,listMonth'
+				left: 'title',
+				center: '',
+				right: 'today,prev,next '
 			},
+            buttonText: {
+                prev: "PREV",
+                next: "NEXT",
+                prevYear: "&nbsp;&lt;&lt;&nbsp;",
+                nextYear: "&nbsp;&gt;&gt;&nbsp;",
+                today: "TODAY",
+                month: "Month",
+                week: "Week",
+                day: "Day"
+            },
+            buttonIcons: {
+                prev: '',
+                next: ''
+            },
 			defaultDate: '2016-09-12',
 			navLinks: true, // can click day/week names to navigate views
 			editable: true,

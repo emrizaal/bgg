@@ -39,7 +39,7 @@
 .fc tbody,
 .fc-row {
 	border-color: #C2A13D !important;
-	background: #fff !important;
+	background-color: #fff !important;
 }
 
 /* kill the overlaid, absolutely-positioned components */
@@ -206,3 +206,4 @@
 .fc button {
 	display: none; /* don't display any button-related controls */
 }
+

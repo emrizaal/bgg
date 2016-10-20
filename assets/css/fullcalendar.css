@@ -269,7 +269,7 @@ previous button's border...
 
 .fc .fc-button-group > * { /* extra precedence b/c buttons have margin set to zero */
 	float: left;
-	margin: 0 0 0 -1px;
+	margin: 0 0 0 -1px;;
 }
 
 .fc .fc-button-group > :first-child { /* same */
@@ -1421,4 +1421,17 @@ be a descendant of the grid when it is being dragged.
 
 .fc-unthemed .fc-list-empty { /* theme will provide own background */
 	background-color: #eee;
+}
+
+.fc-header-right table{
+    margin-left: 25% !important;
+}
+
+.fc-button-today{
+    margin-right: 20px;
+    background-color: #C2A13D;
+    color: #fff !important;
+}
+.fc-button-today a{
+    color: #ffffff  !important;
 }

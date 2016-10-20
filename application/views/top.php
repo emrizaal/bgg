@@ -57,7 +57,7 @@
 
 <style type="text/css">.fancybox-margin{margin-right:17px;}</style>
 <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/top.css">
-<link rel="shortcut icon" href="favicon.png">
+<link rel="shortcut icon" href="<?=base_url()?>assets/image/favicon.png">
 </style></head><body>
 
 <!-- =========== top =========== -->
