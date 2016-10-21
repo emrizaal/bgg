@@ -3,6 +3,7 @@
 <div id="ticker" style="overflow: hidden; position: relative; height: 24px;"></div>
 
   <!-- ////// ROW 1 \\\\\\\\ -->
+<div id="page-content" class="div1">
   <div class="row-section">
     <div id="page-down"><span class="down"><a href="#page-down">PAGE DOWN</a></span></div>
     <div class="page-section mar-T20"><h1>History</h1></div>
@@ -58,4 +59,5 @@
 </div>
 
 </div>
+    </div>
 <?php include "bot.php" ?>

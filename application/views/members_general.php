@@ -45,7 +45,7 @@
 							<!-- ////// ROW 2 \\\\\\\\ -->
 
 							
-							<div class="block-img-big"><img src="assets/image/slider1.jpg" class="source-image"></div>
+							<div class="block-img-big"><img src="<?=base_url()?>assets/image/slider1.jpg" class="source-image"></div>
 							<div class="row-section">
 
 								<div class="page-section"><h1>Facilities At Saujana Golf &amp; Country Club</h1></div>

@@ -207,3 +207,13 @@
 	display: none; /* don't display any button-related controls */
 }
 
+.fc-content .fc-view table thead {
+    z-index: 100 !important;
+    background-color: #000 !important;
+}
+.fc-content .fc-view table thead tr{
+    background-color: #000 !important;
+    z-index: 100 !important;
+}
+
+

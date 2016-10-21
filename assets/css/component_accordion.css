@@ -10,7 +10,7 @@
         color: #444444;
     }
 .accordion:hover { cursor:pointer; cursor:hand; color:#C2A13D; background:#EFEFEF; }
-.accordion-open { border-top:#005327 1px solid; color:#C2A13D; }
+.accordion-open { border-top:#4B2D10 1px solid; color:#C2A13D; }
 .accordion-open span { display:block; float:right; padding:10px; }
 .accordion-open span { background:url(../../img/arrow_acc_u.gif) center center no-repeat; }
 

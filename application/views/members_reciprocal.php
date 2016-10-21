@@ -4,11 +4,9 @@
 <!-- =========== CONTENT =========== -->
 <div id="page-content" class="div1">
 	<!-- ////// ROW 1 \\\\\\\\ -->
-
-	
 	<div class="row-section">
 		<div id="page-down"><span class="down"><a href="#page-down">PAGE DOWN</a></span></div>
-		<div class="page-section"><h1>Reciprocal Clubs</h1></div>
+		<div class="page-section mar-T20"><h1>Reciprocal Clubs</h1></div>
 
 		<div class="block-48-L">
 

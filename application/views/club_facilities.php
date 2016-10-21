@@ -103,7 +103,7 @@
           width: 55px;
           height: 55px;
           cursor: pointer;
-          background: url('img/a02.png') no-repeat;
+          background: url('<?=base_url()?>assets/image/a02.png') no-repeat;
           overflow: hidden;
         }
         .jssora02l { background-position: -3px -33px; }
@@ -121,7 +121,7 @@
       <div id="page-content" class="div1">
         <!-- ////// ROW 1 \\\\\\\\ -->
         <div class="row-section">
-
+            <div id="page-down"><span class="down"><a href="#page-down">PAGE DOWN</a></span></div>
           <div class="page-section mar-T20">
             <h1>Facilities</h1>
           </div>
@@ -144,11 +144,11 @@
 
 
           <!-- SLIDER-->   
-          <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; visibility: hidden;">
+          <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; visibility: hidden; margin-bottom:100px;">
             <!-- Loading Screen -->
             <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
               <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-              <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+              <div style="position:absolute;display:block;background:url('<?=base_url()?>assets/image/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
             </div>
             <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden;">
               <div data-p="112.50" style="display: none;">
@@ -164,7 +164,7 @@
                 <div data-u="caption" data-t="2" style="position: absolute; top: 30px; left: -380px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">finger catchable right to left</div>
               </div>
               <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="<?=base_url()?>assets/image/bgggresort2.jpg" />
+                <img data-u="image" src="<?=base_url()?>assets/image/bggresort2.jpg" />
                 <div data-u="caption" data-t="3" style="position: absolute; top: 30px; left: 30px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">responsive, scale smoothly</div>
               </div>
             </div>
@@ -176,6 +176,8 @@
             <span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
             <span data-u="arrowright" class="jssora02r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
           </div>
+
           <script type="text/javascript">jssor_1_slider_init();</script>
+
           
           <?php include "bot.php" ?>

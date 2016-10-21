@@ -32,7 +32,7 @@ img { vertical-align:bottom; }
 img {
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
+    /*width: auto9; *//* ie8 */
 }
 
 
@@ -158,10 +158,10 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 .down a { display:block; padding-bottom:40px; background:url(../image/down.png) center no-repeat; margin:0 auto; color:#FFFFFF; font-size:11px; letter-spacing:1px; }
 .down a:hover { color:#C2A13D; }
 
-.global-link a { display:block; color:#4B2D10; padding:0 0 0 12px; font-size:13px;  background:url(../../img/arrow_but_r.gif) left center no-repeat; }
+.global-link a { display:block; color:#4B2D10; padding:0 0 0 12px; font-size:13px;  background:url(../image/arrow_but_r.gif) left center no-repeat; }
 .global-link a:hover { color: #C2A13D; }
 
-.dl-link a { display:block; color:#4B2D10; padding:0 0 0 12px; font-size:13px; background:url(../../img/arrow_but_r.gif) left center no-repeat; }
+.dl-link a { display:block; color:#4B2D10; padding:0 0 0 12px; font-size:13px; background:url(../image/arrow_but_r.gif) left center no-repeat; }
 .dl-link a:hover { color: #999999; }
 
 .link { color:#4B2D10; }
@@ -181,7 +181,7 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 .button-form a:hover { color:#2F1A0C; background-color:#FFFFFF; }
 
 .button-dl a {  padding:5px 15px; color:#FFFFFF; font-size:12px; letter-spacing:1px; text-align:left; background-color:#C2A13D; }
-.button-dl a:hover { color:#C2A13D; background-color:#003C1B; }
+.button-dl a:hover { color:#C2A13D; background-color:#2F1A0C; }
 
 
 /* CONTENT */
@@ -223,7 +223,7 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 #cover-feed .newsupdate a:hover { color:#C2A13D; }
 
 .fb-feed { float:none; color:#FFFFFF; clear:both; }
-.fb-update { font-size:13px; padding-bottom:5px; margin-bottom:5px; border-bottom:solid 1px #666666;  padding-left:25px; background:url(../../img/ico_fb.gif) top left no-repeat }
+.fb-update { font-size:13px; padding-bottom:5px; margin-bottom:5px; border-bottom:solid 1px #666666;  padding-left:25px; background:url(../image/ico_fb.gif) top left no-repeat }
 .fb-update h2 { font-size:11px; margin-bottom:0px; }
 .fb-update p { font-size:14px; margin-bottom:0px; line-height:20px; }
 .fb-update a { color:#C2A13D; font-size:12px; }
@@ -266,18 +266,18 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 .list-L ul { padding:0; margin:0; }
 .list-L li { display:block; list-style:none; padding:10px 0; border-bottom:solid 1px #E1D2B6; text-align:justify; }
 .list-L li ul { padding:0; margin:0;  }
-.list-L li ul li { display:block; list-style:none; padding:7px 0; padding-left:15px; border:none; background:url(../../img/bullet-gr.png) 0 10px no-repeat; }
+.list-L li ul li { display:block; list-style:none; padding:7px 0; padding-left:15px; border:none; background:url(../image/bullet-gr.png) 0 10px no-repeat; }
 
 .list-inline ul { padding:0; margin:0;  text-align:justify; }
 .list-inline li { display:inline; list-style:none; padding:1% 2%; border-left:solid 1px #4B2D10; text-align:justify; }
 
 .list-noborder ul { padding:0; margin:0;  }
-.list-noborder li { display:block; list-style:none; padding:4px 0; padding-left:15px; background:url(../../img/bullet-gr.png) 0px 5px no-repeat; line-height:17px; }
+.list-noborder li { display:block; list-style:none; padding:4px 0; padding-left:15px; background:url(../image/bullet-gr.png) 0px 5px no-repeat; line-height:17px; }
 
 .rates td { padding:7px; border-bottom:solid 1px #E1D2B6; }
 
 .recipro td { padding:7px; border-bottom:solid 1px #E1D2B6; }
-.recipro a { display:block; color:#006E33; padding:0 0 0 12px; font-size:12px; background:url(../../img/arrow_but_r.gif) left center no-repeat; }
+.recipro a { display:block; color:#006E33; padding:0 0 0 12px; font-size:12px; background:url(../image/arrow_but_r.gif) left center no-repeat; }
 .recipro a:hover { color: #C2A13D; }
 
 /*.reci-club { width:100%; position:relative; padding:7px 0; border-bottom:solid 1px #E1D2B6; }*/
@@ -311,11 +311,11 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 .merit .block-25 { width:21%; float:left; padding:0 2%; margin-bottom:20px; }
 .merit td { padding:7px 0; border-bottom:solid 1px #E1D2B6; }
 .merit .month { padding-left:20px; font-size:15px; }
-.merit a { display:block; color:#006E33; padding:0 0 0 12px; float:left; margin-right:10px; font-size:12px; background:url(../../img/arrow_but_r.gif) 0px 6px no-repeat; }
+.merit a { display:block; color:#006E33; padding:0 0 0 12px; float:left; margin-right:10px; font-size:12px; background:url(../image/arrow_but_r.gif) 0px 6px no-repeat; }
 .merit a:hover { color: #999999; }
 
 .event-result { position:relative; }
-.event-result a { display:block; color:#4B2D10; padding:0 0 0 12px; margin-top:15px; font-size:13px; background:url(../../img/arrow_but_r.gif) left center no-repeat; }
+.event-result a { display:block; color:#4B2D10; padding:0 0 0 12px; margin-top:15px; font-size:13px; background:url(../image/arrow_but_r.gif) left center no-repeat; }
 .event-result a:hover { color: #999999; }
 .event-result .table-title { background:#4B2D10; color:#FFFFFF; padding:3px 7px; border-bottom:solid 1px #E1D2B6; }
 .event-result .table-detail { padding:3px 7px; border-bottom:solid 1px #E1D2B6; }
@@ -338,7 +338,7 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 .news { position:relative; }
 .news img { width:100%; margin-bottom:15px; }
 .news p { text-align:justify; }
-.news a { display:block; color:#006E33; padding:0 15px 0 10px;  font-size:12px; background:url(../../img/arrow_but_r.gif) left center no-repeat; }
+.news a { display:block; color:#006E33; padding:0 15px 0 10px;  font-size:12px; background:url(../image/arrow_but_r.gif) left center no-repeat; }
 .news a:hover { color: #999999; }
 
 .download-list { position:relative; }
@@ -361,8 +361,8 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 #course-cell .navi li { list-style:none; display:inline; padding-right:7px; margin-right:7px; border-right: dotted 1px #C2A13D;  }
 #course-cell .navi li a { color:#C2A13D; }
 #course-cell .navi li a:hover { color:#FFFFFF; }
-#course-cell .navi .next { padding-left:10px; background:url(../../img/arrow_but_next.gif) left center no-repeat; margin-left:10px; }
-#course-cell .navi .prev { padding-right:10px; background:url(../../img/arrow_but_prev.gif) right center no-repeat; }
+#course-cell .navi .next { padding-left:10px; background:url(../image/arrow_but_next.gif) left center no-repeat; margin-left:10px; }
+#course-cell .navi .prev { padding-right:10px; background:url(../image/arrow_but_prev.gif) right center no-repeat; }
 #course-cell .navimb { width:100%; font-size:12px; letter-spacing:0px; border-bottom:solid 1px #C2A13D; padding-bottom:10px; display:none; }
 #course-cell .navimb ul { padding:0; margin:0; }
 #course-cell .navimb li { list-style:none; display:inline; padding-right:5px; margin-right:5px; border-right: dotted 1px #C2A13D;  }
@@ -380,10 +380,10 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 /*.yardage ul { margin:0px; padding:0px; }
 .yardage li { display:block; float:left; padding:2% 10%; width:30%; list-style:none; text-align:center; font-size:11px;}*/
 /*.yardage .ygre { background-color:#005327; color:#FFFFFF; }*/
-.yardage .yred { background:url(../../img/yard_red.png) center left no-repeat; text-align:left; display:block; float:left; padding:5px 10px 5px 20px; }
-.yardage .yblu {  background:url(../../img/yard_blue.png) center left no-repeat; text-align:left; display:block; float:left; padding:5px 10px 5px 20px; }
-.yardage .ybla {  background:url(../../img/yard_black.png) center left no-repeat; text-align:left; display:block; float:left; padding:5px 10px 5px 20px; }
-.yardage .ywhi {  background:url(../../img/yard_white.png) center left no-repeat; text-align:left; display:block; float:left; padding:5px 10px 5px 20px; }
+.yardage .yred { background:url(../image/yard_red.png) center left no-repeat; text-align:left; display:block; float:left; padding:5px 10px 5px 20px; }
+.yardage .yblu {  background:url(../image/yard_blue.png) center left no-repeat; text-align:left; display:block; float:left; padding:5px 10px 5px 20px; }
+.yardage .ybla {  background:url(../image/yard_black.png) center left no-repeat; text-align:left; display:block; float:left; padding:5px 10px 5px 20px; }
+.yardage .ywhi {  background:url(../image/yard_white.png) center left no-repeat; text-align:left; display:block; float:left; padding:5px 10px 5px 20px; }
 .yardage .par { display:block; float:left; padding:5px 10px 5px 0px; }
 .yardage .y50 { width:50%; float:left; }
 

@@ -6,7 +6,7 @@
 			<div class="page-section mar-T20">
 				<h1>COURSE CONDITION</h1>
 			</div>
-			<center><img src="<?=base_url()?>assets/image/bgggolf2.jpg"></center>
+			<center><img src="<?=base_url()?>assets/image/3.jpg"></center>
 
 			<div class="block-80-C"><div class="pad-20">
 				<table width="100%" border="0" cellspacing="0" cellpadding="0" class="condition">

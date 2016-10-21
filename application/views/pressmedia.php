@@ -19,20 +19,21 @@
 							<div class="album">
 								<ul>
 									<li>
-										<a href="#"><img src="assets/image/bgggolf2.jpg" width="522px;"></a>
-										<div class="details"><h5 class="t15"><a href="http://saujana.com.my/gal_view.php?album=3">The Club</a></h5>
+										<a href="#"><img src="assets/image/1.jpg" width="522px;"></a>
+										    <div class="details"><h5 class="t15"><a href="http://saujana.com.my/gal_view.php?album=3">The Club</a></h5>
 											<span class="dl-link"><a href="http://saujana.com.my/mime/Album_Club.zip" target="_blank">Download album</a></span><span class="countphoto">7 photos</span></div>
-										</li>
-										<li>
-											<a href="#"><img src="assets/image/bggresort.jpg" width="522px;"></a>
+									</li>
+                                    <li>
+                                        <a href="#"><img src="assets/image/3.jpg" width="522px;" style="max-height: 328px !important;"></a>
+                                            <div class="details"><h5 class="t15"><a href="http://saujana.com.my/gal_view.php?album=1">Palm Course</a></h5>
+                                            <span class="dl-link"><a href="http://saujana.com.my/mime/Album_Palm.zip" target="_blank">Download album</a></span><span class="countphoto">18 photos</span></div>
+                                    </li>
+									<li>
+										    <a href="#"><img src="assets/image/2.jpg" width="522px;" h></a>
 											<div class="details"><h5 class="t15"><a href="http://saujana.com.my/gal_view.php?album=2">Bunga Raya Course</a></h5>
-												<span class="dl-link"><a href="http://saujana.com.my/mime/Album_BungaRaya.zip" target="_blank">Download album</a></span><span class="countphoto">18 photos</span></div>
-											</li>
-											<li>
-												<a href="#"><img src="assets/image/bggresort2.jpg" width="522px;"></a>
-												<div class="details"><h5 class="t15"><a href="http://saujana.com.my/gal_view.php?album=1">Palm Course</a></h5>
-													<span class="dl-link"><a href="http://saujana.com.my/mime/Album_Palm.zip" target="_blank">Download album</a></span><span class="countphoto">18 photos</span></div>
-												</li>
+										    <span class="dl-link"><a href="http://saujana.com.my/mime/Album_BungaRaya.zip" target="_blank">Download album</a></span><span class="countphoto">18 photos</span></div>
+									</li>
+
 
 											</ul>
 											<div class="clear"></div></div></div><!--  End albumlist  -->	
