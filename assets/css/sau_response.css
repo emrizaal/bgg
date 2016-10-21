@@ -33,7 +33,7 @@ body { font-size:13px; line-height:18px; }
 .wrap, .wrap-menu, #page-content .row-section { width:96%; margin:0 2%; }
 
 #footer { padding:10px 0; }
-#footer .footnewsmail { width:100%; margin-right:0; padding-right:0; background:none; margin-bottom:10px; padding-bottom:15px; border-bottom:solid 1px #006E33; text-align:center; }
+#footer .footnewsmail { width:100%; margin-right:0; padding-right:0; background:none; margin-bottom:10px; padding-bottom:15px; border-bottom:solid 1px #C2A13D; text-align:center; }
 #footer .footnewsmail p { font-size:13px; margin-bottom:10px; }
 #footer .footmenu { width:100%; }
 #footer .misc { padding:5px 0; margin:10px 0; }
@@ -58,7 +58,7 @@ body { font-size:13px; line-height:18px; }
 #page-content .block-80-C { width:96%; margin:0 auto; }
 .page-section h1 { font-size:20px; letter-spacing:1px; line-height:30px; }
 
-.up a { padding-top:35px; letter-spacing:0; }
+.up a { padding-top:50px; letter-spacing:0; }
 .down a { letter-spacing:0; }
 
 #course-cell .block-22L { display:none; }
@@ -111,7 +111,7 @@ body { font-size:13px; line-height:18px; }
     /*background:url(../../img/partner_small.gif) no-repeat center; */
     display:block;
     height:35px;
-    border-bottom:solid 1px #006E33;
+    border-bottom:solid 1px #C2A13D;
     padding-bottom:10px;
 }
 #footer .misc .col-social { width:100%; float:none; color:#FFFFFF; font-size:12px; text-align:center; padding-top:10px; }
@@ -202,6 +202,14 @@ blockquote {  font-weight:300; font-size:15px; line-height:20px; }
 .mar-T20 { padding-top:15px; }
 p { margin-bottom:10px; }
 
+    .dark{
+        background-color: #000000;
+        opacity:0.8;
+        color: #FFFFFF;
+        margin-top: 0 !important;
+    }
+
+
 
  }
      
@@ -226,7 +234,7 @@ p { margin-bottom:10px; }
         /*background:url(../../img/partner_small.gif) no-repeat center; */
         display:block;
         height:35px;
-        border-bottom:solid 1px #006E33;
+        border-bottom:solid 1px #C2A13D;
         padding-bottom:10px;
     }
     #footer .misc .col-social { width:100%; float:none; color:#FFFFFF; font-size:12px; text-align:center; padding-top:10px; }
@@ -317,7 +325,12 @@ p { margin-bottom:10px; }
     .mar-T20 { padding-top:15px; }
     p { margin-bottom:10px; }
 
-
+    .dark{
+        background-color: #000000;
+        opacity:0.8;
+        color: #ffffff;
+        margin-top: 0 !important;
+    }
 
 }
 
@@ -340,7 +353,7 @@ and (max-width: 480px) {
         /*background:url(../../img/partner_small.gif) no-repeat center; */
         display:block;
         height:35px;
-        border-bottom:solid 1px #006E33;
+        border-bottom:solid 1px #C2A13D;
         padding-bottom:10px;
     }
     #footer .misc .col-social { width:100%; float:none; color:#FFFFFF; font-size:12px; text-align:center; padding-top:10px; }
@@ -431,6 +444,13 @@ and (max-width: 480px) {
     .mar-T20 { padding-top:15px; }
     p { margin-bottom:10px; }
 
+    .dark{
+        background-color: #000000;
+        opacity:0.8;
+        color: #ffffff;
+        margin-top: 0 !important;
+
+    }
 }
  
  

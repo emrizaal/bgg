@@ -152,7 +152,7 @@ h2 { font-size:18px; line-height:18px; font-weight:normal; } */
 .feed a { font-family: 'trajan-pro-3', serif; font-weight:600; display:block; padding:7px 0; margin-bottom:10px; color: #C2A13D; font-size:14px; letter-spacing:1px; text-align:left; float:left; }
 .feed a:hover { color:#FFFFFF; }
 
-.up a { display:block; padding-top:50px; background:url(../image/ups.png) center no-repeat; margin:0 auto; color:#4B2D10; font-size:11px; letter-spacing:1px;}
+.up a { display:block; padding-top:60px; background:url(../image/ups.png) center no-repeat; margin:0 auto; color:#4B2D10; font-size:11px; letter-spacing:1px;}
 .up a:hover { color:#2F1A0C; }
 
 .down a { display:block; padding-bottom:40px; background:url(../image/down.png) center no-repeat; margin:0 auto; color:#FFFFFF; font-size:11px; letter-spacing:1px; }
@@ -509,4 +509,17 @@ input.submit-form:hover, input.submit-form:focus { color:#C2A13D; background-col
 }
 .menu_hole li{
     display: inline-block;
+}
+
+.dark{
+    background-color: #000000;
+    opacity:0.8;
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: 190px !important;
+}
+
+.bg-course{
+    background-image:url('../../assets/image/cover_palm.jpg');
+    height:700px;
 }
