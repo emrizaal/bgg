@@ -131,7 +131,7 @@
 
     <div id="sticky"><div class="wrap-menu">
 
-        <div id="register"><ul><li><a href="login.php">Members Login</a></li></ul></div>
+        <div id="register"><ul><li><a href="<?=base_url()?>login">Members Login</a></li></ul></div>
         <div id="cbp-hrmenu" class="cbp-hrmenu">
             <ul>
                 <li>
