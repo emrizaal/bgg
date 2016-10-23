@@ -18,7 +18,7 @@ class Login extends CI_Controller {
 		$p = $this->input->post();
 		$res = $this->m_member->auth($p);
 		if(!empty($res)){
-			echo "ada";
+			redirect('admin');
 		}else{
 			echo "tidak";
 		}
