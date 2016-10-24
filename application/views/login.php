@@ -4,13 +4,13 @@
 
 	<div class="row-section">
 		<div class="page-section mar-T20">
-			<h1>Login</h1>
+			<h1>MEMBERSHIP LOGIN</h1>
 		</div>
 
 		<div class="block-70-C">
 			<div class="pad-20" align="center">
 			<form method="POST" action="<?=base_url()?>login/auth">
-					<table border="0">
+					<table border="0" class="login">
 						<tr>
 							<td>Username</td>
 							<td>:</td>
@@ -29,7 +29,7 @@
 						<tr>
 							<td></td>
 							<td></td>
-							<td><button type="submit">Login</button></td>
+							<td><button type="submit" class="fsSubmitButton">LOGIN</button></td>
 						</tr>
 					</table>
 				</form>
