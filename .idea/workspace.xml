@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58015b68-e827-48e2-a320-3db5db34e696" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/login.php" afterPath="$PROJECT_DIR$/application/views/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/sau_general.css" afterPath="$PROJECT_DIR$/assets/css/sau_general.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/component_menu.css" afterPath="$PROJECT_DIR$/assets/css/component_menu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/top.php" afterPath="$PROJECT_DIR$/application/views/top.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bgg.iws" />
@@ -113,28 +113,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="top.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="top.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/top.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="2929" selection-end="2929" vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="4012">
+            <state line="256" column="42" selection-start="17534" selection-end="17534" vertical-scroll-proportion="0.39539748" vertical-offset="4163" max-vertical-offset="4998">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sau_general.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="component_menu.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/component_menu.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="14" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="4199">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sau_general.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/sau_general.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="529" column="28" selection-start="27940" selection-end="27940" vertical-scroll-proportion="0.16446126" vertical-offset="8906" max-vertical-offset="10183">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pressmedia.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/pressmedia.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="121" selection-start="784" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="232" max-vertical-offset="1088">
+            <state line="529" column="28" selection-start="27940" selection-end="27940" vertical-scroll-proportion="0.0" vertical-offset="8906" max-vertical-offset="10183">
               <folding />
             </state>
           </provider>
@@ -149,19 +149,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="32" selection-start="236" selection-end="236" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="833">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="bot.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/bot.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="131" selection-start="344" selection-end="463" vertical-scroll-proportion="-2.3333333" vertical-offset="0" max-vertical-offset="2074">
+            <state line="7" column="131" selection-start="344" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="2074">
               <folding />
             </state>
           </provider>
@@ -185,8 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/bot.php" />
-        <option value="$PROJECT_DIR$/assets/js/fullcalendar.min.js" />
         <option value="$PROJECT_DIR$/assets/css/fullcalendar.print.css" />
         <option value="$PROJECT_DIR$/application/views/club_history.php" />
         <option value="$PROJECT_DIR$/application/views/course_conditions.php" />
@@ -201,6 +190,8 @@
         <option value="$PROJECT_DIR$/assets/css/sau_response.css" />
         <option value="$PROJECT_DIR$/application/views/login.php" />
         <option value="$PROJECT_DIR$/assets/css/sau_general.css" />
+        <option value="$PROJECT_DIR$/assets/css/component_menu.css" />
+        <option value="$PROJECT_DIR$/application/views/top.php" />
       </list>
     </option>
   </component>
@@ -414,8 +405,8 @@
     <property name="options.lastSelected" value="appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -455,7 +446,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20681818" sideWeight="0.6706282" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20984848" sideWeight="0.6706282" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -482,25 +473,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/members_reciprocal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="40" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1904">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/component_accordion.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="360" selection-end="360" vertical-scroll-proportion="0.046421662" vertical-offset="180" max-vertical-offset="697">
-          <folding />
-        </state>
+        <state line="12" column="36" selection-start="360" selection-end="360" vertical-scroll-proportion="0.046421662" vertical-offset="180" max-vertical-offset="697" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/members_checklist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="34" selection-start="1012" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1003">
-          <folding />
-        </state>
+        <state line="19" column="34" selection-start="1012" selection-end="1013" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1003" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/club_facilities.php">
@@ -535,13 +515,6 @@
     <entry file="file://$PROJECT_DIR$/application/views/club_history.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="146" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/top.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="2929" selection-end="2929" vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="4012">
           <folding />
         </state>
       </provider>
@@ -619,21 +592,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/bot.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="131" selection-start="344" selection-end="463" vertical-scroll-proportion="-2.3333333" vertical-offset="0" max-vertical-offset="2074">
+        <state line="7" column="131" selection-start="344" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="2074">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="32" selection-start="236" selection-end="236" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="833">
+        <state line="6" column="32" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="833">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/sau_general.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="529" column="28" selection-start="27940" selection-end="27940" vertical-scroll-proportion="0.16446126" vertical-offset="8906" max-vertical-offset="10183">
+        <state line="529" column="28" selection-start="27940" selection-end="27940" vertical-scroll-proportion="0.0" vertical-offset="8906" max-vertical-offset="10183">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/component_menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="14" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="4199">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/top.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="256" column="42" selection-start="17534" selection-end="17534" vertical-scroll-proportion="0.39539748" vertical-offset="4163" max-vertical-offset="4998">
           <folding />
         </state>
       </provider>

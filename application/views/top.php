@@ -77,9 +77,27 @@
 
             <li>COURSES
                 <ul>
-                    <li><a href="<?=base_url()?>courses/course" class="navlink" role="menuitem" tabindex="-1">Palm Course</a></li>
-                    <li><a href="<?=base_url()?>courses/condition" class="navlink" role="menuitem" tabindex="-1">Course Conditions</a></li>
+<!--                    <li><a href="--><?//=base_url()?><!--courses/course" class="navlink" role="menuitem" tabindex="-1">Palm Course</a></li>-->
+                    <li><a href="<?=base_url()?>courses/condition" class="navlink" role="menuitem" tabindex="-1">Hole Description</a></li>
                     <li><a href="<?=base_url()?>courses/layout" class="navlink" role="menuitem" tabindex="-1">Course Layout</a></li>
+                </ul>
+            </li>
+
+            <li>RATES
+                <ul>
+                    <li><a href="<?=base_url()?>rates/golf" class="navlink" role="menuitem" tabindex="-1">Golf Rates  </a></li>
+                    <li><a href="<?=base_url()?>rates/terms" class="navlink" role="menuitem" tabindex="-1">Promotions  </a></li>
+<!--                    <li><a href="--><?//=base_url()?><!--rates/sport" class="navlink" role="menuitem" tabindex="-1">Sports Rates</a></li>-->
+<!--                    <li><a href="--><?//=base_url()?><!--rates/terms" class="navlink" role="menuitem" tabindex="-1">Terms &amp; Conditions</a></li>-->
+                </ul>
+            </li>
+
+            <li>FACILITIES
+                <ul>
+                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Restaurant  </a></li>
+                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Male & Female Locker Room  </a></li>
+                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Driving Range</a></li>
+                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Gym</a></li>
                 </ul>
             </li>
 
@@ -91,13 +109,21 @@
                 </ul>
             </li>
 
-            <li>RATES
+
+            <li>RESORT
                 <ul>
-                    <li><a href="<?=base_url()?>rates/golf" class="navlink" role="menuitem" tabindex="-1">Golf Rates &amp; Promotions</a></li>
-                    <li><a href="<?=base_url()?>rates/sport" class="navlink" role="menuitem" tabindex="-1">Sports Rates</a></li>
-                    <li><a href="<?=base_url()?>rates/terms" class="navlink" role="menuitem" tabindex="-1">Terms &amp; Conditions</a></li>
+                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">47 Luxurious rooms  </a></li>
+                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Function Rooms  </a></li>
+                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">VIP Rooms</a></li>
+                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Swimming</a></li>
+                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Billiard  </a></li>
+                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Tennis Table  </a></li>
+                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Tennis Court</a></li>
+                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">etc</a></li>
                 </ul>
             </li>
+
+            <li><a href="#" role="menuitem" tabindex="-1">SPA</a></li>
 
             <li>EVENTS
                 <ul>
@@ -107,8 +133,8 @@
                 </ul>
             </li>
 
-            <li><a href="<?=base_url()?>resort" role="menuitem" tabindex="-1">RESORT</a></li>
-            <li><a href="<?=base_url()?>media" role="menuitem" tabindex="-1">MEDIA</a></li>
+<!--            <li><a href="--><?//=base_url()?><!--resort" role="menuitem" tabindex="-1">RESORT</a></li>-->
+<!--            <li><a href="--><?//=base_url()?><!--media" role="menuitem" tabindex="-1">MEDIA</a></li>-->
 
             <li>CONTACTS
                 <ul>
@@ -118,7 +144,7 @@
                 </ul>
             </li>
 
-            <li><a href="#" target="_blank" role="menuitem" tabindex="-1">ONLINE BOOKING</a></li>
+<!--            <li><a href="#" target="_blank" role="menuitem" tabindex="-1">ONLINE BOOKING</a></li>-->
 
         </ul></div>
 
@@ -157,9 +183,9 @@
                                         <img src="<?=base_url()?>assets/image/bgggolf.jpg">
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td valign="top" align="center"><a href="<?=base_url()?>courses/course"><h4>Palm Course</h4></a></td>
-                                </tr>
+<!--                                <tr>-->
+<!--                                    <td valign="top" align="center"><a href="--><?//=base_url()?><!--courses/course"><h4>Palm Course</h4></a></td>-->
+<!--                                </tr>-->
                                 <tr>
                                     <td valign="top" align="center"><h5>Carved out of an oil palm plantation, the Palm Course boasts of a rugged terrain, with slopes which drop to steep ravines.</h5></td>
                                 </tr>
@@ -170,12 +196,34 @@
                         </div>
                         <div class="col sub20 border">
                             <ul class="menulist">
-                                <li><a href="<?=base_url()?>courses/condition"><h4>Course Condition</h4></a></li>
+                                <li><a href="<?=base_url()?>courses/condition"><h4>Hole Description</h4></a></li>
                                 <li><a href="<?=base_url()?>courses/scorecard"><h4>Score Card</h4></a></li></ul></div>
                                 <div class="col subbottom"><span class="copy">Make your tee-off reservation now</span><a href="#" target="_blank"><span class="button-menu">ONLINE BOOKING</span></a></div>
                                 <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                                 <!-- /cbp-hrsub -->
                             </li>
+
+                        <li>
+                            <a href="#">RATES</a>
+                            <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
+                                        <div class="col subauto border"><a href="<?=base_url()?>rates/golf"><h4>Golf Rates</h4></a></div>
+        <!--                                <div class="col subauto border"><a href="--><?//=base_url()?><!--rates/sport"><h4>Sports Rates</h4></a></div>-->
+                                        <div class="col subauto border"><a href="<?=base_url()?>rates/terms"><h4>Promotions</h4></a></div>
+                                        <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
+                            <!-- /cbp-hrsub -->
+                        </li>
+
+                        <li>
+                            <a href="#">FACILITIES</a>
+                            <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
+                                        <div class="col subauto border"><a href="#"><h4>Restaurant</h4></a></div>
+                                        <div class="col subauto border"><a href="#"><h4>Male & Female Locker Room </h4></a></div>
+                                        <div class="col subauto border"><a href="#"><h4>Driving Range</h4></a></div>
+                                        <div class="col subauto border"><a href="#"><h4>Proshop</h4></a></div>
+                                        <div class="col subauto border"><a href="#"><h4>Gym</h4></a></div>
+                                        <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
+                            <!-- /cbp-hrsub -->
+                        </li>
 
                             <li>
                                 <a href="#">MEMBERSHIP</a>
@@ -188,16 +236,26 @@
                                     <!-- /cbp-hrsub -->
                                 </li>
 
-                                <li>
-                                    <a href="#">RATES</a>
-                                    <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
-                                        <div class="col subauto border"><a href="<?=base_url()?>rates/golf"><h4>Golf Rates &amp; Promotions</h4></a></div>
-                                        <div class="col subauto border"><a href="<?=base_url()?>rates/sport"><h4>Sports Rates</h4></a></div>
-                                        <div class="col subauto border"><a href="<?=base_url()?>rates/terms"><h4>Terms &amp; Conditions</h4></a></div>
-                                        <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
+                                    <li class="logos"><a  onclick="window.location.href=&#39;<?=base_url()?>home&#39;;return false;" href="<?=base_url()?>home"><img src="<?=base_url()?>assets/image/logo.png"></a></li>
+
+                                    <li>
+                                        <a href="#">RESORT</a>
+                                        <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
+                                                    <div class="menudesc"></div>
+                                                    <div class="col sub20 border"><a href="#"><h4>47 Luxurious Rooms</h4></a></div>
+                                                    <div class="col sub20 border"><a href="#"><h4>Function Rooms</h4></a></div>
+                                                    <div class="col sub20 border"><a href="#"><h4>VIP Rooms</h4></a></div>
+                                                    <div class="col sub20 border"><a href="#"><h4>Swimming</h4></a></div>
+                                                    <div class="col sub20 border"><a href="#"><h4>Billiard</h4></a></div>
+                                                    <div class="col sub20 border"><a href="#"><h4>Tennis Table</h4></a></div>
+                                                    <div class="col sub20 border"><a href="#"><h4>Tennis Court</h4></a></div>
+                                                    <div class="col sub20 border"><a href="#"><h4>Etc</h4></a></div>
+                                                    <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                                         <!-- /cbp-hrsub -->
                                     </li>
-                                    <li class="logos"><a  onclick="window.location.href=&#39;<?=base_url()?>home&#39;;return false;" href="<?=base_url()?>home"><img src="<?=base_url()?>assets/image/logo.png"></a></li>
+
+                                    <li><a href="#">SPA</a></li>
+
                                     <li>
                                         <a href="#">EVENTS</a>
                                         <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
@@ -207,12 +265,12 @@
                                             <div class="col sub30 border"><a href="<?=base_url()?>events/results"><h4>Competition Results</h4></a><h5>Recent and past tournament &amp; championship winners.</h5></div>
                                             <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                                             <!-- /cbp-hrsub -->
-                                        </li>
-                                        <li>
-                                            <a onclick="window.location.href=&#39;<?=base_url()?>resort&#39;;return false;" href="<?=base_url()?>resort">RESORT</a>
-
-                                        </li>
-                                        <li><a onclick="window.location.href=&#39;<?=base_url()?>media&#39;;return false;" href="<?=base_url()?>media">MEDIA</a></li>
+                                    </li>
+<!--                                        <li>-->
+<!--                                            <a onclick="window.location.href=&#39;--><?//=base_url()?><!--resort&#39;;return false;" href="--><?//=base_url()?><!--resort">RESORT</a>-->
+<!---->
+<!--                                        </li>-->
+<!--                                        <li><a onclick="window.location.href=&#39;--><?//=base_url()?><!--media&#39;;return false;" href="--><?//=base_url()?><!--media">MEDIA</a></li>-->
 
                                         <li>
                                             <a href="#">CONTACTS</a>
