@@ -3,19 +3,12 @@
 <!-- =========== CONTENT =========== -->
 <div id="page-content" class="div1" style="margin-top:20px;">
 	<div class="row-section">
-		<div id="page-down"><span class="down"><a href="#page-down">PAGE DOWN</a></span></div>
-		<div class="page-section"><h1> GOLF RATES &amp; PROMOTIONS</h1>
-		</div>
+		<div class="page-section mar-T20"><h1>Golf Rates</h1></div>
 
 		<div class="block-80-C"><div class="pad-20">
 			<!-- Tabblock  -->
 			<div class="tabblock">
 				<div id="tab">
-					<ul class="navlist">
-						<li><a href="#golfrates" class="current">GOLF RATES</a></li>
-						<li><a href="#promotions" class="">PROMOTIONS</a></li>
-					</ul>
-
 					<div class="list-wrap" style="height: 582px;">
 						<div id="golfrates" style="display: block;">
 							<h2 class="tcen mar-T20">PUBLISHED RATES</h2>
