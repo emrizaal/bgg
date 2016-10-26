@@ -287,7 +287,7 @@ $this->load->view("admin/header");
                 <ul class="chat-box">
                     <li class="left clearfix">
                         <span class="chat-img pull-left">
-                            <img src="assets/img/1.png" alt="User" class="img-circle" />
+                            <img src="<?=base_url();?>admin_assets/img/1.png" alt="User" class="img-circle" />
                         </span>
                         <div class="chat-body">                                        
                             <strong >Jack Sparrow</strong>
@@ -302,7 +302,7 @@ $this->load->view("admin/header");
                     <li class="right clearfix">
                         <span class="chat-img pull-right">
 
-                            <img src="assets/img/2.png" alt="User" class="img-circle" />
+                            <img src="<?=base_url();?>admin_assets/img/2.png" alt="User" class="img-circle" />
                         </span>
                         <div class="chat-body clearfix">
 
@@ -317,7 +317,7 @@ $this->load->view("admin/header");
                         </li>
                         <li class="left clearfix">
                             <span class="chat-img pull-left">
-                               <img src="assets/img/3.png" alt="User" class="img-circle" />
+                               <img src="<?=base_url();?>admin_assets/img/3.png" alt="User" class="img-circle" />
                            </span>
                            <div class="chat-body clearfix">
 
@@ -332,7 +332,7 @@ $this->load->view("admin/header");
                         </li>
                         <li class="right clearfix">
                             <span class="chat-img pull-right">
-                               <img src="assets/img/4.png" alt="User" class="img-circle" />
+                               <img src="<?=base_url();?>admin_assets/img/4.png" alt="User" class="img-circle" />
                            </span>
                            <div class="chat-body clearfix">
 
@@ -347,7 +347,7 @@ $this->load->view("admin/header");
                         </li>
                         <li class="left clearfix">
                             <span class="chat-img pull-left">
-                                <img src="assets/img/1.png" alt="User" class="img-circle" />
+                                <img src="<?=base_url();?>admin_assets/img/1.png" alt="User" class="img-circle" />
                             </span>
                             <div class="chat-body">                                        
                                 <strong >Jack Sparrow</strong>
@@ -361,7 +361,7 @@ $this->load->view("admin/header");
                         </li>
                         <li class="right clearfix">
                             <span class="chat-img pull-right">
-                             <img src="assets/img/2.png" alt="User" class="img-circle" />
+                             <img src="<?=base_url();?>admin_assets/img/2.png" alt="User" class="img-circle" />
                          </span>
                          <div class="chat-body clearfix">
 
