@@ -246,14 +246,8 @@
                                             <a href="#">RESORT</a>
                                             <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
                                                 <div class="menudesc"></div>
-                                                <div class="col sub20 border"><a href="<?=base_url()?>resort/luxurious"><h4>47 Luxurious Rooms</h4></a></div>
-                                                <div class="col sub20 border"><a href="<?=base_url()?>resort/punction"><h4>Function Rooms</h4></a></div>
-                                                <div class="col sub20 border"><a href="<?=base_url()?>resort/vip"><h4>VIP Rooms</h4></a></div>
-                                                <div class="col sub20 border"><a href="<?=base_url()?>resort/swimming"><h4>Swimming</h4></a></div>
-                                                <div class="col sub20 border"><a href="<?=base_url()?>resort/billiard"><h4>Billiard</h4></a></div>
-                                                <div class="col sub20 border"><a href="<?=base_url()?>resort/tennis"><h4>Tennis Table</h4></a></div>
-                                                <div class="col sub20 border"><a href="<?=base_url()?>resort/court"><h4>Tennis Court</h4></a></div>
-                                                <div class="col sub20 border"><a href="<?=base_url()?>resort/etc"><h4>Etc</h4></a></div>
+                                                <div class="col sub20 border"><a href="<?=base_url()?>resort/luxurious"><h4>Rooms</h4></a></div>
+                                                <div class="col sub20 border"><a href="<?=base_url()?>resort/punction"><h4>Facilities</h4></a></div>
                                                 <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                                                 <!-- /cbp-hrsub -->
                                             </li>
