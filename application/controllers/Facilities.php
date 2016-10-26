@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Rates extends CI_Controller {
+class Facilities extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -23,19 +23,23 @@ class Rates extends CI_Controller {
 		$this->load->view('index');
 	}
 
-	public function golf(){
-		$this->load->view('rates_golf');
+	public function restaurant(){
+		$this->load->view('f_restaurant');
 	}
 
-	public function sport(){
-		$this->load->view('rates_sport');
+	public function locker(){
+		$this->load->view('f_locker');
 	}
 
-	public function terms(){
-		$this->load->view('terms');
+	public function driving(){
+		$this->load->view('f_driving');
 	}
 
-	public function promotion(){
-		$this->load->view('promotion');
+	public function proshop(){
+		$this->load->view('f_proshop');
+	}
+
+	public function gym(){
+		$this->load->view('f_gym');
 	}
 }

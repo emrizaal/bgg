@@ -27,6 +27,7 @@
 <script src="<?=base_url()?>assets/js/jquery.slicknav.js"></script>
 <script type="text/javascript" src="<?=base_url()?>assets/js/jquery.fancybox.js"></script>
 <script type="text/javascript" src="<?=base_url()?>assets/js/accordion.js"></script>
+<script type="text/javascript" src="<?=base_url()?>assets/js/tab.js"></script>
 <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/fancybox.css" media="screen">
 
 <script type="text/javascript">
@@ -41,6 +42,10 @@
             height : '350',
             maxWidth  : '400',
             maxHeight : '380'
+        });
+
+        $(function() {    
+            $("#tab").organicTabs();
         });
     });
     $(window).resize(function() {
@@ -70,14 +75,13 @@
                 <ul>
                     <li><a href="<?=base_url()?>club/history" class="navlink" role="menuitem" tabindex="-1">History &amp; Board Of Directors</a></li>
                     <li><a href="<?=base_url()?>club/accolades" class="navlink" role="menuitem" tabindex="-1">Accolades &amp; Host Venue</a></li>
-                    <li><a href="<?=base_url()?>club/facilities" class="navlink" role="menuitem" tabindex="-1">Facilities</a></li>
                     <li><a href="<?=base_url()?>club/csr" class="navlink" role="menuitem" tabindex="-1">Corporate Social Responsibility</a></li>
                 </ul>
             </li>
 
             <li>COURSES
                 <ul>
-<!--                    <li><a href="--><?//=base_url()?><!--courses/course" class="navlink" role="menuitem" tabindex="-1">Palm Course</a></li>-->
+                    <!--                    <li><a href="--><?//=base_url()?><!--courses/course" class="navlink" role="menuitem" tabindex="-1">Palm Course</a></li>-->
                     <li><a href="<?=base_url()?>courses/condition" class="navlink" role="menuitem" tabindex="-1">Hole Description</a></li>
                     <li><a href="<?=base_url()?>courses/layout" class="navlink" role="menuitem" tabindex="-1">Course Layout</a></li>
                 </ul>
@@ -86,18 +90,19 @@
             <li>RATES
                 <ul>
                     <li><a href="<?=base_url()?>rates/golf" class="navlink" role="menuitem" tabindex="-1">Golf Rates  </a></li>
-                    <li><a href="<?=base_url()?>rates/terms" class="navlink" role="menuitem" tabindex="-1">Promotions  </a></li>
-<!--                    <li><a href="--><?//=base_url()?><!--rates/sport" class="navlink" role="menuitem" tabindex="-1">Sports Rates</a></li>-->
-<!--                    <li><a href="--><?//=base_url()?><!--rates/terms" class="navlink" role="menuitem" tabindex="-1">Terms &amp; Conditions</a></li>-->
+                    <li><a href="<?=base_url()?>rates/promotion" class="navlink" role="menuitem" tabindex="-1">Promotions  </a></li>
+                    <!--                    <li><a href="--><?//=base_url()?><!--rates/sport" class="navlink" role="menuitem" tabindex="-1">Sports Rates</a></li>-->
+                    <!--                    <li><a href="--><?//=base_url()?><!--rates/terms" class="navlink" role="menuitem" tabindex="-1">Terms &amp; Conditions</a></li>-->
                 </ul>
             </li>
 
             <li>FACILITIES
                 <ul>
-                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Restaurant  </a></li>
-                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Male & Female Locker Room  </a></li>
-                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Driving Range</a></li>
-                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Gym</a></li>
+                    <li><a href="<?=base_url()?>facilities/restaurant" class="navlink" role="menuitem" tabindex="-1">Restaurant  </a></li>
+                    <li><a href="<?=base_url()?>facilities/locker" class="navlink" role="menuitem" tabindex="-1">Male & Female Locker Room  </a></li>
+                    <li><a href="<?=base_url()?>facilities/driving" class="navlink" role="menuitem" tabindex="-1">Driving Range</a></li>
+                    <li><a href="<?=base_url()?>facilities/proshop" class="navlink" role="menuitem" tabindex="-1">Proshop</a></li>
+                    <li><a href="<?=base_url()?>facilities/gym" class="navlink" role="menuitem" tabindex="-1">Gym</a></li>
                 </ul>
             </li>
 
@@ -112,18 +117,18 @@
 
             <li>RESORT
                 <ul>
-                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">47 Luxurious rooms  </a></li>
-                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Function Rooms  </a></li>
-                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">VIP Rooms</a></li>
-                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Swimming</a></li>
-                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Billiard  </a></li>
-                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Tennis Table  </a></li>
-                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">Tennis Court</a></li>
-                    <li><a href="#" class="navlink" role="menuitem" tabindex="-1">etc</a></li>
+                    <li><a href="<?=base_url()?>resort/luxurious" class="navlink" role="menuitem" tabindex="-1">47 Luxurious rooms  </a></li>
+                    <li><a href="<?=base_url()?>resort/punction" class="navlink" role="menuitem" tabindex="-1">Function Rooms  </a></li>
+                    <li><a href="<?=base_url()?>resort/vip" class="navlink" role="menuitem" tabindex="-1">VIP Rooms</a></li>
+                    <li><a href="<?=base_url()?>resort/swimming" class="navlink" role="menuitem" tabindex="-1">Swimming</a></li>
+                    <li><a href="<?=base_url()?>resort/billiard" class="navlink" role="menuitem" tabindex="-1">Billiard  </a></li>
+                    <li><a href="<?=base_url()?>resort/tennis" class="navlink" role="menuitem" tabindex="-1">Tennis Table  </a></li>
+                    <li><a href="<?=base_url()?>resort/court" class="navlink" role="menuitem" tabindex="-1">Tennis Court</a></li>
+                    <li><a href="<?=base_url()?>resort/etc" class="navlink" role="menuitem" tabindex="-1">etc</a></li>
                 </ul>
             </li>
 
-            <li><a href="#" role="menuitem" tabindex="-1">SPA</a></li>
+            <li><a href="<?=base_url()?>spa" role="menuitem" tabindex="-1">SPA</a></li>
 
             <li>EVENTS
                 <ul>
@@ -133,8 +138,8 @@
                 </ul>
             </li>
 
-<!--            <li><a href="--><?//=base_url()?><!--resort" role="menuitem" tabindex="-1">RESORT</a></li>-->
-<!--            <li><a href="--><?//=base_url()?><!--media" role="menuitem" tabindex="-1">MEDIA</a></li>-->
+            <!--            <li><a href="--><?//=base_url()?><!--resort" role="menuitem" tabindex="-1">RESORT</a></li>-->
+            <!--            <li><a href="--><?//=base_url()?><!--media" role="menuitem" tabindex="-1">MEDIA</a></li>-->
 
             <li>CONTACTS
                 <ul>
@@ -143,8 +148,8 @@
                     <!--<li><a href="inquiry.html" class="navlink">Inquiry</a></li>-->
                 </ul>
             </li>
-
-<!--            <li><a href="#" target="_blank" role="menuitem" tabindex="-1">ONLINE BOOKING</a></li>-->
+            <li><a href="<?=base_url()?>spa" role="menuitem" tabindex="-1">RUPS</a></li>
+            <!--            <li><a href="#" target="_blank" role="menuitem" tabindex="-1">ONLINE BOOKING</a></li>-->
 
         </ul></div>
 
@@ -166,7 +171,6 @@
                         <div class="menudesc">A golfing excursion in Malaysia is never complete without a visit to Bandung Giri Gahana Golf &amp; Country Club.</div>
                         <div class="col sub20 border"><a href="<?=base_url()?>club/history"><h4>History &amp; Board Of Directors</h4></a><h5>The first proprietary club in the country.</h5></div>
                         <div class="col sub20 border"><a href="<?=base_url()?>club/accolades"><h4>Accolades &amp; Host Venue</h4></a><h5>World wide recognition over the years.</h5></div>
-                        <div class="col sub20 border"><a href="<?=base_url()?>club/facilities"><h4>Facilities</h4></a><h5>The club offers more than just golf.</h5></div>
                         <div class="col sub20 border"><a href="<?=base_url()?>club/csr"><h4>CSR</h4></a><h5>Community driven activities &amp; initiatives.</h5></div>
                         <div class="col subbottom"><span class="copy">Make your tee-off reservation now</span><a href="#" target="_blank"><span class="button-menu">ONLINE BOOKING</span></a><a href="#"><h4 class="floatR">NEWS UPDATES</h4></a></div>
                         <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
@@ -183,9 +187,9 @@
                                         <img src="<?=base_url()?>assets/image/bgggolf.jpg">
                                     </td>
                                 </tr>
-<!--                                <tr>-->
-<!--                                    <td valign="top" align="center"><a href="--><?//=base_url()?><!--courses/course"><h4>Palm Course</h4></a></td>-->
-<!--                                </tr>-->
+                                <!--                                <tr>-->
+                                <!--                                    <td valign="top" align="center"><a href="--><?//=base_url()?><!--courses/course"><h4>Palm Course</h4></a></td>-->
+                                <!--                                </tr>-->
                                 <tr>
                                     <td valign="top" align="center"><h5>Carved out of an oil palm plantation, the Palm Course boasts of a rugged terrain, with slopes which drop to steep ravines.</h5></td>
                                 </tr>
@@ -203,87 +207,81 @@
                                 <!-- /cbp-hrsub -->
                             </li>
 
-                        <li>
-                            <a href="#">RATES</a>
-                            <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
-                                        <div class="col subauto border"><a href="<?=base_url()?>rates/golf"><h4>Golf Rates</h4></a></div>
-        <!--                                <div class="col subauto border"><a href="--><?//=base_url()?><!--rates/sport"><h4>Sports Rates</h4></a></div>-->
-                                        <div class="col subauto border"><a href="<?=base_url()?>rates/terms"><h4>Promotions</h4></a></div>
-                                        <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
-                            <!-- /cbp-hrsub -->
-                        </li>
-
-                        <li>
-                            <a href="#">FACILITIES</a>
-                            <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
-                                        <div class="col subauto border"><a href="#"><h4>Restaurant</h4></a></div>
-                                        <div class="col subauto border"><a href="#"><h4>Male & Female Locker Room </h4></a></div>
-                                        <div class="col subauto border"><a href="#"><h4>Driving Range</h4></a></div>
-                                        <div class="col subauto border"><a href="#"><h4>Proshop</h4></a></div>
-                                        <div class="col subauto border"><a href="#"><h4>Gym</h4></a></div>
-                                        <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
-                            <!-- /cbp-hrsub -->
-                        </li>
-
                             <li>
-                                <a href="#">MEMBERSHIP</a>
+                                <a href="#">RATES</a>
                                 <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
-                                    <div class="menudesc">Club membership offer you more benefits and privilleges.</div>
-                                    <div class="col sub30 border"><a href="<?=base_url()?>membership/general"><h4>General Information</h4></a><h5>Overview of Saujana Golf &amp; Country Club Membership.</h5><a href="#" target="_blank"><h6>Download document</h6></a></div>
-                                    <div class="col sub30 border"><a href="<?=base_url()?>membership/reciprocal"><h4>Reciprocal Clubs</h4></a><h5>List of our worldwide reciprocal clubs.</h5><a href="#" target="_blank"><h6>Download document</h6></a></div>
-                                    <div class="col sub30 border"><a href="<?=base_url()?>membership/checklist"><h4>Application Checklist</h4></a><h5>Checklist in preparing your membership application.</h5><a href="#" target="_blank"><h6>Download document</h6></a></div>
+                                    <div class="col subauto border"><a href="<?=base_url()?>rates/golf"><h4>Golf Rates</h4></a></div>
+                                    <!--                                <div class="col subauto border"><a href="--><?//=base_url()?><!--rates/sport"><h4>Sports Rates</h4></a></div>-->
+                                    <div class="col subauto border"><a href="<?=base_url()?>rates/promotion"><h4>Promotions</h4></a></div>
                                     <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                                     <!-- /cbp-hrsub -->
                                 </li>
 
-                                    <li class="logos"><a  onclick="window.location.href=&#39;<?=base_url()?>home&#39;;return false;" href="<?=base_url()?>home"><img src="<?=base_url()?>assets/image/logo.png"></a></li>
-
-                                    <li>
-                                        <a href="#">RESORT</a>
-                                        <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
-                                                    <div class="menudesc"></div>
-                                                    <div class="col sub20 border"><a href="#"><h4>47 Luxurious Rooms</h4></a></div>
-                                                    <div class="col sub20 border"><a href="#"><h4>Function Rooms</h4></a></div>
-                                                    <div class="col sub20 border"><a href="#"><h4>VIP Rooms</h4></a></div>
-                                                    <div class="col sub20 border"><a href="#"><h4>Swimming</h4></a></div>
-                                                    <div class="col sub20 border"><a href="#"><h4>Billiard</h4></a></div>
-                                                    <div class="col sub20 border"><a href="#"><h4>Tennis Table</h4></a></div>
-                                                    <div class="col sub20 border"><a href="#"><h4>Tennis Court</h4></a></div>
-                                                    <div class="col sub20 border"><a href="#"><h4>Etc</h4></a></div>
-                                                    <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
+                                <li>
+                                    <a href="#">FACILITIES</a>
+                                    <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
+                                        <div class="col subauto border"><a href="<?=base_url()?>facilities/restaurant"><h4>Restaurant</h4></a></div>
+                                        <div class="col subauto border"><a href="<?=base_url()?>facilities/locker"><h4>Male & Female Locker Room </h4></a></div>
+                                        <div class="col subauto border"><a href="<?=base_url()?>facilities/driving"><h4>Driving Range</h4></a></div>
+                                        <div class="col subauto border"><a href="<?=base_url()?>facilities/proshop"><h4>Proshop</h4></a></div>
+                                        <div class="col subauto border"><a href="<?=base_url()?>facilities/gym"><h4>Gym</h4></a></div>
+                                        <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                                         <!-- /cbp-hrsub -->
                                     </li>
 
-                                    <li><a href="#">SPA</a></li>
-
                                     <li>
-                                        <a href="#">EVENTS</a>
+                                        <a href="#">MEMBERSHIP</a>
                                         <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
-                                            <div class="menudesc">Home of great tournaments and championships.</div>
-                                            <div class="col sub30 border"><a href="<?=base_url()?>events/calendar"><h4>Event Calendar</h4></a><h5>Checkout all the events happening at the club.</h5></div>
-                                            <div class="col sub30 border"><a href="<?=base_url()?>events/orderofmerit"><h4>Order Of Merit &amp; Monthly Medals</h4></a><h5>Golfers standing - Mens and Ladies.</h5></div>
-                                            <div class="col sub30 border"><a href="<?=base_url()?>events/results"><h4>Competition Results</h4></a><h5>Recent and past tournament &amp; championship winners.</h5></div>
+                                            <div class="menudesc">Club membership offer you more benefits and privilleges.</div>
+                                            <div class="col sub30 border"><a href="<?=base_url()?>membership/general"><h4>General Information</h4></a><h5>Overview of Saujana Golf &amp; Country Club Membership.</h5><a href="#" target="_blank"><h6>Download document</h6></a></div>
+                                            <div class="col sub30 border"><a href="<?=base_url()?>membership/reciprocal"><h4>Reciprocal Clubs</h4></a><h5>List of our worldwide reciprocal clubs.</h5><a href="#" target="_blank"><h6>Download document</h6></a></div>
+                                            <div class="col sub30 border"><a href="<?=base_url()?>membership/checklist"><h4>Application Checklist</h4></a><h5>Checklist in preparing your membership application.</h5><a href="#" target="_blank"><h6>Download document</h6></a></div>
                                             <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                                             <!-- /cbp-hrsub -->
-                                    </li>
-<!--                                        <li>-->
-<!--                                            <a onclick="window.location.href=&#39;--><?//=base_url()?><!--resort&#39;;return false;" href="--><?//=base_url()?><!--resort">RESORT</a>-->
-<!---->
-<!--                                        </li>-->
-<!--                                        <li><a onclick="window.location.href=&#39;--><?//=base_url()?><!--media&#39;;return false;" href="--><?//=base_url()?><!--media">MEDIA</a></li>-->
+                                        </li>
+
+                                        <li class="logos"><a  onclick="window.location.href=&#39;<?=base_url()?>home&#39;;return false;" href="<?=base_url()?>home"><img src="<?=base_url()?>assets/image/logo.png"></a></li>
 
                                         <li>
-                                            <a href="#">CONTACTS</a>
+                                            <a href="#">RESORT</a>
                                             <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
-                                                <div class="col subauto border"><a href="<?=base_url()?>contacts/management"><h4>Management &amp; Committees</h4></a></div>
-                                                <div class="col subauto border"><a href="<?=base_url()?>contacts/location"><h4>Location</h4></a></div>
-                                                <!--<div class="col subauto border"><a href="inquiry.html"><h4>Inquiry</h4></a></div>-->
+                                                <div class="menudesc"></div>
+                                                <div class="col sub20 border"><a href="<?=base_url()?>resort/luxurious"><h4>Rooms</h4></a></div>
+                                                <div class="col sub20 border"><a href="<?=base_url()?>resort/punction"><h4>Facilities</h4></a></div>
                                                 <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                                                 <!-- /cbp-hrsub -->
                                             </li>
 
+                                            <li><a onclick="window.location.href=&#39;<?=base_url()?>spa&#39;;return false;" href="<?=base_url()?>spa">SPA</a></li>
 
-                                        </ul></div><!-- =========== end menu =========== -->
-                                    </div></div>
-                                    <div id="top"></div>
+                                            <li>
+                                                <a href="#">EVENTS</a>
+                                                <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
+                                                    <div class="menudesc">Home of great tournaments and championships.</div>
+                                                    <div class="col sub30 border"><a href="<?=base_url()?>events/calendar"><h4>Event Calendar</h4></a><h5>Checkout all the events happening at the club.</h5></div>
+                                                    <div class="col sub30 border"><a href="<?=base_url()?>events/orderofmerit"><h4>Order Of Merit &amp; Monthly Medals</h4></a><h5>Golfers standing - Mens and Ladies.</h5></div>
+                                                    <div class="col sub30 border"><a href="<?=base_url()?>events/results"><h4>Competition Results</h4></a><h5>Recent and past tournament &amp; championship winners.</h5></div>
+                                                    <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
+                                                    <!-- /cbp-hrsub -->
+                                                </li>
+                                                <!--                                        <li>-->
+                                                <!--                                            <a onclick="window.location.href=&#39;--><?//=base_url()?><!--resort&#39;;return false;" href="--><?//=base_url()?><!--resort">RESORT</a>-->
+                                                <!---->
+                                                <!--                                        </li>-->
+                                                <!--                                        <li><a onclick="window.location.href=&#39;--><?//=base_url()?><!--media&#39;;return false;" href="--><?//=base_url()?><!--media">MEDIA</a></li>-->
+
+                                                <li>
+                                                    <a href="#">CONTACTS</a>
+                                                    <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
+                                                        <div class="col subauto border"><a href="<?=base_url()?>contacts/management"><h4>Management &amp; Committees</h4></a></div>
+                                                        <div class="col subauto border"><a href="<?=base_url()?>contacts/location"><h4>Location</h4></a></div>
+                                                        <!--<div class="col subauto border"><a href="inquiry.html"><h4>Inquiry</h4></a></div>-->
+                                                        <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
+                                                        <!-- /cbp-hrsub -->
+                                                    </li>
+
+                                                    <li><a onclick="window.location.href=&#39;<?=base_url()?>#&#39;;return false;" href="<?=base_url()?>spa">RUPS</a></li>
+                                                </ul></div><!-- =========== end menu =========== -->
+                                            </div></div>
+                                            <div id="top"></div>
 <!-- =========== end top =========== -->

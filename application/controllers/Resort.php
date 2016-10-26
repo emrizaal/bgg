@@ -22,4 +22,36 @@ class Resort extends CI_Controller {
 	{
 		$this->load->view('resort');
 	}
+
+	public function luxurious(){
+		$this->load->view('r_luxurious');
+	}
+
+	public function punction(){
+		$this->load->view('r_punction');
+	}
+
+	public function vip(){
+		$this->load->view('r_vip');
+	}
+
+	public function swimming(){
+		$this->load->view('r_swimming');
+	}
+
+	public function billiard(){
+		$this->load->view('r_billiard');
+	}
+
+	public function tennis(){
+		$this->load->view('r_tennis');
+	}
+
+	public function court(){
+		$this->load->view('r_court');
+	}
+
+	public function etc(){
+		$this->load->view('r_etc');
+	}
 }
