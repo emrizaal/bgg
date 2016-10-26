@@ -75,7 +75,6 @@
                 <ul>
                     <li><a href="<?=base_url()?>club/history" class="navlink" role="menuitem" tabindex="-1">History &amp; Board Of Directors</a></li>
                     <li><a href="<?=base_url()?>club/accolades" class="navlink" role="menuitem" tabindex="-1">Accolades &amp; Host Venue</a></li>
-                    <li><a href="<?=base_url()?>club/facilities" class="navlink" role="menuitem" tabindex="-1">Facilities</a></li>
                     <li><a href="<?=base_url()?>club/csr" class="navlink" role="menuitem" tabindex="-1">Corporate Social Responsibility</a></li>
                 </ul>
             </li>
@@ -149,7 +148,7 @@
                     <!--<li><a href="inquiry.html" class="navlink">Inquiry</a></li>-->
                 </ul>
             </li>
-
+            <li><a href="<?=base_url()?>spa" role="menuitem" tabindex="-1">RUPS</a></li>
             <!--            <li><a href="#" target="_blank" role="menuitem" tabindex="-1">ONLINE BOOKING</a></li>-->
 
         </ul></div>
@@ -172,7 +171,6 @@
                         <div class="menudesc">A golfing excursion in Malaysia is never complete without a visit to Bandung Giri Gahana Golf &amp; Country Club.</div>
                         <div class="col sub20 border"><a href="<?=base_url()?>club/history"><h4>History &amp; Board Of Directors</h4></a><h5>The first proprietary club in the country.</h5></div>
                         <div class="col sub20 border"><a href="<?=base_url()?>club/accolades"><h4>Accolades &amp; Host Venue</h4></a><h5>World wide recognition over the years.</h5></div>
-                        <div class="col sub20 border"><a href="<?=base_url()?>club/facilities"><h4>Facilities</h4></a><h5>The club offers more than just golf.</h5></div>
                         <div class="col sub20 border"><a href="<?=base_url()?>club/csr"><h4>CSR</h4></a><h5>Community driven activities &amp; initiatives.</h5></div>
                         <div class="col subbottom"><span class="copy">Make your tee-off reservation now</span><a href="#" target="_blank"><span class="button-menu">ONLINE BOOKING</span></a><a href="#"><h4 class="floatR">NEWS UPDATES</h4></a></div>
                         <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
@@ -288,7 +286,7 @@
                                                         <!-- /cbp-hrsub -->
                                                     </li>
 
-
+                                                    <li><a onclick="window.location.href=&#39;<?=base_url()?>#&#39;;return false;" href="<?=base_url()?>spa">RUPS</a></li>
                                                 </ul></div><!-- =========== end menu =========== -->
                                             </div></div>
                                             <div id="top"></div>
