@@ -48,10 +48,7 @@
                                 <a href="#">History &amp; Board Of Directors</a>
                             </li>
                             <li>
-                                <a href="#">Accolades &amp; Host Venue</a>
-                            </li>
-                            <li>
-                                <a href="#">Facilities</a>
+                                <a href="<?=base_url()?>admin/accolades">Accolades &amp; Host Venue</a>
                             </li>
                             <li>
                                 <a href="#">Corporate Social Responsibility</a>
