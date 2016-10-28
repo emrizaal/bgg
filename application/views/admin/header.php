@@ -14,7 +14,7 @@
   <link href="<?=base_url();?>admin_assets/css/custom.css" rel="stylesheet" />
   <!-- GOOGLE FONTS-->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-    <link rel="shortcut icon" href="<?=base_url()?>assets/image/favicon.png">
+  <link rel="shortcut icon" href="<?=base_url()?>assets/image/favicon.png">
 </head>
 <body>
     <div id="wrapper">
@@ -42,6 +42,9 @@
                         <a class="active-menu"  href="index.html"><i class="fa fa-dashboard fa-3x"></i> Dashboard</a>
                     </li>
                     <li>
+                        <a class=""  href="<?=base_url()?>admin/news"><i class="glyphicon glyphicon-list-alt fa-3x"></i> News</a>
+                    </li>
+                    <li>
                         <a href="#"><i class="fa fa-users fa-3x"></i> CLUB<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
@@ -51,7 +54,7 @@
                                 <a href="<?=base_url()?>admin/accolades">Accolades &amp; Host Venue</a>
                             </li>
                             <li>
-                                <a href="#">Corporate Social Responsibility</a>
+                                <a href="<?=base_url()?>admin/csr">Corporate Social Responsibility</a>
                             </li>
                         </ul>
                     </li>
@@ -63,9 +66,6 @@
                             </li>
                             <li>
                                 <a href="#">Hole Description</a>
-                            </li>
-                            <li>
-                                <a href="#">Score Card</a>
                             </li>
                         </ul>
                     </li>
@@ -82,7 +82,7 @@
                     </li>
 
                     <li>
-                        <a href="#"><i class="fa fa-ticket fa-3x"></i> FACILITIES</a>
+                        <a href="<?=base_url()?>admin/facilities"><i class="fa fa-ticket fa-3x"></i> FACILITIES</a>
                     </li>
 
                     <li>

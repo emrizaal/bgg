@@ -16,37 +16,19 @@
 			<table width="100%" border="0" cellspacing="0" cellpadding="0" class="contact-detail">
 
 				<tbody><tr>
-					<td width="100%">Saujana Golf &amp; Country Club<br>
-						Saujana Resort Seksyen U2,<br>
-						40150 Shah Alam,<br>
-						Selangor, Malaysia<br></td>
+					<td width="100%">Jalan Raya Jatinangor, Km. 20 Bandung, 45363 West Java - Indonesia</td>
+				</tr>
+				<tr>
+					<td><b>Tel:</b> (+62)22 779-8401<br>
+						<b>Email:</b> marketing@girigahanagolfresort.com<br></td>
 					</tr>
-					<tr><td width="100%">P.O. Box 8148, Kelana Jaya, <br>
-						46783 Petaling Jaya,<br>
-						Selangor, Malaysia</td>
-					</tr>
-
 					<tr>
-						<td>Tel: 603 7846 1466, 603 7625 1466<br>
-							Fax: 603 7846 7818, 603 7846 2316<br>
-							Email: <a href="#" class="link">golf@saujana.com.my</a><br>
-							Facebook: <a href="#" target="_blank" class="link">saujanagolfandcountryclub</a></td>
-						</tr>
-						<tr>
-							<td><span class="fgo">Operational hours:</span><br>6.30am to 9.00pm daily</td>
-						</tr>
-						<tr>
-							<td><span class="fgo">Office hours:</span><br>8.30am to 5.30pm Monday to Friday</td>
-						</tr>
-						<tr>
-							<td><span class="dl-link">
-								<a href="#" target="_blank">Download location map</a>
-							</span></td>
-						</tr>
-					</tbody></table>
-				</div></div>
+						<td><span class="fgo">Operational hours:</span><br>Monday to Sunday OPEN 08:00am </td>
+					</tr>
+				</tbody></table>
+			</div></div>
 
-				<div class="clear"></div></div>
+			<div class="clear"></div></div>
 
-			</div><!-- =========== end content =========== -->
-			<?php include "bot.php" ?>
+		</div><!-- =========== end content =========== -->
+		<?php include "bot.php" ?>

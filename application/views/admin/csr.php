@@ -6,14 +6,14 @@ $this->load->view("admin/header");
     <div id="page-inner">
         <div class="row">
             <div class="col-md-12">
-                <h2 align="center">Accolades & Host Venue</h2> 
+                <h2 align="center">Corporate Social Responsibility</h2> 
                 <hr>
             </div>
         </div>              
         <div class="row" align="center">
             <div class="col-md-12">
-                <form action="<?=base_url()?>admin/saveAccolades" method="POST">
-                    <textarea name="content" cols="120" rows="20"><?=$acc['content']?></textarea>
+                <form action="<?=base_url()?>admin/saveCsr" method="POST">
+                    <textarea name="content" cols="120" rows="20"><?=$csr['content']?></textarea>
                     <hr>
                     <button type="submit" class="btn btn-primary">Update</button>
                 </form>
