@@ -31,11 +31,13 @@ $this->load->view("admin/header");
                                 ?>
                                 <tr>
                                     <td><?=$no?></td>
-                                    <td></td>
+                                    <td><img src="<?=base_url()?>admin_assets/img/<?=$d['image']?>" width="200px"></td>
+                                    <td><?=$d['judul_berita']?></td>
+                                    <td><?=$d['active']==1 ? 'Aktif' : 'Tidak Aktif'?></td>
                                     <td>
-                                        <a href="<?=base_url()?>admin/detailFacilities/<?=$f['id_facilities']?>">Detail</a> | 
-                                        <a href="<?=base_url()?>admin/editFacilities/<?=$f['id_facilities']?>">Edit</a> | 
-                                        <a href="<?=base_url()?>admin/deleteFacilities/<?=$f['id_facilities']?>" onclick="return confirm('Are you sure you ?');">delete</a>
+                                        <a href="<?=base_url()?>admin/detailNews/<?=$d['id_berita']?>">Detail</a> | 
+                                        <a href="<?=base_url()?>admin/editNews/<?=$d['id_berita']?>">Edit</a> | 
+                                        <a href="<?=base_url()?>admin/deleteNews/<?=$d['id_berita']?>" onclick="return confirm('Are you sure you ?');">delete</a>
                                     </td>
                                 </tr>
                                 <?php 

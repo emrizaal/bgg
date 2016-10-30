@@ -59,6 +59,73 @@ class m_admin extends CI_Model {
 		$query = $this->db->query("SELECT * from berita")->result_array();
 		return $query;
 	}
+
+	function getNewsById($id){
+		$query = $this->db->query("SELECT * from berita where id_berita = '$id'")->row_array();
+		return $query;
+	}
+
+	function saveNews($p){
+		$query = $this->db->query("INSERT INTO berita(
+			judul_berita,isi_berita,tanggal_berita,active,image
+			)values('$p[title]','$p[content]',NOW(),'$p[active]','$p[img]')");
+		return $query;
+	}
+
+	function updateNews($p){
+		if(!empty($p['img'])){
+			$query = $this->db->query("UPDATE berita set
+			judul_berita = '$p[title]',
+			isi_berita = '$p[content]',
+			active = '$p[active]',
+			image = '$p[img]' 
+			where id_berita = '$p[id]'
+			");	
+		}else{
+			$query = $this->db->query("UPDATE berita set
+			judul_berita = '$p[title]',
+			isi_berita = '$p[content]',
+			active = '$p[active]'
+			where id_berita = '$p[id]'
+			");	
+		}
+		return $query;
+	}
+
+	function deleteNews($id){
+		$query = $this->db->query("DELETE from berita where id_berita = '$id'");
+		return $query;
+	}
+
+	function getHistory(){
+		$query = $this->db->query("SELECT * from history")->row_array();
+		return $query;
+	}
+
+	function saveHistory($p){
+		$query = $this->db->query("UPDATE history set content = '$p[content]'");
+		return $query;
+	}
+
+	function getAllSlider(){
+		$query = $this->db->query("SELECT * from slider")->result_array();
+		return $query;
+	}
+
+	function saveSlider($p){
+		$query = $this->db->query("INSERT into slider(image,aktif) values('$p[img]','$p[active]')");
+		return $query;
+	}
+
+	function getSliderById($id){
+		$query = $this->db->query("SELECT * from slider where id_slider = '$id'")->row_array();
+		return $query;
+	}
+
+	function deleteSlider($p){
+		$query = $this->db->query("DELETE from slider where id_slider = '$p[id]'");
+		return $query;
+	}
 }
 
 ?>

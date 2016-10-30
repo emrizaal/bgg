@@ -48,7 +48,10 @@
                         <a href="#"><i class="fa fa-users fa-3x"></i> CLUB<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="#">History &amp; Board Of Directors</a>
+                            <a href="<?=base_url()?>admin/slider">Slider</a>
+                            </li>
+                            <li>
+                                <a href="<?=base_url()?>admin/history">History</a>
                             </li>
                             <li>
                                 <a href="<?=base_url()?>admin/accolades">Accolades &amp; Host Venue</a>
