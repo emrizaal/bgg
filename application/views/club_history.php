@@ -42,7 +42,7 @@
             function ScaleSlider() {
                 var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
                 if (refSize) {
-                    refSize = Math.min(refSize, 1350);
+                    refSize = Math.min(refSize, 1200);
                     jssor_1_slider.$ScaleWidth(refSize);
                 }
                 else {
@@ -119,7 +119,7 @@
 <div id="ticker" style="overflow: hidden; position: relative; height: 24px;"></div>
     <div id="page-content" style="margin-top: -10px;">
     <!-- SLIDER-->
-    <div id="jssor_1" class="source-image" style="position: relative; top: 0px; width: 700px; height: 500px; overflow: hidden; visibility: hidden;">
+    <div id="jssor_1" class="source-image" style="position: relative; margin: 0 auto; top: 0px; width: 700px; height: 450px; overflow: hidden; visibility: hidden;">
         <!-- Loading Screen -->
         <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>

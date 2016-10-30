@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="58015b68-e827-48e2-a320-3db5db34e696" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/club_history.php" afterPath="$PROJECT_DIR$/application/views/club_history.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bgg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,18 +37,18 @@
       <file leaf-file-name="club_history.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/club_history.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="103" selection-start="5697" selection-end="5697" vertical-scroll-proportion="0.23847695" vertical-offset="1938" max-vertical-offset="3910">
+            <state line="121" column="121" selection-start="5715" selection-end="5715" vertical-scroll-proportion="0.4428858" vertical-offset="1836" max-vertical-offset="3910">
               <folding>
                 <element signature="e#5453#5512#0" expanded="true" />
                 <element signature="e#5547#5573#0" expanded="true" />
-                <element signature="e#5805#5853#0" expanded="true" />
-                <element signature="e#5872#6004#0" expanded="true" />
-                <element signature="e#6029#6191#0" expanded="true" />
-                <element signature="e#6243#6355#0" expanded="true" />
-                <element signature="e#6390#6412#0" expanded="true" />
-                <element signature="e#6843#6865#0" expanded="true" />
-                <element signature="e#7310#7332#0" expanded="true" />
-                <element signature="e#7769#7791#0" expanded="true" />
+                <element signature="e#5821#5869#0" expanded="true" />
+                <element signature="e#5888#6020#0" expanded="true" />
+                <element signature="e#6045#6207#0" expanded="true" />
+                <element signature="e#6259#6371#0" expanded="true" />
+                <element signature="e#6406#6428#0" expanded="true" />
+                <element signature="e#6859#6881#0" expanded="true" />
+                <element signature="e#7326#7348#0" expanded="true" />
+                <element signature="e#7785#7807#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -599,18 +598,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/club_history.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="103" selection-start="5697" selection-end="5697" vertical-scroll-proportion="0.23847695" vertical-offset="1938" max-vertical-offset="3910">
+        <state line="121" column="121" selection-start="5715" selection-end="5715" vertical-scroll-proportion="0.4428858" vertical-offset="1836" max-vertical-offset="3910">
           <folding>
             <element signature="e#5453#5512#0" expanded="true" />
             <element signature="e#5547#5573#0" expanded="true" />
-            <element signature="e#5805#5853#0" expanded="true" />
-            <element signature="e#5872#6004#0" expanded="true" />
-            <element signature="e#6029#6191#0" expanded="true" />
-            <element signature="e#6243#6355#0" expanded="true" />
-            <element signature="e#6390#6412#0" expanded="true" />
-            <element signature="e#6843#6865#0" expanded="true" />
-            <element signature="e#7310#7332#0" expanded="true" />
-            <element signature="e#7769#7791#0" expanded="true" />
+            <element signature="e#5821#5869#0" expanded="true" />
+            <element signature="e#5888#6020#0" expanded="true" />
+            <element signature="e#6045#6207#0" expanded="true" />
+            <element signature="e#6259#6371#0" expanded="true" />
+            <element signature="e#6406#6428#0" expanded="true" />
+            <element signature="e#6859#6881#0" expanded="true" />
+            <element signature="e#7326#7348#0" expanded="true" />
+            <element signature="e#7785#7807#0" expanded="true" />
           </folding>
         </state>
       </provider>
