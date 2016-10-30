@@ -3,7 +3,7 @@
     <div style="margin-top:100px">
 
         <div class="row-section">
-            <div class="page-section mar-T20"><h1>Club Accolades</h1></div>
+            <div class="page-section mar-T20"><h1>Club Accolades <?=$acc['content']?></h1></div>
 <!--            <h2 class="tcen">--------------------------</h2>-->
 
             <center><img src="<?=base_url()?>assets/image/csr.jpeg"></center>

@@ -126,37 +126,37 @@
 
     <div class="page-section mar-T20">
         <!-- SLIDER-->
-        <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; visibility: hidden; margin-bottom:50px;">
+        <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 900px; height: 500px; overflow: hidden; visibility: hidden; margin-bottom:50px;">
             <!-- Loading Screen -->
             <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
                 <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
                 <div style="position:absolute;display:block;background:url('<?=base_url()?>assets/image/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
             </div>
-            <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden;">
+            <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 900px; height: 500px; overflow: hidden;">
                 <div data-p="112.50" style="display: none;">
-                    <img data-u="image" src="<?=base_url()?>assets/image/bgggolf.jpg" />
-                    <div data-u="caption" data-t="0" style="position: absolute; top: 320px; left: 30px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">mobile ready, touch swipe</div>
+                    <img data-u="image" src="<?=base_url()?>assets/image/1.jpg" />
+<!--                    <div data-u="caption" data-t="0" style="position: absolute; top: 320px; left: 30px; width: 900px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">mobile ready, touch swipe</div>-->
                 </div>
                 <div data-p="112.50" style="display: none;">
-                    <img data-u="image" src="<?=base_url()?>assets/image/bgggolf2.jpg" />
-                    <div data-u="caption" data-t="1" data-3d="1" style="position: absolute; top: -50px; left: 125px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">time lined layer animation</div>
+                    <img data-u="image" src="<?=base_url()?>assets/image/2.jpg" />
+<!--                    <div data-u="caption" data-t="1" data-3d="1" style="position: absolute; top: -50px; left: 125px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">time lined layer animation</div>-->
                 </div>
                 <div data-p="112.50" style="display: none;">
-                    <img data-u="image" src="<?=base_url()?>assets/image/bggresort.jpg" />
-                    <div data-u="caption" data-t="2" style="position: absolute; top: 30px; left: -380px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">finger catchable right to left</div>
+                    <img data-u="image" src="<?=base_url()?>assets/image/3.jpg" />
+<!--                    <div data-u="caption" data-t="2" style="position: absolute; top: 30px; left: -380px; width: 900px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">finger catchable right to left</div>-->
                 </div>
                 <div data-p="112.50" style="display: none;">
-                    <img data-u="image" src="<?=base_url()?>assets/image/bggresort2.jpg" />
-                    <div data-u="caption" data-t="3" style="position: absolute; top: 30px; left: 30px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">responsive, scale smoothly</div>
+                    <img data-u="image" src="<?=base_url()?>assets/image/4.jpg" />
+<!--                    <div data-u="caption" data-t="3" style="position: absolute; top: 30px; left: 30px; width: 900px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">responsive, scale smoothly</div>-->
                 </div>
             </div>
             <!-- Bullet Navigator -->
-            <div data-u="navigator" class="jssorb01" style="bottom:16px;right:16px;">
-                <div data-u="prototype" style="width:12px;height:12px;"></div>
-            </div>
+<!--            <div data-u="navigator" class="jssorb01" style="bottom:16px;right:16px;">-->
+<!--                <div data-u="prototype" style="width:12px;height:12px;"></div>-->
+<!--            </div>-->
             <!-- Arrow Navigator -->
-            <span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
-            <span data-u="arrowright" class="jssora02r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
+<!--            <span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>-->
+<!--            <span data-u="arrowright" class="jssora02r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>-->
         </div>
 
         <script type="text/javascript">jssor_1_slider_init();</script>
@@ -168,14 +168,15 @@
 
 
 
-    <div class="block-48-L border-R"><div class="pad-20">
-      <p class="tjus">Saujana Golf &amp; Country Club was the brainchild of former Prime Minister YAB Tun Dr Mahathir Mohamad who, in 1982, initiated the creation of a government task force to set up a golf club in Kuala Lumpur to attract investors and industrialists.</p>
-      <p class="tjus">On 2 February 1983, Golf Resort (M) Bhd was setup. Four hundred acres of freehold plantation land was purchased for the development of two 18-hole golf courses, a clubhouse, a hotel and chalet complex.</p>
-    </div></div>
-
-    <div class="block-48-R"><div class="pad-20">
-      <p class="tjus">Golf Resort (M) Bhd was renamed Saujana Resort (M) Berhad after its conversion into a public company in 1985. It became the first proprietary club in the country. Golfplan - the California-based golf architectural firm headed by Ronald Fream - was entrusted to create two International standard golf courses from the plantation land. The Palm Course was completed in mid 1985 while the Bunga Raya Course (initially named the Orchid Course) was finished in December 1985. The clubhouse opened on Valentine's Day, 14 February 1986, and on 6 April 1987, The Saujana Hotel Kuala Lumpur  opened its doors.</p>
-    </div></div>
+    <div class="block-48"><div class="pad-20">
+      <p class="tjus">Saujana Golf &amp; Country Club was the brainchild of former Prime Minister YAB Tun Dr Mahathir Mohamad who, in 1982, initiated the creation of a government task force to set up a golf club in Kuala Lumpur to attract investors and industrialists.
+      On 2 February 1983, Golf Resort (M) Bhd was setup.
+          Four hundred acres of freehold plantation land was purchased for the development of two 18-hole golf courses, a clubhouse, a hotel and chalet complex.
+            Golf Resort (M) Bhd was renamed Saujana Resort (M) Berhad after its conversion into a public company in 1985. It became the first proprietary club in the country. Golfplan - the California-based golf architectural firm headed by Ronald Fream - was entrusted to create two International standard golf courses from the plantation land. The Palm Course was completed in mid 1985 while the Bunga Raya Course (initially named the Orchid Course) was finished in December 1985.
+            The clubhouse opened on Valentine's Day, 14 February 1986, and on 6 April 1987, The Saujana Hotel Kuala Lumpur  opened its doors.</p>
+        </div>
+    </div>
+  </div>
 
   </div>
 

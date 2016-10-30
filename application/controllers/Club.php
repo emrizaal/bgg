@@ -18,6 +18,8 @@ class Club extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
+
+
 	public function index()
 	{
 		$this->load->view('index');
@@ -28,7 +30,11 @@ class Club extends CI_Controller {
 	}
 
 	public function accolades(){
-		$this->load->view('club_accolades');
+
+        $this->load->model("m_admin");
+        $data['acc'] = $this->m_admin->getAccolades();
+
+		$this->load->view('club_accolades',$data);
 	}
 
 	public function facilities(){
