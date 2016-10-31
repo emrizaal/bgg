@@ -183,4 +183,41 @@ class Admin extends CI_Controller {
 		unlink("admin_assets/img/".$data['image']);
 		redirect("admin/slider");
 	}
+
+	public function rates(){
+		$data['data']=$this->m_admin->getAllRates();
+		$this->load->view("admin/rates",$data);
+	}
+
+	public function addRates(){
+		$this->load->view("admin/add_rates");
+	}
+
+	public function saveRates(){
+		$p=$this->input->post();
+		$res=$this->m_admin->saveRates($p);
+		if($res)redirect("admin/rates");
+	}
+
+	public function editRates($id){
+		$data['data']=$this->m_admin->getRatesById($id);
+		$this->load->view("admin/edit_rates",$data);
+	}
+
+	public function updateRates(){
+		$p=$this->input->post();
+		$res=$this->m_admin->updateRates($p);
+		if($res)redirect("admin/rates");
+	}
+
+	public function rooms(){
+		$data['data']=$this->m_admin->getRooms();
+		$this->load->view("admin/rooms",$data);
+	}
+
+	public function saveRooms(){
+		$p=$this->input->post();
+		$res=$this->m_admin->saveRooms($p);
+		if($res)redirect("admin/rooms");
+	}
 }

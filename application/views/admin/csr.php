@@ -13,7 +13,7 @@ $this->load->view("admin/header");
         <div class="row" align="center">
             <div class="col-md-12">
                 <form action="<?=base_url()?>admin/saveCsr" method="POST">
-                    <textarea name="content" cols="120" rows="20"><?=$csr['content']?></textarea>
+                    <textarea id="edit" name="content" cols="120" rows="20"><?=$csr['content']?></textarea>
                     <hr>
                     <button type="submit" class="btn btn-primary">Update</button>
                 </form>

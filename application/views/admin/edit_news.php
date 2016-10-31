@@ -20,7 +20,7 @@ $this->load->view("admin/header");
         </div>
         <div class="form-group">
           <label>Content</label>
-          <textarea name="content" cols="120" rows="20" class="form-control"><?=$data['isi_berita']?></textarea>
+          <textarea id="edit" name="content" cols="120" rows="20" class="form-control"><?=$data['isi_berita']?></textarea>
         </div>
         <div class="form-group">
           <label>Image</label>

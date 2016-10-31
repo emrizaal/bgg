@@ -126,6 +126,39 @@ class m_admin extends CI_Model {
 		$query = $this->db->query("DELETE from slider where id_slider = '$p[id]'");
 		return $query;
 	}
+
+	function getAllRates(){
+		$query = $this->db->query("SELECT * from rates")->result_array();
+		return $query;
+	}
+
+	function saveRates($p){
+		$query = $this->db->query("INSERT into rates(name,price) values('$p[name]','$p[price]')");
+		return $query;
+	}
+
+	function getRatesById($id){
+		$query = $this->db->query("SELECT * from rates where id_rates = '$id'")->row_array();
+		return $query;
+	}
+
+	function updateRates($p){
+		$query = $this->db->query("UPDATE rates set
+			name = '$p[name]',
+			price = '$p[price]' where id_rates = '$p[id]'
+		");
+		return $query;
+	}
+
+	function getRooms(){
+		$query = $this->db->query("SELECT * from rooms")->row_array();
+		return $query;
+	}
+
+	function saveRooms($p){
+		$query = $this->db->query("UPDATE rooms set content = '$p[content]'");
+		return $query;
+	}
 }
 
 ?>
