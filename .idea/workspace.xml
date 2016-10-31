@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58015b68-e827-48e2-a320-3db5db34e696" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin_assets/tinymce/codepen.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin_assets/tinymce/tinymce.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Club.php" afterPath="$PROJECT_DIR$/application/controllers/Club.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/accolades.php" afterPath="$PROJECT_DIR$/application/views/admin/accolades.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/club_accolades.php" afterPath="$PROJECT_DIR$/application/views/club_accolades.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/club_history.php" afterPath="$PROJECT_DIR$/application/views/club_history.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/footer.php" afterPath="$PROJECT_DIR$/application/views/admin/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/header.php" afterPath="$PROJECT_DIR$/application/views/admin/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bgg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,20 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="club_history.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="club_history.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/club_history.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="170" column="24" selection-start="9210" selection-end="9210" vertical-scroll-proportion="-13.730769" vertical-offset="2533" max-vertical-offset="3859">
+            <state line="121" column="121" selection-start="5715" selection-end="5715" vertical-scroll-proportion="0.4428858" vertical-offset="1836" max-vertical-offset="3910">
               <folding>
-                <element signature="e#5799#5950#0" expanded="true" />
-                <element signature="e#6022#6070#0" expanded="true" />
-                <element signature="e#6093#6225#0" expanded="true" />
-                <element signature="e#6254#6416#0" expanded="true" />
-                <element signature="e#6476#6588#0" expanded="true" />
-                <element signature="e#6627#6649#0" expanded="true" />
-                <element signature="e#7076#7098#0" expanded="true" />
-                <element signature="e#7539#7561#0" expanded="true" />
-                <element signature="e#7994#8016#0" expanded="true" />
+                <element signature="e#5453#5512#0" expanded="true" />
+                <element signature="e#5547#5573#0" expanded="true" />
+                <element signature="e#5821#5869#0" expanded="true" />
+                <element signature="e#5888#6020#0" expanded="true" />
+                <element signature="e#6045#6207#0" expanded="true" />
+                <element signature="e#6259#6371#0" expanded="true" />
+                <element signature="e#6406#6428#0" expanded="true" />
+                <element signature="e#6859#6881#0" expanded="true" />
+                <element signature="e#7326#7348#0" expanded="true" />
+                <element signature="e#7785#7807#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,8 +57,9 @@
       <file leaf-file-name="club_accolades.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/club_accolades.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="14" selection-start="159" selection-end="1204" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="493">
+            <state line="1" column="28" selection-start="55" selection-end="55" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="493">
               <folding>
+                <element signature="e#48#107#0" expanded="true" />
                 <element signature="e#124#148#0" expanded="true" />
               </folding>
             </state>
@@ -99,10 +93,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/admin/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="25" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.6755725" vertical-offset="71" max-vertical-offset="2040">
+            <state line="25" column="25" selection-start="1133" selection-end="1133" vertical-scroll-proportion="32.153847" vertical-offset="1261" max-vertical-offset="2040">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bot.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/bot.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="28" selection-start="3120" selection-end="3129" vertical-scroll-proportion="-3.254902" vertical-offset="1211" max-vertical-offset="2074">
               <folding />
             </state>
           </provider>
@@ -135,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/course.php" />
         <option value="$PROJECT_DIR$/assets/css/sau_response.css" />
         <option value="$PROJECT_DIR$/application/views/login.php" />
         <option value="$PROJECT_DIR$/assets/css/sau_general.css" />
@@ -147,10 +149,11 @@
         <option value="$PROJECT_DIR$/application/controllers/Club.php" />
         <option value="$PROJECT_DIR$/admin_assets/tinymce/tinymce.min.js" />
         <option value="$PROJECT_DIR$/admin_assets/tinymce/codepen.min.css" />
-        <option value="$PROJECT_DIR$/application/views/club_history.php" />
         <option value="$PROJECT_DIR$/application/views/admin/accolades.php" />
         <option value="$PROJECT_DIR$/application/views/admin/header.php" />
         <option value="$PROJECT_DIR$/application/views/admin/footer.php" />
+        <option value="$PROJECT_DIR$/application/views/bot.php" />
+        <option value="$PROJECT_DIR$/application/views/club_history.php" />
       </list>
     </option>
   </component>
@@ -487,18 +490,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/top.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="21" selection-start="4106" selection-end="4106" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="4964">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="100" selection-start="535" selection-end="536" vertical-scroll-proportion="-7.0" vertical-offset="46" max-vertical-offset="2958" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="363" column="67" selection-start="13916" selection-end="13916" vertical-scroll-proportion="0.0" vertical-offset="6171" max-vertical-offset="7327">
@@ -558,36 +549,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/club_accolades.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="14" selection-start="159" selection-end="1204" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="493">
-          <folding>
-            <element signature="e#124#148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/club_history.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="170" column="24" selection-start="9210" selection-end="9210" vertical-scroll-proportion="-13.730769" vertical-offset="2533" max-vertical-offset="3859">
-          <folding>
-            <element signature="e#5799#5950#0" expanded="true" />
-            <element signature="e#6022#6070#0" expanded="true" />
-            <element signature="e#6093#6225#0" expanded="true" />
-            <element signature="e#6254#6416#0" expanded="true" />
-            <element signature="e#6476#6588#0" expanded="true" />
-            <element signature="e#6627#6649#0" expanded="true" />
-            <element signature="e#7076#7098#0" expanded="true" />
-            <element signature="e#7539#7561#0" expanded="true" />
-            <element signature="e#7994#8016#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/accolades.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="24" selection-start="668" selection-end="668" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="578">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="25" selection-start="1133" selection-end="1133" vertical-scroll-proportion="32.153847" vertical-offset="1261" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/bot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="28" selection-start="3120" selection-end="3129" vertical-scroll-proportion="-3.254902" vertical-offset="1211" max-vertical-offset="2074">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/top.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="145" selection-start="4314" selection-end="4316" vertical-scroll-proportion="0.33263597" vertical-offset="1252" max-vertical-offset="4964">
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -598,10 +586,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/footer.php">
+    <entry file="file://$PROJECT_DIR$/application/views/club_accolades.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="25" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.6755725" vertical-offset="71" max-vertical-offset="2040">
-          <folding />
+        <state line="1" column="28" selection-start="55" selection-end="55" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="493">
+          <folding>
+            <element signature="e#48#107#0" expanded="true" />
+            <element signature="e#124#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/club_history.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="121" selection-start="5715" selection-end="5715" vertical-scroll-proportion="0.4428858" vertical-offset="1836" max-vertical-offset="3910">
+          <folding>
+            <element signature="e#5453#5512#0" expanded="true" />
+            <element signature="e#5547#5573#0" expanded="true" />
+            <element signature="e#5821#5869#0" expanded="true" />
+            <element signature="e#5888#6020#0" expanded="true" />
+            <element signature="e#6045#6207#0" expanded="true" />
+            <element signature="e#6259#6371#0" expanded="true" />
+            <element signature="e#6406#6428#0" expanded="true" />
+            <element signature="e#6859#6881#0" expanded="true" />
+            <element signature="e#7326#7348#0" expanded="true" />
+            <element signature="e#7785#7807#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
