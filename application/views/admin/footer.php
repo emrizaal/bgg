@@ -17,49 +17,76 @@
 <!-- Include jQuery. -->
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
+<!-- Tinymce config-->
 
-<!-- Include JS files. -->
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/froala_editor.min.js"></script>
-
-<!-- Include Code Mirror. -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/codemirror.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/mode/xml/xml.min.js"></script>
-
-<!-- Include Plugins. -->
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/align.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/char_counter.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/code_beautifier.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/code_view.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/colors.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/emoticons.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/entities.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/file.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/font_family.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/font_size.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/fullscreen.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/image.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/image_manager.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/inline_style.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/line_breaker.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/link.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/lists.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/paragraph_format.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/paragraph_style.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/quick_insert.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/quote.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/table.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/save.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/url.min.js"></script>
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/plugins/video.min.js"></script>
-
-<!-- Include Language file if we want to use it. -->
-<script type="text/javascript" src="<?=base_url();?>admin_assets/wysiwyg/js/languages/ro.js"></script>
-
+<!--    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>-->
+<script src="<?=base_url();?>admin_assets/tinymce/tinymce.min.js"></script>
 <script>
-    $(function() {
-        $('#edit').froalaEditor();
+    tinymce.init({
+        selector: "textarea",theme: "modern",width: 680,height: 300,
+        plugins: [
+            "advlist autolink link image lists charmap print preview hr anchor pagebreak",
+            "searchreplace wordcount visualblocks visualchars insertdatetime media nonbreaking",
+            "table contextmenu directionality emoticons paste textcolor responsivefilemanager code"
+        ],
+        toolbar1: "undo redo | bold italic underline | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | styleselect",
+        toolbar2: "| responsivefilemanager | link unlink anchor | image media | forecolor backcolor  | print preview code ",
+        image_advtab: true ,
+
+        external_filemanager_path:"<?=base_url();?>admin_assets/filemanager/",
+        filemanager_title:"Responsive Filemanager" ,
+        external_plugins: { "filemanager" : "<?=base_url();?>admin_assets/filemanager/plugin.min.js"}
     });
 </script>
+
+<!--END tinymce config-->
+
+
+<!-- WYSIWYG config-->
+
+<!-- Include JS files. -->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/froala_editor.min.js"></script>-->
+
+<!-- Include Code Mirror. -->
+<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/codemirror.min.js"></script>-->
+<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/mode/xml/xml.min.js"></script>-->
+
+<!-- Include Plugins. -->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/align.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/char_counter.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/code_beautifier.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/code_view.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/colors.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/emoticons.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/entities.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/file.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/font_family.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/font_size.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/fullscreen.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/image.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/image_manager.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/inline_style.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/line_breaker.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/link.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/lists.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/paragraph_format.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/paragraph_style.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/quick_insert.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/quote.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/table.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/save.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/url.min.js"></script>-->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/plugins/video.min.js"></script>-->
+
+<!-- Include Language file if we want to use it. -->
+<!--<script type="text/javascript" src="--><?//=base_url();?><!--admin_assets/wysiwyg/js/languages/ro.js"></script>-->
+
+<!--<script>-->
+<!--    $(function() {-->
+<!--        $('#edit').froalaEditor();-->
+<!--    });-->
+<!--</script>-->
+<!-- END WYSIWYG config-->
 
 <!--<script type="text/javascript" src="--><?//=base_url()?><!--admin_assets/tinymce/tinymce.min.js"></script>-->
 <!--<script>-->

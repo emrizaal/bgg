@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Oct 28, 2016 at 06:19 AM
+-- Generation Time: Oct 31, 2016 at 03:06 AM
 -- Server version: 5.5.16
 -- PHP Version: 5.3.8
 
@@ -63,7 +63,14 @@ CREATE TABLE IF NOT EXISTS `berita` (
   `active` tinyint(1) NOT NULL,
   `image` text NOT NULL,
   PRIMARY KEY (`id_berita`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+--
+-- Dumping data for table `berita`
+--
+
+INSERT INTO `berita` (`id_berita`, `judul_berita`, `isi_berita`, `tanggal_berita`, `active`, `image`) VALUES
+(1, 'Cihuy', '<p>asasadddddddddddd</p>\r\n<p>adada</p>\r\n<p>daad</p>', '2016-10-28', 0, '1.jpg');
 
 -- --------------------------------------------------------
 
@@ -124,7 +131,7 @@ CREATE TABLE IF NOT EXISTS `csr` (
 --
 
 INSERT INTO `csr` (`content`) VALUES
-('<p>loreeeeeeeeeeeeeeem</p>');
+('<p>loreeeeeeeeeeeeeeem a</p>');
 
 -- --------------------------------------------------------
 
@@ -137,14 +144,14 @@ CREATE TABLE IF NOT EXISTS `facilities` (
   `name` varchar(255) NOT NULL,
   `content` text NOT NULL,
   PRIMARY KEY (`id_facilities`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `facilities`
 --
 
 INSERT INTO `facilities` (`id_facilities`, `name`, `content`) VALUES
-(1, 'Restaurant', '<p>ini restaurant</p>'),
+(1, 'Restaurant', '<p>ini restaurant</p><p><img class="fr-dib fr-draggable" src="https://i.froala.com/download/01b410704e84db32734d6bfda906de4777958999.jpg?1477832148" style="width: 300px;"></p><p>adada dad as</p>'),
 (2, 'Male & Female Locker Room', '<p>aadad</p>'),
 (3, 'Buggy', '<p>buggy</p>'),
 (4, 'Driving Range', '<p>dr</p>'),
@@ -162,6 +169,23 @@ CREATE TABLE IF NOT EXISTS `gambar` (
   `url` text NOT NULL,
   PRIMARY KEY (`id_gambar`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `history`
+--
+
+CREATE TABLE IF NOT EXISTS `history` (
+  `content` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `history`
+--
+
+INSERT INTO `history` (`content`) VALUES
+('<p>yihi history</p>\r\n<p>asda</p>\r\n<p>ada kjdsakdnhakj dsad</p>');
 
 -- --------------------------------------------------------
 
@@ -212,6 +236,70 @@ CREATE TABLE IF NOT EXISTS `participant` (
   `points` varchar(255) NOT NULL,
   PRIMARY KEY (`id_participant`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `rates`
+--
+
+CREATE TABLE IF NOT EXISTS `rates` (
+  `id_rates` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `price` varchar(11) NOT NULL,
+  PRIMARY KEY (`id_rates`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
+
+--
+-- Dumping data for table `rates`
+--
+
+INSERT INTO `rates` (`id_rates`, `name`, `price`) VALUES
+(1, '[Green fee Weekday] Morning', '500K'),
+(2, '[Green fee Weekday] Afternoon', '300K'),
+(3, '[Green fee Weekend] Saturday Morning', '8000K'),
+(4, '[Green fee Weekend] Saturday Afternoon', '650K'),
+(5, '[Green fee Weekend] Sunday Morning', '10K'),
+(6, '[Green fee Weekend] Sunday Afternoon', '980K'),
+(7, 'Buggy', '400K'),
+(8, 'Caddy', '30K');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `rooms`
+--
+
+CREATE TABLE IF NOT EXISTS `rooms` (
+  `content` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `rooms`
+--
+
+INSERT INTO `rooms` (`content`) VALUES
+('<p>wuisisisi</p>');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `slider`
+--
+
+CREATE TABLE IF NOT EXISTS `slider` (
+  `id_slider` int(11) NOT NULL AUTO_INCREMENT,
+  `image` text NOT NULL,
+  `aktif` tinyint(1) NOT NULL,
+  PRIMARY KEY (`id_slider`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+--
+-- Dumping data for table `slider`
+--
+
+INSERT INTO `slider` (`id_slider`, `image`, `aktif`) VALUES
+(1, 'thumbs_agung-coelophysis.jpg', 0);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

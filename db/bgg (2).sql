@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Oct 31, 2016 at 03:06 AM
+-- Generation Time: Nov 02, 2016 at 03:29 AM
 -- Server version: 5.5.16
 -- PHP Version: 5.3.8
 
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `accolades` (
 --
 
 INSERT INTO `accolades` (`content`) VALUES
-('<p>lorem ipsum haha</p>');
+('<h1><img style="display: block; margin-left: auto; margin-right: auto;" src="../admin_assets/filemanager/img/5.jpg?1478041598603" alt="5" /></h1>\r\n<p>&nbsp;</p>\r\n<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n<p style="text-align: center;">&nbsp;</p>\r\n<h1><img style="display: block; margin-left: auto; margin-right: auto;" src="../admin_assets/filemanager/img/3.jpg?1478043267922" alt="3" /></h1>\r\n<p><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>');
 
 -- --------------------------------------------------------
 
@@ -152,7 +152,7 @@ CREATE TABLE IF NOT EXISTS `facilities` (
 
 INSERT INTO `facilities` (`id_facilities`, `name`, `content`) VALUES
 (1, 'Restaurant', '<p>ini restaurant</p><p><img class="fr-dib fr-draggable" src="https://i.froala.com/download/01b410704e84db32734d6bfda906de4777958999.jpg?1477832148" style="width: 300px;"></p><p>adada dad as</p>'),
-(2, 'Male & Female Locker Room', '<p>aadad</p>'),
+(2, 'Male & Female Locker Room', '<p style="text-align: center;">aadad</p>'),
 (3, 'Buggy', '<p>buggy</p>'),
 (4, 'Driving Range', '<p>dr</p>'),
 (5, 'Proshop', '<p>P</p>'),
@@ -267,6 +267,45 @@ INSERT INTO `rates` (`id_rates`, `name`, `price`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `resort_facilities`
+--
+
+CREATE TABLE IF NOT EXISTS `resort_facilities` (
+  `id_resort_facilities` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `content` text NOT NULL,
+  PRIMARY KEY (`id_resort_facilities`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=22 ;
+
+--
+-- Dumping data for table `resort_facilities`
+--
+
+INSERT INTO `resort_facilities` (`id_resort_facilities`, `name`, `content`) VALUES
+(1, '18 Holes Beautiful Golf Course', '<p>holes</p>'),
+(2, '47 Luxurious Room', '<p>wuu</p>'),
+(4, '3 Cottages', '<p>a</p>'),
+(5, 'Meeting Room', '<p>a</p>'),
+(6, 'VIP Room', '<p>asd</p>'),
+(7, '24 Hours Restaurant', '<p>ada</p>'),
+(8, 'Driving Range', '<p>gagaga</p>'),
+(9, 'Two Tennis Courts', '<p>gg</p>'),
+(10, 'Tennis Table', '<p>a</p>'),
+(11, 'Billyard', '<p>a</p>'),
+(12, 'Massage', '<p>q</p>'),
+(13, 'Swiming Pool', '<p>ww</p>'),
+(14, 'Children Play Ground', '<p>r</p>'),
+(15, 'Mountain Bike', '<p>a</p>'),
+(16, 'Fitness Centre', '<p>f</p>'),
+(17, 'Sauna & Whirl Pool', '<p>q</p>'),
+(18, 'Pro Shop', '<p>e</p>'),
+(19, 'Golf Equipment Rental', '<p>e</p>'),
+(20, 'Free Safe Deposit Box', '<p>432</p>'),
+(21, 'Green Spa', '<p>klol</p>');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `rooms`
 --
 
@@ -279,7 +318,7 @@ CREATE TABLE IF NOT EXISTS `rooms` (
 --
 
 INSERT INTO `rooms` (`content`) VALUES
-('<p>wuisisisi</p>');
+('<p>wuisisisiAS</p>');
 
 -- --------------------------------------------------------
 
@@ -300,6 +339,23 @@ CREATE TABLE IF NOT EXISTS `slider` (
 
 INSERT INTO `slider` (`id_slider`, `image`, `aktif`) VALUES
 (1, 'thumbs_agung-coelophysis.jpg', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `spa`
+--
+
+CREATE TABLE IF NOT EXISTS `spa` (
+  `content` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `spa`
+--
+
+INSERT INTO `spa` (`content`) VALUES
+('<p>ini spaaaaaaaa</p><p><br></p>');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
