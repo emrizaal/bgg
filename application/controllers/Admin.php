@@ -80,4 +80,144 @@ class Admin extends CI_Controller {
 	public function addNews(){
 		$this->load->view('admin/add_news');
 	}
+
+	public function saveNews(){
+		$config['upload_path']   =   "admin_assets/img/";
+		$config['allowed_types'] =   "gif|jpg|jpeg|png"; 
+		$config['max_size']      =   "5000";
+		$config['max_width']     =   "1907";
+		$config['max_height']    =   "1280";
+		$this->load->library('upload',$config);
+
+		if(!$this->upload->do_upload('fupload')){
+			echo $this->upload->display_errors();
+		}else{
+			$finfo=$this->upload->data();
+		}
+
+		$p = $this->input->post();
+		$p['img'] = $finfo['file_name'];
+
+		$res = $this->m_admin->saveNews($p);
+		if($res)redirect("admin/news");
+	}
+
+	public function editNews($id){
+		$data['data']=$this->m_admin->getNewsById($id);
+		$this->load->view("admin/edit_news",$data);
+	}
+
+	public function updateNews(){
+		$config['upload_path']   =   "admin_assets/img/";
+		$config['allowed_types'] =   "gif|jpg|jpeg|png"; 
+		$config['max_size']      =   "5000";
+		$config['max_width']     =   "1907";
+		$config['max_height']    =   "1280";
+		$this->load->library('upload',$config);
+
+		if(!$this->upload->do_upload('fupload')){
+			echo $this->upload->display_errors();
+		}else{
+			$finfo=$this->upload->data();
+		}
+
+		$p = $this->input->post();
+		$p['img'] = $finfo['file_name'];
+
+		$res = $this->m_admin->updateNews($p);
+		if($res)redirect("admin/news");
+	}
+
+	public function detailNews($id){
+		$data['data']=$this->m_admin->getNewsById($id);
+		$this->load->view('admin/detail_news',$data);
+	}
+
+	public function deleteNews($id){
+		$data=$this->m_admin->getNewsById($id);
+		$this->m_admin->deleteNews($id);
+		unlink("admin_assets/img/".$data['image']);
+		redirect("admin/news");
+	}
+
+	public function history(){
+		$data['data']=$this->m_admin->getHistory();
+		$this->load->view('admin/history',$data);
+	}
+
+	public function saveHistory(){
+		$p=$this->input->post();
+		$this->m_admin->saveHistory($p);
+		redirect("admin/history");
+	}
+
+	public function slider(){
+		$data['data']=$this->m_admin->getAllSlider();
+		$this->load->view("admin/slider",$data);
+	}
+
+	public function saveSlider(){
+		$config['upload_path']   =   "admin_assets/img/";
+		$config['allowed_types'] =   "gif|jpg|jpeg|png"; 
+		$config['max_size']      =   "5000";
+		$config['max_width']     =   "1907";
+		$config['max_height']    =   "1280";
+		$this->load->library('upload',$config);
+
+		if(!$this->upload->do_upload('fupload')){
+			echo $this->upload->display_errors();
+		}else{
+			$finfo=$this->upload->data();
+		}
+
+		$p = $this->input->post();
+		$p['img'] = $finfo['file_name'];
+
+		$res = $this->m_admin->saveSlider($p);
+		if($res)redirect("admin/slider");
+	}
+
+	public function deleteSlider($id){
+		$data=$this->m_admin->getSliderById($id);
+		$this->m_admin->deleteSlider($id);
+		unlink("admin_assets/img/".$data['image']);
+		redirect("admin/slider");
+	}
+
+	public function rates(){
+		$data['data']=$this->m_admin->getAllRates();
+		$this->load->view("admin/rates",$data);
+	}
+
+	public function addRates(){
+		$this->load->view("admin/add_rates");
+	}
+
+	public function saveRates(){
+		$p=$this->input->post();
+		$res=$this->m_admin->saveRates($p);
+		if($res)redirect("admin/rates");
+	}
+
+	public function editRates($id){
+		$data['data']=$this->m_admin->getRatesById($id);
+		$this->load->view("admin/edit_rates",$data);
+	}
+
+	public function updateRates(){
+		$p=$this->input->post();
+		$res=$this->m_admin->updateRates($p);
+		if($res)redirect("admin/rates");
+	}
+
+	public function rooms(){
+		$data['data']=$this->m_admin->getRooms();
+		$this->load->view("admin/rooms",$data);
+	}
+
+	public function saveRooms(){
+		$p=$this->input->post();
+		$res=$this->m_admin->saveRooms($p);
+		if($res)redirect("admin/rooms");
+	}
 }

@@ -15,11 +15,11 @@ $this->load->view("admin/header");
             <form action="<?=base_url()?>admin/saveNews" method="POST" role="form" enctype="multipart/form-data">
                 <div class="form-group">
                     <label>Title</label>
-                    <input class="form-control" name="name"/>
+                    <input class="form-control" name="title"/>
                 </div>
                 <div class="form-group">
                     <label>Content</label>
-                    <textarea name="content" cols="120" rows="20" class="form-control"></textarea>
+                    <textarea id="edit" name="content" cols="120" rows="20" class="form-control"></textarea>
                 </div>
                 <div class="form-group">
                     <label>Image</label>
@@ -37,7 +37,7 @@ $this->load->view("admin/header");
               </div>
               <hr>
               <button type="submit" class="btn btn-primary">Save</button>
-              <a href="<?=base_url()?>admin/facilities"><button type="button" class="btn">Cancel</button></a>
+              <a href="<?=base_url()?>admin/news"><button type="button" class="btn">Cancel</button></a>
           </form>
       </div>
   </div>

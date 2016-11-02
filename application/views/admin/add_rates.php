@@ -6,25 +6,24 @@ $this->load->view("admin/header");
     <div id="page-inner">
         <div class="row">
             <div class="col-md-12">
-                <h2 align="center">Add Facilities</h2> 
+                <h2 align="center">Add Rates</h2> 
                 <hr>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <form action="<?=base_url()?>admin/saveFacilities" method="POST" role="form">
+                <form action="<?=base_url()?>admin/saveRates" method="POST" role="form">
                     <div class="form-group">
                         <label>Name</label>
-                        <input class="form-control" name="name" placeholder="PLease Enter Facilities Name" />
+                        <input class="form-control" name="name"/>
                     </div>
                     <div class="form-group">
-                        <label>Content</label>
-                        <textarea id="edit" name="content" cols="120" rows="20" class="form-control"></textarea>
+                        <label>Price</label>
+                        <input class="form-control" name="price"/>
                     </div>
-                    
                     <hr>
                     <button type="submit" class="btn btn-primary">Save</button>
-                    <a href="<?=base_url()?>admin/facilities"><button type="button" class="btn">Cancel</button></a>
+                    <a href="<?=base_url()?>admin/rates"><button type="button" class="btn">Cancel</button></a>
                 </form>
             </div>
         </div>
