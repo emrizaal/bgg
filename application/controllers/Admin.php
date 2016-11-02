@@ -220,4 +220,52 @@ class Admin extends CI_Controller {
 		$res=$this->m_admin->saveRooms($p);
 		if($res)redirect("admin/rooms");
 	}
+
+	public function resortFacilities(){
+		$data['data']=$this->m_admin->getResortFacilities();
+		$this->load->view("admin/resort_facilities",$data);
+	}
+
+	public function addResortFacilities(){
+		$this->load->view("admin/add_resort_facilities");
+	}
+
+	public function saveResortFacilities(){
+		$p=$this->input->post();
+		$res=$this->m_admin->saveResortFacilities($p);
+		if($res)redirect("admin/resortFacilities");
+	}
+
+	public function detailResortFacilities($id){
+		$data['data']=$this->m_admin->getResortFacilitiesById($id);
+		$this->load->view("admin/detail_resort_facilities",$data);
+	}
+
+	public function editResortFacilities($id){
+		$data['data']=$this->m_admin->getResortFacilitiesById($id);
+		$this->load->view("admin/edit_resort_facilities",$data);
+	}
+
+	public function updateResortFacilities(){
+		$p=$this->input->post();
+		$res=$this->m_admin->updateResortFacilities($p);
+		if($res)redirect("admin/resortFacilities");
+	}
+
+	public function deleteResortFacilities($id){
+		$res=$this->m_admin->deleteResortFacilities($id);
+		if($res)redirect("admin/resortFacilities");	
+	}
+
+	public function spa(){
+		$data['data']=$this->m_admin->getSpa();
+		$this->load->view("admin/spa",$data);
+	}
+
+	public function saveSpa(){
+		$p=$this->input->post();
+		$res=$this->m_admin->saveSpa($p);
+		if($res)redirect("admin/spa");
+	}
+
 }

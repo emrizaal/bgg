@@ -75,19 +75,19 @@ class m_admin extends CI_Model {
 	function updateNews($p){
 		if(!empty($p['img'])){
 			$query = $this->db->query("UPDATE berita set
-			judul_berita = '$p[title]',
-			isi_berita = '$p[content]',
-			active = '$p[active]',
-			image = '$p[img]' 
-			where id_berita = '$p[id]'
-			");	
+				judul_berita = '$p[title]',
+				isi_berita = '$p[content]',
+				active = '$p[active]',
+				image = '$p[img]' 
+				where id_berita = '$p[id]'
+				");	
 		}else{
 			$query = $this->db->query("UPDATE berita set
-			judul_berita = '$p[title]',
-			isi_berita = '$p[content]',
-			active = '$p[active]'
-			where id_berita = '$p[id]'
-			");	
+				judul_berita = '$p[title]',
+				isi_berita = '$p[content]',
+				active = '$p[active]'
+				where id_berita = '$p[id]'
+				");	
 		}
 		return $query;
 	}
@@ -146,7 +146,7 @@ class m_admin extends CI_Model {
 		$query = $this->db->query("UPDATE rates set
 			name = '$p[name]',
 			price = '$p[price]' where id_rates = '$p[id]'
-		");
+			");
 		return $query;
 	}
 
@@ -157,6 +157,45 @@ class m_admin extends CI_Model {
 
 	function saveRooms($p){
 		$query = $this->db->query("UPDATE rooms set content = '$p[content]'");
+		return $query;
+	}
+
+	function getResortFacilities(){
+		$query = $this->db->query("SELECT * from resort_facilities")->result_array();	
+		return $query;
+	}
+
+	function saveResortFacilities($p){
+		$query = $this->db->query("INSERT INTO resort_facilities(name,content) values ('$p[name]','$p[content]')");
+		return $query;
+	}
+
+	function getResortFacilitiesById($id){
+		$query = $this->db->query("SELECT * from resort_facilities where id_resort_facilities = '$id'")->row_array();
+		return $query;
+	}
+
+	function updateResortFacilities($p){
+		$query = $this->db->query("UPDATE resort_facilities set
+			name = '$p[name]',
+			content = '$p[content]'
+			where id_resort_facilities = '$p[id]'
+			");
+		return $query;
+	}
+
+	function deleteResortFacilities($id){
+		$query = $this->db->query("DELETE from resort_facilities where id_resort_facilities = '$id'");
+		return $query;
+	}
+
+	function getSpa(){
+		$query = $this->db->query("SELECT * from spa")->row_array();
+		return $query;
+	}
+
+	function saveSpa($p){
+		$query = $this->db->query("UPDATE spa set content = '$p[content]'");
 		return $query;
 	}
 }

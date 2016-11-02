@@ -139,13 +139,13 @@
               <a href="<?=base_url()?>admin/rooms">Rooms</a>
               </li>
               <li>
-                <a href="<?=base_url()?>admin/resort_facilities">Facilities</a>
+                <a href="<?=base_url()?>admin/resortFacilities">Facilities</a>
               </li>
             </ul>
           </li>
 
           <li>
-            <a href="#"><i class="fa fa-th-large fa-3x"></i> SPA</a>
+            <a href="<?=base_url()?>admin/spa"><i class="fa fa-th-large fa-3x"></i> SPA</a>
           </li>
 
           <li>
