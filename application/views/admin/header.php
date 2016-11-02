@@ -17,44 +17,32 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
   <link rel="shortcut icon" href="<?=base_url()?>assets/image/favicon.png">
 
+    <!--  WYSIWYG CONFIG-->
     <!-- Include Font Awesome. -->
-    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<!--    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />-->
 
     <!-- Include Editor style. -->
-    <link href="<?=base_url();?>admin_assets/wysiwyg/css/froala_editor.min.css" rel="stylesheet" type="text/css" />
-    <link href="<?=base_url();?>admin_assets/wysiwyg/css/froala_style.min.css" rel="stylesheet" type="text/css" />
+<!--    <link href="--><?//=base_url();?><!--admin_assets/wysiwyg/css/froala_editor.min.css" rel="stylesheet" type="text/css" />-->
+<!--    <link href="--><?//=base_url();?><!--admin_assets/wysiwyg/css/froala_style.min.css" rel="stylesheet" type="text/css" />-->
 
     <!-- Include Code Mirror style -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/codemirror.min.css">
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/codemirror.min.css">-->
 
     <!-- Include Editor Plugins style. -->
-    <link rel="stylesheet" href="<?=base_url();?>admin_assets/wysiwyg/css/plugins/char_counter.css">
-    <link rel="stylesheet" href="<?=base_url();?>admin_assets/wysiwyg/css/plugins/code_view.css">
-    <link rel="stylesheet" href="<?=base_url();?>admin_assets/wysiwyg/css/plugins/colors.css">
-    <link rel="stylesheet" href="<?=base_url();?>admin_assets/wysiwyg/css/plugins/emoticons.css">
-    <link rel="stylesheet" href="<?=base_url();?>admin_assets/wysiwyg/css/plugins/file.css">
-    <link rel="stylesheet" href="<?=base_url();?>admin_assets/wysiwyg/css/plugins/fullscreen.css">
-    <link rel="stylesheet" href="<?=base_url();?>admin_assets/wysiwyg/css/plugins/image.css">
-    <link rel="stylesheet" href="<?=base_url();?>admin_assets/wysiwyg/css/plugins/image_manager.css">
-    <link rel="stylesheet" href="<?=base_url();?>admin_assets/wysiwyg/css/plugins/line_breaker.css">
-    <link rel="stylesheet" href="<?=base_url();?>admin_assets/wysiwyg/css/plugins/quick_insert.css">
-    <link rel="stylesheet" href="<?=base_url();?>admin_assets/wysiwyg/css/plugins/table.css">
-    <link rel="stylesheet" href="<?=base_url();?>admin_assets/wysiwyg/css/plugins/video.css">
+<!--    <link rel="stylesheet" href="--><?//=base_url();?><!--admin_assets/wysiwyg/css/plugins/char_counter.css">-->
+<!--    <link rel="stylesheet" href="--><?//=base_url();?><!--admin_assets/wysiwyg/css/plugins/code_view.css">-->
+<!--    <link rel="stylesheet" href="--><?//=base_url();?><!--admin_assets/wysiwyg/css/plugins/colors.css">-->
+<!--    <link rel="stylesheet" href="--><?//=base_url();?><!--admin_assets/wysiwyg/css/plugins/emoticons.css">-->
+<!--    <link rel="stylesheet" href="--><?//=base_url();?><!--admin_assets/wysiwyg/css/plugins/file.css">-->
+<!--    <link rel="stylesheet" href="--><?//=base_url();?><!--admin_assets/wysiwyg/css/plugins/fullscreen.css">-->
+<!--    <link rel="stylesheet" href="--><?//=base_url();?><!--admin_assets/wysiwyg/css/plugins/image.css">-->
+<!--    <link rel="stylesheet" href="--><?//=base_url();?><!--admin_assets/wysiwyg/css/plugins/image_manager.css">-->
+<!--    <link rel="stylesheet" href="--><?//=base_url();?><!--admin_assets/wysiwyg/css/plugins/line_breaker.css">-->
+<!--    <link rel="stylesheet" href="--><?//=base_url();?><!--admin_assets/wysiwyg/css/plugins/quick_insert.css">-->
+<!--    <link rel="stylesheet" href="--><?//=base_url();?><!--admin_assets/wysiwyg/css/plugins/table.css">-->
+<!--    <link rel="stylesheet" href="--><?//=base_url();?><!--admin_assets/wysiwyg/css/plugins/video.css">-->
+<!--    END WYSIWYG CONFIG-->
 
-<!--    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>-->
-<!--    <script src="--><?//=base_url();?><!--admin_assets/tinymce/tinymce.min.js"></script>-->
-<!--    <script>-->
-<!--        tinymce.init({-->
-<!--            selector: 'textarea',-->
-<!--            height: 500,-->
-<!--            plugins: [-->
-<!--                'advlist autolink lists link image charmap print preview anchor',-->
-<!--                'searchreplace visualblocks code fullscreen',-->
-<!--                'insertdatetime media table contextmenu paste code'-->
-<!--            ],-->
-<!--            toolbar: 'insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | image'-->
-<!--        });-->
-<!--    </script>-->
 </head>
 <body>
     <div id="wrapper">
