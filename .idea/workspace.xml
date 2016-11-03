@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58015b68-e827-48e2-a320-3db5db34e696" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/detail_resort_facilities.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/r_facilities.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/image/bullet-gr.png" afterPath="$PROJECT_DIR$/assets/image/bullet-gr.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Club.php" afterPath="$PROJECT_DIR$/application/controllers/Club.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Facilities.php" afterPath="$PROJECT_DIR$/application/controllers/Facilities.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Resort.php" afterPath="$PROJECT_DIR$/application/controllers/Resort.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Spa.php" afterPath="$PROJECT_DIR$/application/controllers/Spa.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/club_csr.php" afterPath="$PROJECT_DIR$/application/views/club_csr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/club_history.php" afterPath="$PROJECT_DIR$/application/views/club_history.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin_assets/filemanager/config/config.php" afterPath="$PROJECT_DIR$/admin_assets/filemanager/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/f_driving.php" afterPath="$PROJECT_DIR$/application/views/f_driving.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/f_gym.php" afterPath="$PROJECT_DIR$/application/views/f_gym.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/f_locker.php" afterPath="$PROJECT_DIR$/application/views/f_locker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/f_proshop.php" afterPath="$PROJECT_DIR$/application/views/f_proshop.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/f_restaurant.php" afterPath="$PROJECT_DIR$/application/views/f_restaurant.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/footer.php" afterPath="$PROJECT_DIR$/application/views/admin/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/r_luxurious.php" afterPath="$PROJECT_DIR$/application/views/r_luxurious.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/r_punction.php" afterPath="$PROJECT_DIR$/application/views/r_punction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/sau_general.css" afterPath="$PROJECT_DIR$/assets/css/sau_general.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/spa.php" afterPath="$PROJECT_DIR$/application/views/spa.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/top.php" afterPath="$PROJECT_DIR$/application/views/top.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/component_menu.css" afterPath="$PROJECT_DIR$/assets/css/component_menu.css" />
     </list>
     <ignored path="bgg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,15 +84,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail_resort_facilities.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="detail_resort_facilities.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/detail_resort_facilities.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="61" selection-start="648" selection-end="648" vertical-scroll-proportion="0.44320297" vertical-offset="0" max-vertical-offset="537">
+            <state line="14" column="61" selection-start="648" selection-end="648" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="493">
               <folding>
                 <element signature="e#48#107#0" expanded="true" />
                 <element signature="e#290#317#0" expanded="true" />
                 <element signature="e#459#487#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component_menu.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/component_menu.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="14" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.53571427" vertical-offset="444" max-vertical-offset="4199">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/r_luxurious.php" />
         <option value="$PROJECT_DIR$/application/views/f_restaurant.php" />
         <option value="$PROJECT_DIR$/application/views/f_locker.php" />
         <option value="$PROJECT_DIR$/application/controllers/Spa.php" />
@@ -152,6 +139,7 @@
         <option value="$PROJECT_DIR$/application/controllers/Resort.php" />
         <option value="$PROJECT_DIR$/application/views/r_facilities.php" />
         <option value="$PROJECT_DIR$/application/views/detail_resort_facilities.php" />
+        <option value="$PROJECT_DIR$/assets/css/component_menu.css" />
       </list>
     </option>
   </component>
@@ -438,13 +426,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin_assets/filemanager/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="22" selection-start="2283" selection-end="2283" vertical-scroll-proportion="0.33797216" vertical-offset="1020" max-vertical-offset="7718">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="75" selection-start="872" selection-end="872" vertical-scroll-proportion="-6.269231" vertical-offset="109" max-vertical-offset="3009">
@@ -550,12 +531,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/detail_resort_facilities.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="61" selection-start="648" selection-end="648" vertical-scroll-proportion="0.44320297" vertical-offset="0" max-vertical-offset="537">
+        <state line="14" column="61" selection-start="648" selection-end="648" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="493">
           <folding>
             <element signature="e#48#107#0" expanded="true" />
             <element signature="e#290#317#0" expanded="true" />
             <element signature="e#459#487#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/component_menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="14" selection-start="1200" selection-end="1200" vertical-scroll-proportion="0.53571427" vertical-offset="444" max-vertical-offset="4199">
+          <folding />
         </state>
       </provider>
     </entry>
