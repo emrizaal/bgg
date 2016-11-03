@@ -19,6 +19,11 @@ class Club extends CI_Controller {
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
 
+    public function club(){
+        parent::__construct();
+
+        $this->load->model("m_admin");
+    }
 
 	public function index()
 	{
@@ -26,12 +31,14 @@ class Club extends CI_Controller {
 	}
 
 	public function history(){
-		$this->load->view('club_history');
+
+        $data['history']=$this->m_admin->getHistory();
+
+		$this->load->view('club_history',$data);
 	}
 
 	public function accolades(){
 
-        $this->load->model("m_admin");
         $data['acc'] = $this->m_admin->getAccolades();
 
 		$this->load->view('club_accolades',$data);
@@ -42,7 +49,8 @@ class Club extends CI_Controller {
 	}
 
 	public function csr(){
-		$this->load->view('club_csr');
+        $data['csr'] = $this->m_admin->getCsr();
+		$this->load->view('club_csr', $data);
 	}
 
 	public function news(){

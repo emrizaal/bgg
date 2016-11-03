@@ -591,3 +591,14 @@ input.submit-form:hover, input.submit-form:focus { color:#C2A13D; background-col
     /*-webkit-border-radius: 5px;*/
     /*border-radius: 5px; */
 /*}*/
+
+
+.list-noborder > li > a{
+    text-decoration: none;
+    color:#4B2D10;
+}
+
+.list-noborder > li > a:hover{
+    text-decoration: none;
+    color:#C2A13D;
+}

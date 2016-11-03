@@ -68,7 +68,7 @@ $config = array(
 	| with start and final /
 	|
 	*/
-	'upload_dir' => '/bgg/admin_assets/filemanager/',
+	'upload_dir' => '/../bgg/admin_assets/filemanager/',
 	/*
 	|--------------------------------------------------------------------------
 	| relative path from filemanager folder to upload folder

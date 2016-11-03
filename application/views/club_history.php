@@ -172,12 +172,10 @@
 
 
     <div class="block-48"><div class="pad-20">
-      <p class="tjus">Saujana Golf &amp; Country Club was the brainchild of former Prime Minister YAB Tun Dr Mahathir Mohamad who, in 1982, initiated the creation of a government task force to set up a golf club in Kuala Lumpur to attract investors and industrialists.
-      On 2 February 1983, Golf Resort (M) Bhd was setup.
-          Four hundred acres of freehold plantation land was purchased for the development of two 18-hole golf courses, a clubhouse, a hotel and chalet complex.
-            Golf Resort (M) Bhd was renamed Saujana Resort (M) Berhad after its conversion into a public company in 1985. It became the first proprietary club in the country. Golfplan - the California-based golf architectural firm headed by Ronald Fream - was entrusted to create two International standard golf courses from the plantation land. The Palm Course was completed in mid 1985 while the Bunga Raya Course (initially named the Orchid Course) was finished in December 1985.
-            The clubhouse opened on Valentine's Day, 14 February 1986, and on 6 April 1987, The Saujana Hotel Kuala Lumpur  opened its doors.</p>
-        </div>
+      <p class="tjus">
+          <?= $history['content']; ?>
+      </p>
+    </div>
     </div>
   </div>
 

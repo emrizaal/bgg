@@ -18,8 +18,16 @@ class Spa extends CI_Controller {
      * map to /index.php/welcome/<method_name>
      * @see http://codeigniter.com/user_guide/general/urls.html
      */
+
+    public function spa(){
+        parent::__construct();
+
+        $this->load->model("m_admin");
+    }
+
     public function index()
     {
-        $this->load->view('spa');
+        $data['spa']=$this->m_admin->getSpa();
+        $this->load->view('spa', $data);
     }
 }

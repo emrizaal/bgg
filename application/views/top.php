@@ -247,7 +247,7 @@
                                             <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
                                                 <div class="menudesc"></div>
                                                 <div class="col sub20 border"><a href="<?=base_url()?>resort/luxurious"><h4>Rooms</h4></a></div>
-                                                <div class="col sub20 border"><a href="<?=base_url()?>resort/punction"><h4>Facilities</h4></a></div>
+                                                <div class="col sub20 border"><a href="<?=base_url()?>resort/facilities"><h4>Facilities</h4></a></div>
                                                 <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                                                 <!-- /cbp-hrsub -->
                                             </li>

@@ -18,18 +18,38 @@ class Resort extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
+
+    public function resort(){
+        parent::__construct();
+
+        $this->load->model("m_admin");
+    }
+
 	public function index()
 	{
 		$this->load->view('resort');
 	}
 
 	public function luxurious(){
-		$this->load->view('r_luxurious');
+        $data['lux']=$this->m_admin->getRooms();
+		$this->load->view('r_luxurious', $data);
 	}
 
 	public function punction(){
-		$this->load->view('r_punction');
+        $data['data']=$this->m_admin->getResortFacilities();
+		$this->load->view('r_facilities', $data);
 	}
+
+    public function facilities(){
+        $data['data']=$this->m_admin->getResortFacilities();
+        $this->load->view('r_facilities', $data);
+    }
+
+    public function detailResortFacilities($id){
+        $data['data']=$this->m_admin->getResortFacilitiesById($id);
+
+        $this->load->view("detail_resort_facilities",$data);
+    }
 
 	public function vip(){
 		$this->load->view('r_vip');
