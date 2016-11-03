@@ -18,28 +18,40 @@ class Facilities extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
+
+    public function facilities(){
+        parent::__construct();
+
+        $this->load->model("m_admin");
+    }
+
 	public function index()
 	{
 		$this->load->view('index');
 	}
 
 	public function restaurant(){
-		$this->load->view('f_restaurant');
+        $data['restaurant']=$this->m_admin->getFacilitiesById(1);
+		$this->load->view('f_restaurant', $data);
 	}
 
 	public function locker(){
-		$this->load->view('f_locker');
+        $data['locker']=$this->m_admin->getFacilitiesById(2);
+		$this->load->view('f_locker', $data);
 	}
 
 	public function driving(){
-		$this->load->view('f_driving');
+        $data['dr']=$this->m_admin->getFacilitiesById(4);
+		$this->load->view('f_driving', $data);
 	}
 
 	public function proshop(){
-		$this->load->view('f_proshop');
+        $data['pr']=$this->m_admin->getFacilitiesById(5);
+		$this->load->view('f_proshop', $data);
 	}
 
 	public function gym(){
-		$this->load->view('f_gym');
+        $data['gym']=$this->m_admin->getFacilitiesById(6);
+		$this->load->view('f_gym', $data);
 	}
 }
