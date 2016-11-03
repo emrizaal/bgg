@@ -268,4 +268,102 @@ class Admin extends CI_Controller {
 		if($res)redirect("admin/spa");
 	}
 
+	public function promotions(){
+		$data['data']=$this->m_admin->getAllPromotions();
+		$this->load->view("admin/promotion",$data);
+	}
+
+	public function addPromotions(){
+		$this->load->view("admin/add_promotion");
+	}
+
+	public function savePromotions(){
+		$p=$this->input->post();
+		$res=$this->m_admin->savePromotions($p);
+		if($res)redirect("admin/promotions");
+	}
+
+	public function editPromotions($id){
+		$data['data']=$this->m_admin->getPromotionsById($id);
+		$this->load->view("admin/edit_promotion",$data);
+	}
+
+	public function updatePromotions(){
+		$p=$this->input->post();
+		$res=$this->m_admin->updatePromotions($p);
+		if($res)redirect("admin/promotions");
+	}
+
+	public function deletePromotions($id){
+		$res=$this->m_admin->deletePromotions($id);
+		if($res)redirect("admin/promotions");
+	}
+
+	public function event(){
+		$data['data']=$this->m_admin->getAllEvent();
+		$this->load->view("admin/event",$data);
+	}
+
+	public function addEvent(){
+		$this->load->view("admin/add_event");
+	}
+
+	public function saveEvent(){
+		$config['upload_path']   =   "admin_assets/img/";
+		$config['allowed_types'] =   "gif|jpg|jpeg|png"; 
+		$config['max_size']      =   "5000";
+		$config['max_width']     =   "1907";
+		$config['max_height']    =   "1280";
+		$this->load->library('upload',$config);
+
+		if(!$this->upload->do_upload('fupload')){
+			echo $this->upload->display_errors();
+		}else{
+			$finfo=$this->upload->data();
+		}
+
+		$p = $this->input->post();
+		$p['img'] = $finfo['file_name'];
+
+		$res = $this->m_admin->saveEvent($p);
+		if($res)redirect("admin/event");
+	}
+
+	public function detailEvent($id){
+		$data['data']=$this->m_admin->getEventById($id);
+		$this->load->view("admin/detail_event",$data);
+	}
+
+	public function editEvent($id){
+		$data['data']=$this->m_admin->getEventById($id);
+		$this->load->view("admin/edit_event",$data);
+	}
+
+	public function updateEvent(){
+		$config['upload_path']   =   "admin_assets/img/";
+		$config['allowed_types'] =   "gif|jpg|jpeg|png"; 
+		$config['max_size']      =   "5000";
+		$config['max_width']     =   "1907";
+		$config['max_height']    =   "1280";
+		$this->load->library('upload',$config);
+
+		if(!$this->upload->do_upload('fupload')){
+			echo $this->upload->display_errors();
+		}else{
+			$finfo=$this->upload->data();
+		}
+
+		$p = $this->input->post();
+		$p['img'] = $finfo['file_name'];
+
+		$res = $this->m_admin->updateEvent($p);
+		if($res)redirect("admin/event");
+	}
+
+	public function deleteEvent($id){
+		$data=$this->m_admin->getEventById($id);
+		$this->m_admin->deleteEvent($id);
+		unlink("admin_assets/img/".$data['image']);
+		redirect("admin/event");
+	}
 }

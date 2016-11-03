@@ -16,6 +16,7 @@
   <!-- GOOGLE FONTS-->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
   <link rel="shortcut icon" href="<?=base_url()?>assets/image/favicon.png">
+  <link rel="stylesheet" href="<?=base_url();?>admin_assets/css/daterangepicker.css">
 
   <!-- Include Font Awesome. -->
   <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -108,7 +109,7 @@
                 <a href="<?=base_url()?>admin/rates">Golf Rates</a>
               </li>
               <li>
-                <a href="#">Promotions</a>
+                <a href="<?=base_url()?>admin/promotions">Promotions</a>
               </li>
             </ul>
           </li>
@@ -136,7 +137,7 @@
             <a href="#"><i class="fa fa-list fa-3x"></i> RESORT<span class="fa arrow"></span></a>
             <ul class="nav nav-second-level">
               <li>
-              <a href="<?=base_url()?>admin/rooms">Rooms</a>
+                <a href="<?=base_url()?>admin/rooms">Rooms</a>
               </li>
               <li>
                 <a href="<?=base_url()?>admin/resortFacilities">Facilities</a>
@@ -152,7 +153,7 @@
             <a href="#"><i class="fa fa-calendar fa-3x"></i> EVENTS<span class="fa arrow"></span></a>
             <ul class="nav nav-second-level">
               <li>
-                <a href="#">Event Calendar</a>
+                <a href="<?=base_url()?>admin/event">Event</a>
               </li>
               <li>
                 <a href="#">Order Of Merit & Monthly Medals</a>
@@ -161,10 +162,6 @@
                 <a href="#">Competition Results</a>
               </li>
             </ul>
-          </li>
-
-          <li>
-            <a  href="#"><i class="fa fa-phone fa-3x"></i> contacts</a>
           </li>
         </ul>
       </div>

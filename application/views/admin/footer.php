@@ -14,20 +14,44 @@
 <!-- CUSTOM SCRIPTS -->
 <script src="<?=base_url();?>admin_assets/js/custom.js"></script>
 
+
+
 <!-- Include jQuery. -->
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script src="<?=base_url();?>admin_assets/js/moment.min.js"></script>
+
+<script src="<?=base_url();?>admin_assets/js/daterangepicker.js"></script>
 
 <!-- Tinymce config-->
 
 <!--    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>-->
+<script type="text/javascript">
+ $(document).ready(function() {
+    $('input[name="start_date"]').daterangepicker({
+        singleDatePicker: true,
+        showDropdowns: true,
+        locale: {
+            format: 'YYYY-MM-DD'
+        }
+    });
+     $('input[name="end_date"]').daterangepicker({
+        singleDatePicker: true,
+        showDropdowns: true,
+        locale: {
+            format: 'YYYY-MM-DD'
+        }
+    });
+});
+</script>
 <script src="<?=base_url();?>admin_assets/tinymce/tinymce.min.js"></script>
 <script>
     tinymce.init({
         selector: "textarea",theme: "modern",width: 680,height: 300,
         plugins: [
-            "advlist autolink link image lists charmap print preview hr anchor pagebreak",
-            "searchreplace wordcount visualblocks visualchars insertdatetime media nonbreaking",
-            "table contextmenu directionality emoticons paste textcolor responsivefilemanager code"
+        "advlist autolink link image lists charmap print preview hr anchor pagebreak",
+        "searchreplace wordcount visualblocks visualchars insertdatetime media nonbreaking",
+        "table contextmenu directionality emoticons paste textcolor responsivefilemanager code"
         ],
         toolbar1: "undo redo | bold italic underline | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | styleselect",
         toolbar2: "| responsivefilemanager | link unlink anchor | image media | forecolor backcolor  | print preview code ",
@@ -37,6 +61,8 @@
         filemanager_title:"Responsive Filemanager" ,
         external_plugins: { "filemanager" : "<?=base_url();?>admin_assets/filemanager/plugin.min.js"}
     });
+
+
 </script>
 
 <!--END tinymce config-->

@@ -198,6 +198,76 @@ class m_admin extends CI_Model {
 		$query = $this->db->query("UPDATE spa set content = '$p[content]'");
 		return $query;
 	}
+
+	function getAllPromotions(){
+		$query = $this->db->query("SELECT * from promotion")->result_array();
+		return $query;
+	}
+
+	function savePromotions($p){
+		$query = $this->db->query("INSERT into promotion(name,content) values('$p[name]','$p[content]')");
+		return $query;
+	}
+
+	function getPromotionsById($id){
+		$query = $this->db->query("SELECT * from promotion where id_promotion = '$id'")->row_array();
+		return $query;
+	}
+
+	function updatePromotions($p){
+		$query = $this->db->query("UPDATE promotion set 
+			name = '$p[name]',
+			content = '$p[content]' where id_promotion = '$p[id]'
+			");
+		return $query;
+	}
+
+	function deletePromotions($id){
+		$query = $this->db->query("DELETE from promotion where id_promotion = '$id'");
+		return $query;
+	}
+
+	function getAllEvent(){
+		$query = $this->db->query("SELECT * from event")->result_array();
+		return $query;
+	}
+
+	function saveEvent($p){
+		$query = $this->db->query("INSERT into event(name,content,start_date,end_date,image,status) values('$p[name]','$p[content]','$p[start_date]','$p[end_date]','$p[img]','$p[active]')");
+		return $query;
+	}
+
+	function getEventById($id){
+		$query = $this->db->query("SELECT * from event where id_event = '$id'")->row_array();
+		return $query;
+	}
+
+	function updateEvent($p){
+		if(!empty($p['img'])){
+			$query = $this->db->query("UPDATE event set
+				name = '$p[name]',
+				content = '$p[content]',
+				start_date = '$p[start_date]',
+				end_date = '$p[end_date]',
+				image = '$p[img]',
+				status = '$p[active]' where id_event = '$p[id]'
+				");
+		}else{
+			$query = $this->db->query("UPDATE event set
+				name = '$p[name]',
+				content = '$p[content]',
+				start_date = '$p[start_date]',
+				end_date = '$p[end_date]',
+				status = '$p[active]' where id_event = '$p[id]'
+				");
+		}
+		return $query;
+	}
+
+	function deleteEvent($id){
+		$query = $this->db->query("DELETE from event where id_event = '$id'");
+		return $query;
+	}
 }
 
 ?>
