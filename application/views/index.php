@@ -32,11 +32,17 @@
 
     <div class="row"><div id="cover-feed" class="div3"><div class="wrap">
       <div class="col-48-L"><span class="feed">NEWS UPDATES</span>
-        <p class="newsupdate"><a href="<?=base_url()?>club/news">In Loving Memory K Ravindranathan</a></p>
-        <p class="newsupdate"><a href="<?=base_url()?>club/news">Saujana Becomes A European Tour Destination</a></p>
-        <p class="newsupdate"><a href="<?=base_url()?>club/news">MPI Saujana Amateur Championship 2015 - Draw &amp; Results</a></p>
-        <p class="newsupdate"><a href="<?=base_url()?>club/news">Palm Course closure for upgrading works</a></p>
-        <p class="newsupdate"><a href="<?=base_url()?>club/news">Discounted Rates during Palm Course closure</a></p>
+          <?php foreach($news as $n){
+                  ?>
+              <p class="newsupdate"><a href="<?=base_url()?>club/news"><?=$n['judul_berita']?></a></p>
+
+              <?php
+          }?>
+<!--        <p class="newsupdate"><a href="--><?//=base_url()?><!--club/news">In Loving Memory K Ravindranathan</a></p>-->
+<!--        <p class="newsupdate"><a href="--><?//=base_url()?><!--club/news">Saujana Becomes A European Tour Destination</a></p>-->
+<!--        <p class="newsupdate"><a href="--><?//=base_url()?><!--club/news">MPI Saujana Amateur Championship 2015 - Draw &amp; Results</a></p>-->
+<!--        <p class="newsupdate"><a href="--><?//=base_url()?><!--club/news">Palm Course closure for upgrading works</a></p>-->
+<!--        <p class="newsupdate"><a href="--><?//=base_url()?><!--club/news">Discounted Rates during Palm Course closure</a></p>-->
 <!--        <span><a href="http://www.horizongolf.com.my/" target="_blank"><img src="./SAUJANA GOLF &amp; COUNTRY CLUB_files/spotball.png" border="0"></a></span>-->
       </div><!-- end news -->
       <div class="col-48-R"><span class="feed">SOCIAL FEEDS</span>

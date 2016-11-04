@@ -18,14 +18,43 @@ class Events extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
+
+    public function events(){
+        parent::__construct();
+
+        $this->load->model("m_admin");
+    }
+
 	public function index()
 	{
 		$this->load->view('index');
 	}
 
 	public function calendar(){
+
+
 		$this->load->view('event_calendar');
 	}
+
+    public function calendardata(){
+
+//        $data['cal'] = $this->m_admin->getAllEvent();
+        $conn = mysql_connect('localhost', 'root', '') ;
+        $db = mysql_select_db('bgg', $conn);
+        $result = mysql_query("SELECT * FROM event ORDER BY id_event DESC") or die(mysql_error());
+        $events = array();
+        while($row = mysql_fetch_array($result))
+        {
+            $events[] = array(
+                "title" => $row['name'],
+                "start" => $row['start_date'],
+                "end" => $row['end_date']
+            );
+        }
+        echo json_encode($events);
+
+//        $this->load->view('event_calendar');
+    }
 
 	public function orderofmerit(){
 		$this->load->view('event_orderofmerit');

@@ -33,7 +33,12 @@ $this->load->view("admin/header");
                                 ?>
                                 <tr>
                                     <td><?=$no?></td>
+                                    <?php if($d['image'] != null):?>
+
                                     <td><img src="<?=base_url()?>admin_assets/img/<?=$d['image']?>" width="200px"></td>
+                                    <?php else:?>
+                                        <td><img src="<?=base_url()?>admin_assets/img/noim.jpg" width="200px"></td>
+                                    <?php endif;?>
                                     <td><?=$d['name']?></td>
                                     <td><?=$d['start_date']?></td>
                                     <td><?=$d['end_date']?></td>

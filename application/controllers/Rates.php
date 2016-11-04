@@ -44,6 +44,7 @@ class Rates extends CI_Controller {
 	}
 
 	public function promotion(){
-		$this->load->view('promotion');
+        $data['data']=$this->m_admin->getAllPromotions();
+		$this->load->view('promotion', $data);
 	}
 }
