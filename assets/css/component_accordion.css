@@ -12,9 +12,9 @@
 .accordion:hover { cursor:pointer; cursor:hand; color:#C2A13D; background:#EFEFEF; }
 .accordion-open { border-top:#4B2D10 1px solid; color:#C2A13D; }
 .accordion-open span { display:block; float:right; padding:10px; }
-.accordion-open span { background:url(../../img/arrow_acc_u.gif) center center no-repeat; }
+.accordion-open span { background:url(../image/arrow_acc_u.gif) center center no-repeat; }
 
-.accordion-close span { display:block; float:right; background:url(../../img/arrow_acc_d.gif) center center no-repeat; padding:10px; }
+.accordion-close span { display:block; float:right; background:url(../image/arrow_acc_d.gif) center center no-repeat; padding:10px; }
 
 div.container { padding:20px; margin:0; }
 div.content {  }
