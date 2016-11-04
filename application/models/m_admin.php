@@ -150,6 +150,11 @@ class m_admin extends CI_Model {
 		return $query;
 	}
 
+	function deleteRates($id){
+		$query = $this->db->query("DELETE from rates where id_rates = '$id'");
+		return $query;
+	}
+
 	function getRooms(){
 		$query = $this->db->query("SELECT * from rooms")->row_array();
 		return $query;

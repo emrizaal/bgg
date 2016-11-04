@@ -210,6 +210,11 @@ class Admin extends CI_Controller {
 		if($res)redirect("admin/rates");
 	}
 
+	public function deleteRates($id){
+		$res=$this->m_admin->deleteRates($id);
+		if($res)redirect("admin/rates");	
+	}
+
 	public function rooms(){
 		$data['data']=$this->m_admin->getRooms();
 		$this->load->view("admin/rooms",$data);
