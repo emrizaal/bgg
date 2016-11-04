@@ -34,6 +34,8 @@ class Club extends CI_Controller {
 
         $data['history']=$this->m_admin->getHistory();
 
+        $data['slider']=$this->m_admin->getAllSlider();
+
 		$this->load->view('club_history',$data);
 	}
 

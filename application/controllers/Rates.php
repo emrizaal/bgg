@@ -18,13 +18,21 @@ class Rates extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
+
+    public function rates(){
+        parent::__construct();
+
+        $this->load->model("m_admin");
+    }
+
 	public function index()
 	{
 		$this->load->view('index');
 	}
 
 	public function golf(){
-		$this->load->view('rates_golf');
+        $data['data']=$this->m_admin->getAllRates();
+		$this->load->view('rates_golf', $data);
 	}
 
 	public function sport(){

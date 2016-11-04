@@ -14,31 +14,17 @@
 							<h2 class="tcen mar-T20">PUBLISHED RATES</h2>
 							<table width="100%" border="0" cellspacing="0" cellpadding="0" class="rates">
 								<tbody>
-									<tr><td width="60%" class="fgr"><b>[Green fee Weekday]</b> Morning</td>
-										<td width="40%">RM385</td>
-									</tr>
-									<tr><td width="60%" class="fgr"><b>[Green fee Weekday]</b> Afternoon</td>
-										<td width="40%">RM385</td>
-									</tr>
-									<tr><td width="60%" class="fgr"><b>[Green fee Weekend]</b> Saturday Morning</td>
-										<td width="40%">RM545</td>
-									</tr>
-									<tr><td width="60%" class="fgr"><b>[Green fee Weekend]</b> Saturday Afternoon</td>
-										<td width="40%">RM545</td>
-									</tr>
-									<tr><td width="60%" class="fgr"><b>[Green fee Weekend]</b> Sunday Morning</td>
-										<td width="40%">RM545</td>
-									</tr>
-									<tr><td width="60%" class="fgr"><b>[Green fee Weekend]</b> Sunday Afternoon</td>
-										<td width="40%">RM545</td>
-									</tr>
-									<tr>
-										<td class="fgr">Buggy</td>
-										<td>RM125 - twin sharing</td>
-									</tr>
-									<tr><td width="60%" class="fgr">Caddy</td>
-										<td width="40%">RM60 - twin sharing</td>
-									</tr>
+                                <?php
+
+                                foreach($data as $f){
+                                    ?>
+                                    <tr><td width="60%" class="fgr"><?=$f['name']?></td>
+                                        <td width="40%"><?=$f['price']?></td>
+                                    </tr>
+
+                                    <?php
+                                }
+                                ?>
 								</tbody>
 							</table>
 

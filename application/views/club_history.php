@@ -126,22 +126,18 @@
             <div style="position:absolute;display:block;background:url('<?=base_url()?>assets/image/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
         </div>
         <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 900px; height: 500px; overflow: hidden;">
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="<?=base_url()?>assets/image/1.jpg" />
+
+            <?php
+            foreach($slider as $s){
+                ?>
+                <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="<?=base_url()?>admin_assets/img/<?= $s['image'];?>" />
                 <!--                    <div data-u="caption" data-t="0" style="position: absolute; top: 320px; left: 30px; width: 900px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">mobile ready, touch swipe</div>-->
             </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="<?=base_url()?>assets/image/2.jpg" />
-                <!--                    <div data-u="caption" data-t="1" data-3d="1" style="position: absolute; top: -50px; left: 125px; width: 350px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">time lined layer animation</div>-->
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="<?=base_url()?>assets/image/3.jpg" />
-                <!--                    <div data-u="caption" data-t="2" style="position: absolute; top: 30px; left: -380px; width: 900px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">finger catchable right to left</div>-->
-            </div>
-            <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="<?=base_url()?>assets/image/4.jpg" />
-                <!--                    <div data-u="caption" data-t="3" style="position: absolute; top: 30px; left: 30px; width: 900px; height: 30px; background-color: rgba(235,81,0,0.5); font-size: 20px; color: #ffffff; line-height: 30px; text-align: center;">responsive, scale smoothly</div>-->
-            </div>
+                <?php
+            }
+
+            ?>
         </div>
         <!-- Bullet Navigator -->
         <!--            <div data-u="navigator" class="jssorb01" style="bottom:16px;right:16px;">-->
