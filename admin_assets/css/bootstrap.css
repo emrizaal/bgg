@@ -2248,6 +2248,7 @@ table th[class*="col-"] {
 .table-responsive {
   min-height: .01%;
   overflow-x: auto;
+    margin-top: 30px;
 }
 @media screen and (max-width: 767px) {
   .table-responsive {
@@ -2330,6 +2331,7 @@ input[type="checkbox"] {
 }
 input[type="file"] {
   display: block;
+    min-height: 50px;
 }
 input[type="range"] {
   display: block;
@@ -5372,6 +5374,7 @@ a.list-group-item-danger.active:focus {
 }
 .panel-info {
   border-color: #bce8f1;
+    margin-top: 30px;
 }
 .panel-info > .panel-heading {
   color: #31708f;

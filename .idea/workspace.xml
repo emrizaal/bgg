@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58015b68-e827-48e2-a320-3db5db34e696" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/component_accordion.css" afterPath="$PROJECT_DIR$/assets/css/component_accordion.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin_assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/admin_assets/css/bootstrap.css" />
     </list>
     <ignored path="bgg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,22 +90,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="component_accordion.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="component_accordion.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/component_accordion.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="75" selection-start="623" selection-end="623" vertical-scroll-proportion="0.21586716" vertical-offset="155" max-vertical-offset="697">
+            <state line="16" column="75" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/event.php">
+      <file leaf-file-name="bootstrap.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin_assets/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="94" selection-start="1671" selection-end="1671" vertical-scroll-proportion="-6.5384617" vertical-offset="493" max-vertical-offset="1207">
-              <folding>
-                <marker date="1478231588075" expanded="true" signature="2068:2116" placeholder="..." />
-              </folding>
+            <state line="2333" column="20" selection-start="41398" selection-end="41398" vertical-scroll-proportion="0.40079364" vertical-offset="39459" max-vertical-offset="108239">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/controllers/Resort.php" />
         <option value="$PROJECT_DIR$/application/views/r_facilities.php" />
         <option value="$PROJECT_DIR$/application/views/detail_resort_facilities.php" />
         <option value="$PROJECT_DIR$/assets/css/component_menu.css" />
@@ -163,6 +159,7 @@
         <option value="$PROJECT_DIR$/application/controllers/Club.php" />
         <option value="$PROJECT_DIR$/application/views/club_news.php" />
         <option value="$PROJECT_DIR$/assets/css/component_accordion.css" />
+        <option value="$PROJECT_DIR$/admin_assets/css/bootstrap.css" />
       </list>
     </option>
   </component>
@@ -354,6 +351,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bgg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bgg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin_assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bgg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bgg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin_assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -445,27 +474,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/admin/promotion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <folding>
-            <marker date="1478224374746" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1478224374746" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1478224374746" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1478224374746" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1478224374746" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1478224374746" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1478224374746" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1478224374746" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1478224374746" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1478224374746" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1478224374746" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1478224374746" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1478224374746" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/promotion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="70" selection-start="1208" selection-end="1208" vertical-scroll-proportion="-5.8846154" vertical-offset="204" max-vertical-offset="901">
@@ -495,7 +503,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="94" selection-start="1671" selection-end="1671" vertical-scroll-proportion="-6.5384617" vertical-offset="493" max-vertical-offset="1207">
           <folding>
-            <marker date="1478231588075" expanded="true" signature="2068:2116" placeholder="..." />
+            <marker date="1478231588075" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -583,7 +591,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/component_accordion.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="75" selection-start="623" selection-end="623" vertical-scroll-proportion="0.21586716" vertical-offset="155" max-vertical-offset="697">
+        <state line="16" column="75" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_assets/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2333" column="20" selection-start="41398" selection-end="41398" vertical-scroll-proportion="0.40079364" vertical-offset="39459" max-vertical-offset="108239">
           <folding />
         </state>
       </provider>
