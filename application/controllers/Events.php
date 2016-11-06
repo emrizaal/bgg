@@ -39,12 +39,10 @@ class Events extends CI_Controller {
     public function calendardata(){
 
 //        $data['cal'] = $this->m_admin->getAllEvent();
-        $conn = mysql_connect('localhost', 'root', '') ;
-        $db = mysql_select_db('bgg', $conn);
-        $result = mysql_query("SELECT * FROM event ORDER BY id_event DESC") or die(mysql_error());
+        
+        $result = $this->m_admin->getAllEvent();
         $events = array();
-        while($row = mysql_fetch_array($result))
-        {
+        foreach($result as $row){
             $events[] = array(
                 "title" => $row['name'],
                 "start" => $row['start_date'],

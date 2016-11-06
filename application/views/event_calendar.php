@@ -12,6 +12,7 @@
 
         var base_url = window.location.origin;
         var calendar_url = base_url +'/bgg/events/calendardata';
+        
 
 		$('#calendar').fullCalendar({
 			theme: true,
