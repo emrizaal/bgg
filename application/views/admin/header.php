@@ -1,3 +1,8 @@
+<?php 
+ if(!$this->session->userdata('id_user')){
+  redirect("login");
+ }
+?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -72,7 +77,7 @@
       <div style="color: white;
       padding: 15px 50px 5px 50px;
       float: right;
-      font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="login.html" class="btn btn-warning square-btn-adjust">Logout</a> </div>
+      font-size: 16px;"><a href="<?=base_url()?>login/logout" class="btn btn-warning square-btn-adjust">Logout</a> </div>
     </nav>   
     <!-- /. NAV TOP  -->
     <nav class="navbar-default navbar-side" role="navigation">
@@ -80,7 +85,7 @@
         <ul class="nav" id="main-menu">
 
           <li>
-            <a class="active-menu"  href="index.html"><i class="fa fa-dashboard fa-3x"></i> Dashboard</a>
+            <a class="active-menu"  href="<?=base_url()?>admin"><i class="fa fa-dashboard fa-3x"></i> Dashboard</a>
           </li>
           <li>
             <a class=""  href="<?=base_url()?>admin/news"><i class="glyphicon glyphicon-list-alt fa-3x"></i> News</a>
