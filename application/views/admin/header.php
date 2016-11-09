@@ -1,7 +1,7 @@
 <?php 
- if(!$this->session->userdata('id_user')){
+if(!$this->session->userdata('id_user')){
   redirect("login");
- }
+}
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -126,6 +126,9 @@
           <li>
             <a href="#"><i class="fa fa-user fa-3x"></i> MEMBERSHIP<span class="fa arrow"></span></a>
             <ul class="nav nav-second-level">
+              <li>
+                <a href="<?=base_url()?>admin/member">Member</a>
+              </li>
               <li>
                 <a href="#">General Information</a>
               </li>

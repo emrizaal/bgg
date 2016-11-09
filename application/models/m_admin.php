@@ -273,6 +273,44 @@ class m_admin extends CI_Model {
 		$query = $this->db->query("DELETE from event where id_event = '$id'");
 		return $query;
 	}
+
+	function getAllMember(){
+		$query = $this->db->query("SELECT * from user where level = 1")->result_array();
+		return $query;
+	}
+
+	function getMemberById($id){
+		$query = $this->db->query("SELECT * from user where id_user = '$id'")->row_array();
+		return $query;
+	}
+
+	function saveMember($p){
+		$query = $this->db->query("INSERT into user(
+			username,password,level,nama,tanggal_berlaku,tanggal_jatuh_tempo,no_membership,email)
+			values('$p[username]','$p[password]','1','$p[nama]','$p[tanggal_berlaku]','$p[tanggal_jatuh_tempo]','$p[no_membership]','$p[email]')
+			");
+		return $query;
+	}
+
+	function updateMember($p){
+		$query = $this->db->query("UPDATE user set 
+			username = '$p[no_membership]',
+			nama = '$p[nama]',
+			tanggal_berlaku = '$p[tanggal_berlaku]',
+			tanggal_jatuh_tempo = '$p[tanggal_jatuh_tempo]',
+			email = '$p[email]',
+			no_membership = '$p[no_membership]' 
+			where id_user = '$p[id]'
+			");
+		return $query;
+	}
+
+	function deleteMember($id){
+		$query = $this->db->query("DELETE from user where id_user = '$id'");
+		return $query;
+	}
+
+
 }
 
 ?>

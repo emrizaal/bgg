@@ -27,7 +27,7 @@
 
 <!--    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>-->
 <script type="text/javascript">
- $(document).ready(function() {
+   $(document).ready(function() {
     $('input[name="start_date"]').daterangepicker({
         singleDatePicker: true,
         showDropdowns: true,
@@ -35,7 +35,21 @@
             format: 'YYYY-MM-DD'
         }
     });
-     $('input[name="end_date"]').daterangepicker({
+    $('input[name="end_date"]').daterangepicker({
+        singleDatePicker: true,
+        showDropdowns: true,
+        locale: {
+            format: 'YYYY-MM-DD'
+        }
+    });
+    $('input[name="tanggal_berlaku"]').daterangepicker({
+        singleDatePicker: true,
+        showDropdowns: true,
+        locale: {
+            format: 'YYYY-MM-DD'
+        }
+    });
+    $('input[name="tanggal_jatuh_tempo"]').daterangepicker({
         singleDatePicker: true,
         showDropdowns: true,
         locale: {

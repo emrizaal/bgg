@@ -371,4 +371,92 @@ class Admin extends CI_Controller {
 		unlink("admin_assets/img/".$data['image']);
 		redirect("admin/event");
 	}
+
+	public function member(){
+		$data['data']=$this->m_admin->getAllMember();
+		$this->load->view("admin/member",$data);
+	}
+
+	public function addMember(){
+		$this->load->view("admin/add_member");
+	}
+
+	public function saveMember(){
+		$p=$this->input->post();
+		$p['username']=$p['no_membership'];
+		$p['password']=$this->randomPassword();
+
+		$config = Array(
+			'protocol' => 'smtp',
+			'smtp_host' => 'ssl://smtp.googlemail.com',
+			'smtp_port' => 465,
+			'smtp_user' => 'rizalsproject@gmail.com',
+			'smtp_pass' => '##pikoemrizal',
+			'mailtype' => 'html',
+			'charset' => 'iso-8859-1',
+			'wordwrap' => TRUE
+			);
+
+		$message = '
+
+		Dear '.$p['nama'].',
+
+		Thank you for signing up with us. Your new account has been setup and you can now login to our client area using the details below.
+
+		username: '.$p['username'].'
+		Password: '.$p['password'].'
+
+		To login, visit https: xxxxx
+
+		Note : Please do not reply directly to this email, reply to the email address below (signature) if you want to reply this email.
+
+		Best Regards
+		';
+		$this->load->library('email', $config);
+		$this->email->set_newline("\r\n");
+		$this->email->from('rizalsproject@gmail.com');
+		$this->email->to($p['email']);
+		$this->email->subject('[Bandung Giri Gahana Account]');
+		$this->email->message($message);
+		/*
+		if($this->email->send())
+		{
+			echo 'Email sent.';
+		}
+		else
+		{
+			show_error($this->email->print_debugger());
+		}
+		*/
+		$res=$this->m_admin->saveMember($p);
+		if($res)redirect("admin/member");
+	}
+
+	function randomPassword() {
+		$alphabet = "abcdefghijklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ0123456789";
+		$pass = array();
+		$alphaLength = strlen($alphabet) - 1;
+		for ($i = 0; $i < 8; $i++) {
+			$n = rand(0, $alphaLength);
+			$pass[] = $alphabet[$n];
+		}
+		return implode($pass);
+	}
+
+	function editMember($id){
+		$data['data']=$this->m_admin->getMemberById($id);
+		$this->load->view("admin/edit_member",$data);
+	}
+
+	function deleteMember($id){
+		$data['data']=$this->m_admin->deleteMember($id);
+		redirect("admin/member");
+	}
+
+	function updateMember(){
+		$p=$this->input->post();
+		$res=$this->m_admin->updateMember($p);
+		if($res)redirect("admin/member");
+	}
+
 }
