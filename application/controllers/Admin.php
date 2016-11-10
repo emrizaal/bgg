@@ -459,4 +459,15 @@ class Admin extends CI_Controller {
 		if($res)redirect("admin/member");
 	}
 
+	public function general(){
+		$data['data'] = $this->m_admin->getGeneral();
+		$this->load->view('admin/general',$data);
+	}
+
+	public function saveGeneral(){
+		$p=$this->input->post();
+		$this->m_admin->saveGeneral($p);
+		redirect('admin/general');
+	}
+
 }

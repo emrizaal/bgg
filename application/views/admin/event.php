@@ -23,6 +23,7 @@ $this->load->view("admin/header");
                                 <th>Start Date</th>
                                 <th>End Date</th>
                                 <th>Status</th>
+                                <th>Member Only</th>
                                 <th>#</th>
                             </tr>
                         </thead>
@@ -43,6 +44,7 @@ $this->load->view("admin/header");
                                     <td><?=$d['start_date']?></td>
                                     <td><?=$d['end_date']?></td>
                                     <td><?=$d['status']==1 ? 'Aktif' : 'Tidak Aktif'?></td>
+                                    <td><?=$d['is_member']==1 ? 'Yes' : 'No'?></td>
                                     <td>
                                         <a href="<?=base_url()?>admin/detailEvent/<?=$d['id_event']?>">Detail</a> | 
                                         <a href="<?=base_url()?>admin/editEvent/<?=$d['id_event']?>">Edit</a> | 

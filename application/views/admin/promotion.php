@@ -20,6 +20,7 @@ $this->load->view("admin/header");
                                 <th>No</th>
                                 <th>Name</th>
                                 <th>Desc</th>
+                                <th>Member Only</th>
                                 <th>#</th>
                             </tr>
                         </thead>
@@ -33,6 +34,7 @@ $this->load->view("admin/header");
                                     <td><?=$no?></td>
                                     <td><?=$f['name']?></td>
                                     <td><?=$f['content']?></td>
+                                    <td><?=$f['is_member']==1 ? 'Yes' : 'No'?></td>
                                     <td>
                                         <a href="<?=base_url()?>admin/editPromotions/<?=$f['id_promotion']?>">Edit</a> | 
                                         <a href="<?=base_url()?>admin/deletePromotions/<?=$f['id_promotion']?>" onclick="return confirm('Are you sure you ?');">delete</a>

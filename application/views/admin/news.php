@@ -21,6 +21,7 @@ $this->load->view("admin/header");
                                 <th>Image</th>
                                 <th>Title</th>
                                 <th>Status</th>
+                                <th>Member Only</th>
                                 <th>#</th>
                             </tr>
                         </thead>
@@ -33,7 +34,8 @@ $this->load->view("admin/header");
                                     <td><?=$no?></td>
                                     <td><img src="<?=base_url()?>admin_assets/img/<?=$d['image']?>" width="200px"></td>
                                     <td><?=$d['judul_berita']?></td>
-                                    <td><?=$d['active']==1 ? 'Aktif' : 'Tidak Aktif'?></td>
+                                    <td><?=$d['active']==1 ? 'Active' : 'Not Active'?></td>
+                                    <td><?=$d['is_member']==1 ? 'Yes' : 'No'?></td>
                                     <td>
                                         <a href="<?=base_url()?>admin/detailNews/<?=$d['id_berita']?>">Detail</a> | 
                                         <a href="<?=base_url()?>admin/editNews/<?=$d['id_berita']?>">Edit</a> | 

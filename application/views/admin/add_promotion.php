@@ -6,7 +6,7 @@ $this->load->view("admin/header");
   <div id="page-inner">
     <div class="row">
       <div class="col-md-12">
-      <h2 align="center">Add Promotions</h2> 
+        <h2 align="center">Add Promotions</h2> 
         <hr>
       </div>
     </div>
@@ -21,12 +21,23 @@ $this->load->view("admin/header");
           <label>Content</label>
           <textarea id="edit" name="content" cols="120" rows="20" class="form-control"></textarea>
         </div>
-        <hr>
-        <button type="submit" class="btn btn-primary">Save</button>
-        <a href="<?=base_url()?>admin/promotions"><button type="button" class="btn">Cancel</button></a>
-      </form>
-    </div>
+        <div class="form-group">
+          <label>Member only</label>
+          <div class="radio">
+           <div class="radio">
+             <label><input type="radio" name="member" value="1" checked>Yes</label>
+           </div>
+           <div class="radio">
+            <label><input type="radio" name="member" value="0">No</label>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <button type="submit" class="btn btn-primary">Save</button>
+      <a href="<?=base_url()?>admin/promotions"><button type="button" class="btn">Cancel</button></a>
+    </form>
   </div>
+</div>
 </div>
 <!-- /. PAGE INNER  -->
 </div>

@@ -36,12 +36,24 @@ $this->load->view("admin/header");
             <label><input type="radio" name="active" value="0" <?=$data['active']==0 ?'checked' : ''?>>No</label>
           </div>
         </div>
-        <hr>
-        <button type="submit" class="btn btn-primary">Save</button>
-        <a href="<?=base_url()?>admin/news"><button type="button" class="btn">Cancel</button></a>
-      </form>
-    </div>
+      </div>
+      <div class="form-group">
+          <label>Member Only</label>
+          <div class="radio">
+           <div class="radio">
+             <label><input type="radio" name="member" value="1" <?=$data['is_member']==1 ?'checked' : ''?>>Yes</label>
+           </div>
+           <div class="radio">
+            <label><input type="radio" name="member" value="0" <?=$data['is_member']==0 ?'checked' : ''?>>No</label>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <button type="submit" class="btn btn-primary">Save</button>
+      <a href="<?=base_url()?>admin/news"><button type="button" class="btn">Cancel</button></a>
+    </form>
   </div>
+</div>
 </div>
 <!-- /. PAGE INNER  -->
 </div>

@@ -72,7 +72,7 @@ if(!$this->session->userdata('id_user')){
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Administrator</a>
+        <a class="navbar-brand" href="<?=base_url()?>admin">Administrator</a>
       </div>
       <div style="color: white;
       padding: 15px 50px 5px 50px;
@@ -130,13 +130,7 @@ if(!$this->session->userdata('id_user')){
                 <a href="<?=base_url()?>admin/member">Member</a>
               </li>
               <li>
-                <a href="#">General Information</a>
-              </li>
-              <li>
-                <a href="#">Reciprocal Clubs</a>
-              </li>
-              <li>
-                <a href="#">Application Checklist</a>
+                <a href="<?=base_url()?>admin/general">General Information</a>
               </li>
             </ul>
           </li>

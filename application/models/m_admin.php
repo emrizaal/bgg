@@ -67,8 +67,8 @@ class m_admin extends CI_Model {
 
 	function saveNews($p){
 		$query = $this->db->query("INSERT INTO berita(
-			judul_berita,isi_berita,tanggal_berita,active,image
-			)values('$p[title]','$p[content]',NOW(),'$p[active]','$p[img]')");
+			judul_berita,isi_berita,tanggal_berita,active,image,is_member
+			)values('$p[title]','$p[content]',NOW(),'$p[active]','$p[img]','$p[member]')");
 		return $query;
 	}
 
@@ -78,14 +78,16 @@ class m_admin extends CI_Model {
 				judul_berita = '$p[title]',
 				isi_berita = '$p[content]',
 				active = '$p[active]',
-				image = '$p[img]' 
+				image = '$p[img]',
+				is_member = '$p[member]' 
 				where id_berita = '$p[id]'
 				");	
 		}else{
 			$query = $this->db->query("UPDATE berita set
 				judul_berita = '$p[title]',
 				isi_berita = '$p[content]',
-				active = '$p[active]'
+				active = '$p[active]',
+				is_member = '$p[member]' 
 				where id_berita = '$p[id]'
 				");	
 		}
@@ -210,7 +212,7 @@ class m_admin extends CI_Model {
 	}
 
 	function savePromotions($p){
-		$query = $this->db->query("INSERT into promotion(name,content) values('$p[name]','$p[content]')");
+		$query = $this->db->query("INSERT into promotion(name,content,is_member) values('$p[name]','$p[content]','$p[member]')");
 		return $query;
 	}
 
@@ -222,7 +224,9 @@ class m_admin extends CI_Model {
 	function updatePromotions($p){
 		$query = $this->db->query("UPDATE promotion set 
 			name = '$p[name]',
-			content = '$p[content]' where id_promotion = '$p[id]'
+			content = '$p[content]',
+			is_member = '$p[member]' 
+			where id_promotion = '$p[id]'
 			");
 		return $query;
 	}
@@ -238,7 +242,7 @@ class m_admin extends CI_Model {
 	}
 
 	function saveEvent($p){
-		$query = $this->db->query("INSERT into event(name,content,start_date,end_date,image,status) values('$p[name]','$p[content]','$p[start_date]','$p[end_date]','$p[img]','$p[active]')");
+		$query = $this->db->query("INSERT into event(name,content,start_date,end_date,image,status,is_member) values('$p[name]','$p[content]','$p[start_date]','$p[end_date]','$p[img]','$p[active]','$p[member]')");
 		return $query;
 	}
 
@@ -255,7 +259,9 @@ class m_admin extends CI_Model {
 				start_date = '$p[start_date]',
 				end_date = '$p[end_date]',
 				image = '$p[img]',
-				status = '$p[active]' where id_event = '$p[id]'
+				status = '$p[active]',
+				is_member = '$p[member]'
+				where id_event = '$p[id]'
 				");
 		}else{
 			$query = $this->db->query("UPDATE event set
@@ -263,7 +269,9 @@ class m_admin extends CI_Model {
 				content = '$p[content]',
 				start_date = '$p[start_date]',
 				end_date = '$p[end_date]',
-				status = '$p[active]' where id_event = '$p[id]'
+				status = '$p[active]',
+				is_member = '$p[member]'
+				where id_event = '$p[id]'
 				");
 		}
 		return $query;
@@ -307,6 +315,16 @@ class m_admin extends CI_Model {
 
 	function deleteMember($id){
 		$query = $this->db->query("DELETE from user where id_user = '$id'");
+		return $query;
+	}
+
+	function getGeneral(){
+		$query = $this->db->query("SELECT * from membership")->row_array();
+		return $query;
+	}
+
+	function saveGeneral($p){
+		$query = $this->db->query("UPDATE membership set content = '$p[content]'");
 		return $query;
 	}
 
