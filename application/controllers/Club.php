@@ -56,7 +56,7 @@ class Club extends CI_Controller {
 	}
 
 	public function news(){
-        $data['news']=$this->m_admin->getAllNews();
+        $data['news']=$this->m_admin->getAllPublicNews();
 		$this->load->view('club_news', $data);
 	}
 }

@@ -40,7 +40,7 @@ class Events extends CI_Controller {
 
 //        $data['cal'] = $this->m_admin->getAllEvent();
         
-        $result = $this->m_admin->getAllEvent();
+        $result = $this->m_admin->getAllPublicEvent();
         $events = array();
         foreach($result as $row){
             $events[] = array(
