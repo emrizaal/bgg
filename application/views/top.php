@@ -109,8 +109,6 @@
             <li>MEMBERSHIP
                 <ul>
                     <li><a href="<?=base_url()?>membership/general" class="navlink" role="menuitem" tabindex="-1">General Information</a></li>
-                    <li><a href="<?=base_url()?>membership/reciprocal" class="navlink" role="menuitem" tabindex="-1">Reciprocal Clubs</a></li>
-                    <li><a href="<?=base_url()?>membership/checklist" class="navlink" role="menuitem" tabindex="-1">Application Checklist</a></li>
                 </ul>
             </li>
 
@@ -172,7 +170,7 @@
                         <div class="col sub20 border"><a href="<?=base_url()?>club/history"><h4>History &amp; Board Of Directors</h4></a><h5>The first proprietary club in the country.</h5></div>
                         <div class="col sub20 border"><a href="<?=base_url()?>club/accolades"><h4>Accolades &amp; Host Venue</h4></a><h5>World wide recognition over the years.</h5></div>
                         <div class="col sub20 border"><a href="<?=base_url()?>club/csr"><h4>CSR</h4></a><h5>Community driven activities &amp; initiatives.</h5></div>
-                        <div class="col subbottom"><span class="copy">Make your tee-off reservation now</span><a href="#" target="_blank"><span class="button-menu">ONLINE BOOKING</span></a><a href="#"><h4 class="floatR">NEWS UPDATES</h4></a></div>
+                        <div class="col subbottom"><span class="copy">Make your tee-off reservation now</span><a href="#" target="_blank"><span class="button-menu">ONLINE BOOKING</span></a><a href="<?=base_url()?>club/news"><h4 class="floatR">NEWS UPDATES</h4></a></div>
                         <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                         <!-- /cbp-hrsub -->
                     </li>
@@ -233,9 +231,7 @@
                                         <a href="#">MEMBERSHIP</a>
                                         <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
                                             <div class="menudesc">Club membership offer you more benefits and privilleges.</div>
-                                            <div class="col sub30 border"><a href="<?=base_url()?>membership/general"><h4>General Information</h4></a><h5>Overview of Saujana Golf &amp; Country Club Membership.</h5><a href="#" target="_blank"><h6>Download document</h6></a></div>
-                                            <div class="col sub30 border"><a href="<?=base_url()?>membership/reciprocal"><h4>Reciprocal Clubs</h4></a><h5>List of our worldwide reciprocal clubs.</h5><a href="#" target="_blank"><h6>Download document</h6></a></div>
-                                            <div class="col sub30 border"><a href="<?=base_url()?>membership/checklist"><h4>Application Checklist</h4></a><h5>Checklist in preparing your membership application.</h5><a href="#" target="_blank"><h6>Download document</h6></a></div>
+                                            <div class="col sub30 border"><a href="<?=base_url()?>membership/general"><h4>General Information</h4></a><h5>Overview of Saujana Golf &amp; Country Club Membership.</h5></div>
                                             <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
                                             <!-- /cbp-hrsub -->
                                         </li>

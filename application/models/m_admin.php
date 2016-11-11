@@ -60,6 +60,16 @@ class m_admin extends CI_Model {
 		return $query;
 	}
 
+	function getAllPublicNews(){
+		$query = $this->db->query("SELECT * from berita where is_member = 0")->result_array();
+		return $query;
+	}
+
+	function getAllMemberNews(){
+		$query = $this->db->query("SELECT * from berita where is_member = 1")->result_array();
+		return $query;
+	}
+
 	function getNewsById($id){
 		$query = $this->db->query("SELECT * from berita where id_berita = '$id'")->row_array();
 		return $query;
@@ -211,6 +221,16 @@ class m_admin extends CI_Model {
 		return $query;
 	}
 
+	function getAllMemberPromotions(){
+		$query = $this->db->query("SELECT * from promotion where is_member = 1")->result_array();
+		return $query;
+	}
+
+	function getAllPublicPromotions(){
+		$query = $this->db->query("SELECT * from promotion where is_member = 0")->result_array();
+		return $query;
+	}
+
 	function savePromotions($p){
 		$query = $this->db->query("INSERT into promotion(name,content,is_member) values('$p[name]','$p[content]','$p[member]')");
 		return $query;
@@ -238,6 +258,16 @@ class m_admin extends CI_Model {
 
 	function getAllEvent(){
 		$query = $this->db->query("SELECT * from event")->result_array();
+		return $query;
+	}
+
+	function getAllMemberEvent(){
+		$query = $this->db->query("SELECT * from event where is_member = 1")->result_array();
+		return $query;
+	}
+
+	function getAllPublicEvent(){
+		$query = $this->db->query("SELECT * from event where is_member = 0")->result_array();
 		return $query;
 	}
 
