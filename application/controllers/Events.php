@@ -46,12 +46,18 @@ class Events extends CI_Controller {
             $events[] = array(
                 "title" => $row['name'],
                 "start" => $row['start_date'],
-                "end" => $row['end_date']
+                "end" => $row['end_date'],
+                "url" => base_url()."events/detailEvent/". $row['id_event']
             );
         }
         echo json_encode($events);
 
 //        $this->load->view('event_calendar');
+    }
+
+    public function detailEvent($id){
+        $data['data']=$this->m_admin->getEventById($id);
+        $this->load->view("detail_event",$data);
     }
 
 	public function orderofmerit(){

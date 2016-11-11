@@ -1,5 +1,5 @@
 <?php 
-$this->load->view("admin/header");
+$this->load->view("member/header");
 ?>
 <!-- /. NAV SIDE  -->
 <div id="page-wrapper" >
@@ -13,17 +13,21 @@ $this->load->view("admin/header");
         </div>              
         <div class="row">
             <div class="col-md-12">
-                <img src="<?=base_url()?>admin_assets/img/<?=$data['image']?>">
+                <?php if($data['image'] != null):?>
+                    <img src="<?=base_url()?>admin_assets/img/<?=$data['image']?>">
+                <?php else:?>
+                    <img src="<?=base_url()?>admin_assets/img/noim.jpg">
+                <?php endif;?>
             </div>
             <div class="col-md-12">
                 <?=$data['content']?>
             </div>
         </div>
         <hr>
-        <a href="<?=base_url()?>admin/event"><button class="btn btn-primary">Back</button></a>
+        <a href="<?=base_url()?>member/eventcalendar"><button class="btn btn-primary">Back</button></a>
     </div>
     <!-- /. PAGE INNER  -->
 </div>
 <?php 
-$this->load->view('admin/footer');
+$this->load->view('member/footer');
 ?>

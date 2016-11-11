@@ -16,7 +16,7 @@ $this->load->view("member/header");
     $(document).ready(function() {
 
         var base_url = window.location.origin;
-        var calendar_url = base_url +'/bgg/events/calendardata';
+        var calendar_url = base_url +'/bgg/member/calendardata';
 
 
         $('#calendar').fullCalendar({
