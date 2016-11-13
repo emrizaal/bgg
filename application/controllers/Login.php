@@ -17,15 +17,25 @@ class Login extends CI_Controller {
 	public function auth(){
 		$p = $this->input->post();
 		$res = $this->m_user->auth($p);
+		$data = array();
 		if(!empty($res)){
 			$data=array(
-				'id_user' <= $res['id_user'],
-				'username' <= $res['username'],
-				'level' <= $res['level']
+				'id_user' => $res['id_user'],
+				'username' => $res['username'],
+				'nama' => $res['nama'],
+				'level' => $res['level'],
+				'tanggal_berlaku' => $res['tanggal_berlaku'],
+				'tanggal_jatuh_tempo' => $res['tanggal_jatuh_tempo'],
+				'tanggal_dibuat' => $res['tanggal_dibuat'],
+				'lunas' => $res['lunas']
 				);
 			
-			$this->session->set_userdata($res);
-			redirect('admin');
+			$this->session->set_userdata($data);
+			if($data['level']==0){
+				redirect('admin');	
+			}else{
+				redirect('member');
+			}
 		}else{
 			echo "Username/Password tidak cocok";
 		}

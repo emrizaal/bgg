@@ -1,7 +1,8 @@
 <?php 
-if(!$this->session->userdata('id_user')){
+if(!$this->session->userdata('id_user') || $this->session->userdata('level')!=0){
   redirect("login");
 }
+
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -157,13 +158,18 @@ if(!$this->session->userdata('id_user')){
               <li>
                 <a href="<?=base_url()?>admin/event">Event</a>
               </li>
+              <!--
               <li>
                 <a href="#">Order Of Merit & Monthly Medals</a>
               </li>
               <li>
                 <a href="#">Competition Results</a>
               </li>
+              -->
             </ul>
+          </li>
+          <li>
+            <a href="<?=base_url()?>admin/announcement"><i class="glyphicon glyphicon-bullhorn fa-3x"></i> Announcement</a>
           </li>
         </ul>
       </div>

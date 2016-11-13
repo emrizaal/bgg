@@ -80,6 +80,8 @@ $this->load->view("member/header");
                 <div id='loading'>loading...</div>
 
                 <div id='calendar'></div>
+                <hr>
+                <center><button class="btn btn-primary">Booking Now</button></center>
             </div></div><!-- end block  -->
 
         <div class="clear"></div></div><!-- end row section  -->

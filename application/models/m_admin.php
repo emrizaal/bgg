@@ -324,8 +324,8 @@ class m_admin extends CI_Model {
 
 	function saveMember($p){
 		$query = $this->db->query("INSERT into user(
-			username,password,level,nama,tanggal_berlaku,tanggal_jatuh_tempo,no_membership,email)
-			values('$p[username]','$p[password]','1','$p[nama]','$p[tanggal_berlaku]','$p[tanggal_jatuh_tempo]','$p[no_membership]','$p[email]')
+			username,password,level,nama,tanggal_berlaku,tanggal_jatuh_tempo,no_membership,email,lunas)
+			values('$p[username]',MD5('$p[password]'),'1','$p[nama]','$p[tanggal_berlaku]','$p[tanggal_jatuh_tempo]','$p[no_membership]','$p[email]','$p[lunas]')
 			");
 		return $query;
 	}
@@ -337,7 +337,8 @@ class m_admin extends CI_Model {
 			tanggal_berlaku = '$p[tanggal_berlaku]',
 			tanggal_jatuh_tempo = '$p[tanggal_jatuh_tempo]',
 			email = '$p[email]',
-			no_membership = '$p[no_membership]' 
+			no_membership = '$p[no_membership]',
+			lunas = '$p[lunas]' 
 			where id_user = '$p[id]'
 			");
 		return $query;
@@ -358,6 +359,15 @@ class m_admin extends CI_Model {
 		return $query;
 	}
 
+	function getAnnouncement(){
+		$query = $this->db->query("SELECT * from announcement")->row_array();
+		return $query;
+	}
+
+	function saveAnnouncement($p){
+		$query = $this->db->query("UPDATE announcement set content = '$p[content]'");
+		return $query;
+	}
 
 }
 

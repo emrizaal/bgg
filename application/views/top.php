@@ -131,8 +131,9 @@
             <li>EVENTS
                 <ul>
                     <li><a href="<?=base_url()?>events/calendar" class="navlink" role="menuitem" tabindex="-1">Event Calendar</a></li>
-                    <li><a href="<?=base_url()?>events/orderofmerit" class="navlink" role="menuitem" tabindex="-1">Order of Merit &amp; Monthly Medal</a></li>
+                    <!-- <li><a href="<?=base_url()?>events/orderofmerit" class="navlink" role="menuitem" tabindex="-1">Order of Merit &amp; Monthly Medal</a></li>
                     <li><a href="<?=base_url()?>events/results" class="navlink" role="menuitem" tabindex="-1">Competition Results</a></li>
+                    -->
                 </ul>
             </li>
 
@@ -255,9 +256,11 @@
                                                 <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
                                                     <div class="menudesc">Home of great tournaments and championships.</div>
                                                     <div class="col sub30 border"><a href="<?=base_url()?>events/calendar"><h4>Event Calendar</h4></a><h5>Checkout all the events happening at the club.</h5></div>
-                                                    <div class="col sub30 border"><a href="<?=base_url()?>events/orderofmerit"><h4>Order Of Merit &amp; Monthly Medals</h4></a><h5>Golfers standing - Mens and Ladies.</h5></div>
+                                                    <!--<div class="col sub30 border"><a href="<?=base_url()?>events/orderofmerit"><h4>Order Of Merit &amp; Monthly Medals</h4></a><h5>Golfers standing - Mens and Ladies.</h5></div>
                                                     <div class="col sub30 border"><a href="<?=base_url()?>events/results"><h4>Competition Results</h4></a><h5>Recent and past tournament &amp; championship winners.</h5></div>
+                                                    -->
                                                     <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
+
                                                     <!-- /cbp-hrsub -->
                                                 </li>
                                                 <!--                                        <li>-->

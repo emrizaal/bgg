@@ -34,15 +34,24 @@ $this->load->view("admin/header");
                         <label>Email</label>
                         <input class="form-control" name="email" value="<?=$data['email']?>"/>
                     </div>
-                    
-                    <hr>
-                    <button type="submit" class="btn btn-primary">Save</button>
-                    <a href="<?=base_url()?>admin/member"><button type="button" class="btn">Cancel</button></a>
-                </form>
-            </div>
+                    <div class="form-group">
+                        <label>Lunas</label>
+                        <div class="radio">
+                        <label><input type="radio" name="lunas" value="1" <?=$data['lunas']==1 ? 'checked' : ''?>>Yes</label>
+                     </div>
+                     <div class="radio">
+                        <label><input type="radio" name="lunas" value="0" <?=$data['lunas']==0 ? 'checked' : ''?>>No</label>
+                    </div>
+                </div>
+
+                <hr>
+                <button type="submit" class="btn btn-primary">Save</button>
+                <a href="<?=base_url()?>admin/member"><button type="button" class="btn">Cancel</button></a>
+            </form>
         </div>
     </div>
-    <!-- /. PAGE INNER  -->
+</div>
+<!-- /. PAGE INNER  -->
 </div>
 <?php 
 $this->load->view('admin/footer');

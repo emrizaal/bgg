@@ -390,8 +390,8 @@ class Admin extends CI_Controller {
 			'protocol' => 'smtp',
 			'smtp_host' => 'ssl://smtp.googlemail.com',
 			'smtp_port' => 465,
-			'smtp_user' => 'rizalsproject@gmail.com',
-			'smtp_pass' => '##pikoemrizal',
+			'smtp_user' => 'jangngetes21@gmail.com',
+			'smtp_pass' => '##jangngetes',
 			'mailtype' => 'html',
 			'charset' => 'iso-8859-1',
 			'wordwrap' => TRUE
@@ -469,5 +469,17 @@ class Admin extends CI_Controller {
 		$this->m_admin->saveGeneral($p);
 		redirect('admin/general');
 	}
+
+	public function announcement(){
+		$data['data'] = $this->m_admin->getAnnouncement();
+		$this->load->view('admin/announcement',$data);
+	}
+
+	public function saveAnnouncement(){
+		$p=$this->input->post();
+		$this->m_admin->saveAnnouncement($p);
+		redirect('admin/announcement');
+	}
+	
 
 }

@@ -24,7 +24,8 @@ class Membership extends CI_Controller {
 	}
 
 	public function general(){
-		$this->load->view('members_general');
+		$data['data']=$this->m_admin->getGeneral();
+		$this->load->view('members_general',$data);
 	}
 
 	public function reciprocal(){
