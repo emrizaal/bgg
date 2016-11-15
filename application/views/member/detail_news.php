@@ -13,7 +13,11 @@ $this->load->view("member/header");
         </div>              
         <div class="row">
             <div class="col-md-12">
-                <img src="<?=base_url()?>admin_assets/img/<?=$data['image']?>">
+                <?php if($data['image'] != null):?>
+                    <img class="img-responsive" src="<?=base_url()?>admin_assets/img/<?=$data['image']?>">
+                <?php else:?>
+                    <img class="img-responsive" src="<?=base_url()?>admin_assets/img/noim.jpg">
+                <?php endif;?>
             </div>
             <div class="col-md-12">
                 <?=$data['isi_berita']?>
