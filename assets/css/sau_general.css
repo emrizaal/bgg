@@ -559,7 +559,27 @@ input.submit-form:hover, input.submit-form:focus { color:#C2A13D; background-col
     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     width: 95%;
+
 }
+.fsSubmitButton :hover{
+    padding: 5px 10px 6px !important;
+    font-size: 14px !important;
+    background-color: #4B2D10;
+    font-weight: normal;
+    text-shadow: 1px 1px #4B2D10;
+    color: #C2A13D;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #4B2D10;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    width: 95%;
+
+}
+
 
 .login input[type=text] {
     padding:5px;
