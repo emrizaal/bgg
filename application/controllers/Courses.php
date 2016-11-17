@@ -24,11 +24,13 @@ class Courses extends CI_Controller {
 	}
 
 	public function course(){
+		
 		$this->load->view('course');
 	}
 
 	public function layout(){
-		$this->load->view('course_layout');
+		$data['data']=$this->m_admin->getAllCourse();
+		$this->load->view('course_layout',$data);
 	}
 
 	public function condition(){
@@ -39,7 +41,8 @@ class Courses extends CI_Controller {
 		$this->load->view('course_scorecard');
 	}
 
-	public function detail(){
-		$this->load->view('course_detail');
+	public function detail($id){
+		$data['data']=$this->m_admin->getCourseById($id);
+		$this->load->view('course_detail',$data);
 	}
 }

@@ -1,5 +1,5 @@
 <?php 
-if(!$this->session->userdata('id_user')){
+if(!$this->session->userdata('id_user') || $this->session->userdata('level')!=1){
   redirect("login");
 }
 ?>

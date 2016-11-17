@@ -33,15 +33,35 @@ $this->load->view("admin/header");
                         <label>Email</label>
                         <input class="form-control" name="email"/>
                     </div>
-                    
-                    <hr>
-                    <button type="submit" class="btn btn-primary">Save</button>
-                    <a href="<?=base_url()?>admin/member"><button type="button" class="btn">Cancel</button></a>
-                </form>
-            </div>
+                    <div class="form-group">
+                        <label>Lunas</label>
+                        <div class="radio">
+                         <label><input type="radio" name="lunas" value="1" checked>Yes</label>
+                     </div>
+                     <div class="radio">
+                        <label><input type="radio" name="lunas" value="0">No</label>
+                    </div>
+                    <div class="form-group">
+                        <label>Member Type</label>
+                        <select name="type" class="form-control">
+                            <?php 
+                            foreach($data as $d){
+                                ?>
+                                <option value="<?=$d['id_member_type']?>"><?=$d['name']?></option>
+                                <?php 
+                            }
+                            ?>
+                        </select>
+                    </div>
+                </div>
+                <hr>
+                <button type="submit" class="btn btn-primary">Save</button>
+                <a href="<?=base_url()?>admin/member"><button type="button" class="btn">Cancel</button></a>
+            </form>
         </div>
     </div>
-    <!-- /. PAGE INNER  -->
+</div>
+<!-- /. PAGE INNER  -->
 </div>
 <?php 
 $this->load->view('admin/footer');

@@ -11,7 +11,9 @@ class Member extends CI_Controller {
 
     public function index()
     {
-        $this->load->view('member/dashboard');
+        $data['ann']=$this->m_admin->getAnnouncement();
+        $data['promo']=$this->m_admin->getAllMemberPromotions();
+        $this->load->view('member/dashboard',$data);
     }
 
     public function eventcalendar()
@@ -20,7 +22,7 @@ class Member extends CI_Controller {
     }
     public function news()
     {
-        $data['data']=$this->m_admin->getAllNews();
+        $data['data']=$this->m_admin->getAllMemberNews();
         $this->load->view('member/news', $data);
     }
 
@@ -38,7 +40,7 @@ class Member extends CI_Controller {
 
 //        $data['cal'] = $this->m_admin->getAllEvent();
 
-        $result = $this->m_admin->getAllPublicEvent();
+        $result = $this->m_admin->getAllMemberEvent();
         $events = array();
         foreach($result as $row){
             $events[] = array(

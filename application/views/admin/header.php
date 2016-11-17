@@ -1,7 +1,8 @@
 <?php 
-if(!$this->session->userdata('id_user')){
+if(!$this->session->userdata('id_user') || $this->session->userdata('level')!=0){
   redirect("login");
 }
+
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -108,6 +109,9 @@ if(!$this->session->userdata('id_user')){
             </ul>
           </li>
           <li>
+            <a href="<?=base_url()?>admin/course"><i class="glyphicon glyphicon-tree-deciduous fa-3x"></i> Course</a>
+          </li>
+          <li>
             <a href="#"><i class="fa fa-sitemap fa-3x"></i> RATES<span class="fa arrow"></span></a>
             <ul class="nav nav-second-level">
               <li>
@@ -128,6 +132,9 @@ if(!$this->session->userdata('id_user')){
             <ul class="nav nav-second-level">
               <li>
                 <a href="<?=base_url()?>admin/member">Member</a>
+              </li>
+              <li>
+                <a href="<?=base_url()?>admin/type">Member Type</a>
               </li>
               <li>
                 <a href="<?=base_url()?>admin/general">General Information</a>
@@ -157,13 +164,18 @@ if(!$this->session->userdata('id_user')){
               <li>
                 <a href="<?=base_url()?>admin/event">Event</a>
               </li>
+              <!--
               <li>
                 <a href="#">Order Of Merit & Monthly Medals</a>
               </li>
               <li>
                 <a href="#">Competition Results</a>
               </li>
+              -->
             </ul>
+          </li>
+          <li>
+            <a href="<?=base_url()?>admin/announcement"><i class="glyphicon glyphicon-bullhorn fa-3x"></i> Announcement</a>
           </li>
         </ul>
       </div>
