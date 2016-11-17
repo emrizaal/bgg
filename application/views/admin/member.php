@@ -19,6 +19,7 @@ $this->load->view("admin/header");
                             <tr>
                                 <th>No Membership</th>
                                 <th>Name</th>
+                                <th>Type</th>
                                 <th>Tanggal Berlaku</th>
                                 <th>Tanggal Jatuh Tempo</th>
                                 <th>Email</th>
@@ -34,6 +35,7 @@ $this->load->view("admin/header");
                                 <tr>
                                     <td><?=$d['no_membership']?></td>
                                     <td><?=$d['nama']?></td>
+                                    <td><?=$d['type_name']?></td>
                                     <td><?=$d['tanggal_berlaku']?></td>
                                     <td><?=$d['tanggal_jatuh_tempo']?></td>
                                     <td><?=$d['email']?></td>

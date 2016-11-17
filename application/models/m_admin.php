@@ -313,7 +313,7 @@ class m_admin extends CI_Model {
 	}
 
 	function getAllMember(){
-		$query = $this->db->query("SELECT * from user where level = 1")->result_array();
+		$query = $this->db->query("SELECT user.*,member_type.name as type_name from user,member_type where level = 1 AND user.member_type = member_type.id_member_type")->result_array();
 		return $query;
 	}
 
@@ -324,8 +324,8 @@ class m_admin extends CI_Model {
 
 	function saveMember($p){
 		$query = $this->db->query("INSERT into user(
-			username,password,level,nama,tanggal_berlaku,tanggal_jatuh_tempo,no_membership,email,lunas)
-			values('$p[username]',MD5('$p[password]'),'1','$p[nama]','$p[tanggal_berlaku]','$p[tanggal_jatuh_tempo]','$p[no_membership]','$p[email]','$p[lunas]')
+			username,password,level,nama,tanggal_berlaku,tanggal_jatuh_tempo,no_membership,email,lunas,member_type)
+			values('$p[username]',MD5('$p[password]'),'1','$p[nama]','$p[tanggal_berlaku]','$p[tanggal_jatuh_tempo]','$p[no_membership]','$p[email]','$p[lunas]','$p[type]')
 			");
 		return $query;
 	}
@@ -338,7 +338,8 @@ class m_admin extends CI_Model {
 			tanggal_jatuh_tempo = '$p[tanggal_jatuh_tempo]',
 			email = '$p[email]',
 			no_membership = '$p[no_membership]',
-			lunas = '$p[lunas]' 
+			lunas = '$p[lunas]', 
+			member_type = '$p[type]' 
 			where id_user = '$p[id]'
 			");
 		return $query;
@@ -366,6 +367,92 @@ class m_admin extends CI_Model {
 
 	function saveAnnouncement($p){
 		$query = $this->db->query("UPDATE announcement set content = '$p[content]'");
+		return $query;
+	}
+
+	function getAllType(){
+		$query = $this->db->query("SELECT * from member_type")->result_array();
+		return $query;
+	}
+
+	function getTypeById($id){
+		$query = $this->db->query("SELECT * from member_type where id_member_type = '$id'")->row_array();
+		return $query;
+	}
+
+	function saveType($p){
+		$query = $this->db->query("INSERT into member_type(name,fee) values('$p[name]','$p[fee]')");
+		return $query;
+	}
+
+	function updateType($p){
+		$query = $this->db->query("UPDATE member_type set 
+			name = '$p[name]', fee = '$p[fee]' where id_member_type = '$p[id]'
+			");
+		return $query;
+	}
+
+	function deleteType($id){
+		$query = $this->db->query("DELETE from member_type where id_member_type = '$id'");
+		return $query;
+	}
+
+	function getAllCourse(){
+		$query = $this->db->query("SELECT * from course")->result_array();
+		return $query;
+	}
+
+	function getCourseById($id){
+		$query = $this->db->query("SELECT * from course where id_course = '$id'")->row_array();
+		return $query;
+	}
+
+	function saveCourse($p){
+		$query = $this->db->query("INSERT into course(
+			name,description,black,white,blue,red,par,image
+			) values(
+			'$p[name]',
+			'$p[description]',
+			'$p[black]',
+			'$p[white]',
+			'$p[blue]',
+			'$p[red]',
+			'$p[par]',
+			'$p[img]'
+			)");
+		return $query;
+	}
+
+	function updateCourse($p){
+		if(!empty($p['img'])){
+			$query = $this->db->query("UPDATE course set 
+				name = '$p[name]',
+				description = '$p[description]',
+				black = '$p[black]',
+				white = '$p[white]',
+				blue = '$p[blue]',
+				red = '$p[red]',
+				par = '$p[par]',
+				image = '$p[img]' 
+				where id_course = '$p[id]'
+				");
+		}else{
+			$query = $this->db->query("UPDATE course set 
+				name = '$p[name]',
+				description = '$p[description]',
+				black = '$p[black]',
+				white = '$p[white]',
+				blue = '$p[blue]',
+				red = '$p[red]',
+				par = '$p[par]' 
+				where id_course = '$p[id]'
+				");
+		}
+		return $query;
+	}
+
+	function deleteCourse($id){
+		$query = $this->db->query("DELETE from course where id_course = '$id'");
 		return $query;
 	}
 

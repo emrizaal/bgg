@@ -37,21 +37,33 @@ $this->load->view("admin/header");
                     <div class="form-group">
                         <label>Lunas</label>
                         <div class="radio">
-                        <label><input type="radio" name="lunas" value="1" <?=$data['lunas']==1 ? 'checked' : ''?>>Yes</label>
-                     </div>
-                     <div class="radio">
-                        <label><input type="radio" name="lunas" value="0" <?=$data['lunas']==0 ? 'checked' : ''?>>No</label>
+                            <label><input type="radio" name="lunas" value="1" <?=$data['lunas']==1 ? 'checked' : ''?>>Yes</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" name="lunas" value="0" <?=$data['lunas']==0 ? 'checked' : ''?>>No</label>
+                        </div>
                     </div>
-                </div>
+                    <div class="form-group">
+                        <label>Member Type</label>
+                        <select name="type" class="form-control">
+                            <?php 
+                            foreach($type as $d){
+                                ?>
+                                <option value="<?=$d['id_member_type']?>" <?=$data['member_type']==$d['id_member_type'] ? 'selected' : ''?>><?=$d['name']?></option>
+                                <?php 
+                            }
+                            ?>
+                        </select>
+                    </div>
 
-                <hr>
-                <button type="submit" class="btn btn-primary">Save</button>
-                <a href="<?=base_url()?>admin/member"><button type="button" class="btn">Cancel</button></a>
-            </form>
+                    <hr>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    <a href="<?=base_url()?>admin/member"><button type="button" class="btn">Cancel</button></a>
+                </form>
+            </div>
         </div>
     </div>
-</div>
-<!-- /. PAGE INNER  -->
+    <!-- /. PAGE INNER  -->
 </div>
 <?php 
 $this->load->view('admin/footer');

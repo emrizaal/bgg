@@ -21,6 +21,7 @@ class Admin extends CI_Controller {
 
 	public function saveAccolades(){
 		$p=$this->input->post();
+		$p['content']=mysql_real_escape_string($p['content']);
 		$this->m_admin->saveAccolades($p);
 		redirect('admin/accolades');
 	}
@@ -32,6 +33,7 @@ class Admin extends CI_Controller {
 
 	public function saveCsr(){
 		$p=$this->input->post();
+		$p['content']=mysql_real_escape_string($p['content']);
 		$this->m_admin->saveCsr($p);
 		redirect('admin/csr');
 	}
@@ -47,6 +49,8 @@ class Admin extends CI_Controller {
 
 	public function saveFacilities(){
 		$p=$this->input->post();
+		$p['name']=mysql_real_escape_string($p['name']);
+		$p['content']=mysql_real_escape_string($p['content']);
 		$this->m_admin->saveFacilities($p);
 		redirect('admin/facilities');
 	}
@@ -63,6 +67,8 @@ class Admin extends CI_Controller {
 
 	public function updateFacilities(){
 		$p=$this->input->post();
+		$p['name']=mysql_real_escape_string($p['name']);
+		$p['content']=mysql_real_escape_string($p['content']);
 		$this->m_admin->updateFacilities($p);
 		redirect('admin/facilities');
 	}
@@ -96,6 +102,8 @@ class Admin extends CI_Controller {
 		}
 
 		$p = $this->input->post();
+		$p['title']=mysql_real_escape_string($p['title']);
+		$p['content']=mysql_real_escape_string($p['content']);
 		$p['img'] = $finfo['file_name'];
 
 		$res = $this->m_admin->saveNews($p);
@@ -122,6 +130,8 @@ class Admin extends CI_Controller {
 		}
 
 		$p = $this->input->post();
+		$p['title']=mysql_real_escape_string($p['title']);
+		$p['content']=mysql_real_escape_string($p['content']);
 		$p['img'] = $finfo['file_name'];
 
 		$res = $this->m_admin->updateNews($p);
@@ -147,6 +157,7 @@ class Admin extends CI_Controller {
 
 	public function saveHistory(){
 		$p=$this->input->post();
+		$p['content']=mysql_real_escape_string($p['content']);
 		$this->m_admin->saveHistory($p);
 		redirect("admin/history");
 	}
@@ -195,6 +206,7 @@ class Admin extends CI_Controller {
 
 	public function saveRates(){
 		$p=$this->input->post();
+		$p['name']=mysql_real_escape_string($p['name']);
 		$res=$this->m_admin->saveRates($p);
 		if($res)redirect("admin/rates");
 	}
@@ -206,6 +218,7 @@ class Admin extends CI_Controller {
 
 	public function updateRates(){
 		$p=$this->input->post();
+		$p['name']=mysql_real_escape_string($p['name']);
 		$res=$this->m_admin->updateRates($p);
 		if($res)redirect("admin/rates");
 	}
@@ -222,6 +235,7 @@ class Admin extends CI_Controller {
 
 	public function saveRooms(){
 		$p=$this->input->post();
+		$p['content']=mysql_real_escape_string($p['content']);
 		$res=$this->m_admin->saveRooms($p);
 		if($res)redirect("admin/rooms");
 	}
@@ -237,6 +251,8 @@ class Admin extends CI_Controller {
 
 	public function saveResortFacilities(){
 		$p=$this->input->post();
+		$p['name']=mysql_real_escape_string($p['name']);
+		$p['content']=mysql_real_escape_string($p['content']);
 		$res=$this->m_admin->saveResortFacilities($p);
 		if($res)redirect("admin/resortFacilities");
 	}
@@ -253,6 +269,8 @@ class Admin extends CI_Controller {
 
 	public function updateResortFacilities(){
 		$p=$this->input->post();
+		$p['name']=mysql_real_escape_string($p['name']);
+		$p['content']=mysql_real_escape_string($p['content']);
 		$res=$this->m_admin->updateResortFacilities($p);
 		if($res)redirect("admin/resortFacilities");
 	}
@@ -269,6 +287,7 @@ class Admin extends CI_Controller {
 
 	public function saveSpa(){
 		$p=$this->input->post();
+		$p['content']=mysql_real_escape_string($p['content']);
 		$res=$this->m_admin->saveSpa($p);
 		if($res)redirect("admin/spa");
 	}
@@ -284,6 +303,8 @@ class Admin extends CI_Controller {
 
 	public function savePromotions(){
 		$p=$this->input->post();
+		$p['name']=mysql_real_escape_string($p['name']);
+		$p['content']=mysql_real_escape_string($p['content']);
 		$res=$this->m_admin->savePromotions($p);
 		if($res)redirect("admin/promotions");
 	}
@@ -295,6 +316,8 @@ class Admin extends CI_Controller {
 
 	public function updatePromotions(){
 		$p=$this->input->post();
+		$p['name']=mysql_real_escape_string($p['name']);
+		$p['content']=mysql_real_escape_string($p['content']);
 		$res=$this->m_admin->updatePromotions($p);
 		if($res)redirect("admin/promotions");
 	}
@@ -328,6 +351,8 @@ class Admin extends CI_Controller {
 		}
 
 		$p = $this->input->post();
+		$p['name']=mysql_real_escape_string($p['name']);
+		$p['content']=mysql_real_escape_string($p['content']);
 		$p['img'] = $finfo['file_name'];
 
 		$res = $this->m_admin->saveEvent($p);
@@ -359,6 +384,8 @@ class Admin extends CI_Controller {
 		}
 
 		$p = $this->input->post();
+		$p['name']=mysql_real_escape_string($p['name']);
+		$p['content']=mysql_real_escape_string($p['content']);
 		$p['img'] = $finfo['file_name'];
 
 		$res = $this->m_admin->updateEvent($p);
@@ -378,11 +405,13 @@ class Admin extends CI_Controller {
 	}
 
 	public function addMember(){
-		$this->load->view("admin/add_member");
+		$data['data']=$this->m_admin->getAllType();
+		$this->load->view("admin/add_member",$data);
 	}
 
 	public function saveMember(){
 		$p=$this->input->post();
+		$p['nama']=mysql_real_escape_string($p['nama']);
 		$p['username']=$p['no_membership'];
 		$p['password']=$this->randomPassword();
 
@@ -414,7 +443,7 @@ class Admin extends CI_Controller {
 		';
 		$this->load->library('email', $config);
 		$this->email->set_newline("\r\n");
-		$this->email->from('rizalsproject@gmail.com');
+		$this->email->from('jangngetes21@gmail.com');
 		$this->email->to($p['email']);
 		$this->email->subject('[Bandung Giri Gahana Account]');
 		$this->email->message($message);
@@ -444,6 +473,7 @@ class Admin extends CI_Controller {
 	}
 
 	function editMember($id){
+		$data['type']=$this->m_admin->getAllType();
 		$data['data']=$this->m_admin->getMemberById($id);
 		$this->load->view("admin/edit_member",$data);
 	}
@@ -455,6 +485,7 @@ class Admin extends CI_Controller {
 
 	function updateMember(){
 		$p=$this->input->post();
+		$p['nama']=mysql_real_escape_string($p['nama']);
 		$res=$this->m_admin->updateMember($p);
 		if($res)redirect("admin/member");
 	}
@@ -466,6 +497,7 @@ class Admin extends CI_Controller {
 
 	public function saveGeneral(){
 		$p=$this->input->post();
+		$p['content']=mysql_real_escape_string($p['content']);
 		$this->m_admin->saveGeneral($p);
 		redirect('admin/general');
 	}
@@ -477,9 +509,110 @@ class Admin extends CI_Controller {
 
 	public function saveAnnouncement(){
 		$p=$this->input->post();
+		$p['content']=mysql_real_escape_string($p['content']);
 		$this->m_admin->saveAnnouncement($p);
 		redirect('admin/announcement');
 	}
 	
+	public function type(){
+		$data['data']=$this->m_admin->getAllType();
+		$this->load->view('admin/type',$data);
+	}
+
+	public function saveType(){
+		$p=$this->input->post();
+		$res=$this->m_admin->saveType($p);
+		if($res)redirect('admin/type');
+	}
+
+	public function deleteType($id){
+		$res=$this->m_admin->deleteType($id);
+		if($res)redirect('admin/type');
+	}
+
+	public function editType($id){
+		$data['data']=$this->m_admin->getTypeById($id);
+		$this->load->view('admin/edit_type',$data);
+	}
+
+	public function updateType(){
+		$p=$this->input->post();
+		$res=$this->m_admin->updateType($p);
+		if($res)redirect('admin/type');
+	}
+
+	public function course(){
+		$data['data']=$this->m_admin->getAllCourse();
+		$this->load->view('admin/course',$data);
+	}
+
+	public function addCourse(){
+		$this->load->view('admin/add_course');
+	}
+
+	public function editCourse($id){
+		$data['data']=$this->m_admin->getCourseById($id);
+		$this->load->view('admin/edit_course',$data);
+	}
+
+	public function saveCourse(){
+		$config['upload_path']   =   "admin_assets/img/";
+		$config['allowed_types'] =   "gif|jpg|jpeg|png"; 
+		$config['max_size']      =   "5000";
+		$config['max_width']     =   "1907";
+		$config['max_height']    =   "1280";
+		$this->load->library('upload',$config);
+
+		if(!$this->upload->do_upload('fupload')){
+			echo $this->upload->display_errors();
+		}else{
+			$finfo=$this->upload->data();
+		}
+
+		$p = $this->input->post();
+		$p['name']=mysql_real_escape_string($p['name']);
+		$p['description']=mysql_real_escape_string($p['description']);
+		$p['par']=mysql_real_escape_string($p['par']);
+		$p['img'] = $finfo['file_name'];
+		
+		$res=$this->m_admin->saveCourse($p);
+		if($res)redirect('admin/course');
+	}
+
+	public function updateCourse(){
+		$config['upload_path']   =   "admin_assets/img/";
+		$config['allowed_types'] =   "gif|jpg|jpeg|png"; 
+		$config['max_size']      =   "5000";
+		$config['max_width']     =   "1907";
+		$config['max_height']    =   "1280";
+		$this->load->library('upload',$config);
+
+		if(!$this->upload->do_upload('fupload')){
+			echo $this->upload->display_errors();
+		}else{
+			$finfo=$this->upload->data();
+		}
+
+		$p = $this->input->post();
+		$p['name']=mysql_real_escape_string($p['name']);
+		$p['description']=mysql_real_escape_string($p['description']);
+		$p['par']=mysql_real_escape_string($p['par']);
+		$p['img'] = $finfo['file_name'];
+		
+		$res=$this->m_admin->updateCourse($p);
+		if($res)redirect('admin/course');
+	}
+
+	public function deleteCourse($id){
+		$data=$this->m_admin->getCourseById($id);
+		$this->m_admin->deleteCourse($id);
+		unlink("admin_assets/img/".$data['image']);
+		redirect("admin/course");
+	}
+
+	public function detailCourse($id){
+		$data['data']=$this->m_admin->getCourseById($id);
+		$this->load->view('admin/detail_course',$data);
+	}
 
 }

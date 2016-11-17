@@ -109,6 +109,9 @@ if(!$this->session->userdata('id_user') || $this->session->userdata('level')!=0)
             </ul>
           </li>
           <li>
+            <a href="<?=base_url()?>admin/course"><i class="glyphicon glyphicon-tree-deciduous fa-3x"></i> Course</a>
+          </li>
+          <li>
             <a href="#"><i class="fa fa-sitemap fa-3x"></i> RATES<span class="fa arrow"></span></a>
             <ul class="nav nav-second-level">
               <li>
@@ -129,6 +132,9 @@ if(!$this->session->userdata('id_user') || $this->session->userdata('level')!=0)
             <ul class="nav nav-second-level">
               <li>
                 <a href="<?=base_url()?>admin/member">Member</a>
+              </li>
+              <li>
+                <a href="<?=base_url()?>admin/type">Member Type</a>
               </li>
               <li>
                 <a href="<?=base_url()?>admin/general">General Information</a>

@@ -36,10 +36,22 @@ $this->load->view("admin/header");
                     <div class="form-group">
                         <label>Lunas</label>
                         <div class="radio">
-                           <label><input type="radio" name="lunas" value="1" checked>Yes</label>
-                       </div>
-                       <div class="radio">
+                         <label><input type="radio" name="lunas" value="1" checked>Yes</label>
+                     </div>
+                     <div class="radio">
                         <label><input type="radio" name="lunas" value="0">No</label>
+                    </div>
+                    <div class="form-group">
+                        <label>Member Type</label>
+                        <select name="type" class="form-control">
+                            <?php 
+                            foreach($data as $d){
+                                ?>
+                                <option value="<?=$d['id_member_type']?>"><?=$d['name']?></option>
+                                <?php 
+                            }
+                            ?>
+                        </select>
                     </div>
                 </div>
                 <hr>
