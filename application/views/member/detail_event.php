@@ -10,13 +10,13 @@ $this->load->view("member/header");
                 <center><?=$data['start_date']?> until <?=$data['end_date']?></center>
                 <hr>
             </div>
-        </div>              
+        </div>
         <div class="row">
             <div class="col-md-12">
                 <?php if($data['image'] != null):?>
-                    <img src="<?=base_url()?>admin_assets/img/<?=$data['image']?>">
+                    <img class="img-responsive" src="<?=base_url()?>admin_assets/img/<?=$data['image']?>">
                 <?php else:?>
-                    <img src="<?=base_url()?>admin_assets/img/noim.jpg">
+                    <img class="img-responsive" src="<?=base_url()?>admin_assets/img/noim.jpg">
                 <?php endif;?>
             </div>
             <div class="col-md-12">
