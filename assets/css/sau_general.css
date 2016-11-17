@@ -527,10 +527,11 @@ input.submit-form:hover, input.submit-form:focus { color:#C2A13D; background-col
 
 .login{
     background-color: #C2A13D;
-    padding: 50px 0px 50px 40px;
-    width: 50%;
+    padding: 30px 10px 30px 0px;
+    width: 40%;
     color: #4B2D10;
     border-radius: 5px;
+    opacity: 0.8;
 }
 
 .login a{
@@ -557,6 +558,7 @@ input.submit-form:hover, input.submit-form:focus { color:#C2A13D; background-col
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    width: 95%;
 }
 
 .login input[type=text] {
@@ -564,6 +566,7 @@ input.submit-form:hover, input.submit-form:focus { color:#C2A13D; background-col
     border:2px solid #4B2D10;
     -webkit-border-radius: 5px;
     border-radius: 5px;
+    width: 90%;
 }
 .login input[type=text]:focus {
     border-color:#333;
@@ -574,6 +577,7 @@ input.submit-form:hover, input.submit-form:focus { color:#C2A13D; background-col
     border:2px solid #4B2D10;
     -webkit-border-radius: 5px;
     border-radius: 5px;
+    width: 90%;
 }
 .login input[type=password]:focus {
     border-color:#333;
@@ -601,4 +605,9 @@ input.submit-form:hover, input.submit-form:focus { color:#C2A13D; background-col
 .list-noborder > li > a:hover{
     text-decoration: none;
     color:#C2A13D;
+}
+
+.bgr{
+    background:url(../image/1.png);
+    
 }
