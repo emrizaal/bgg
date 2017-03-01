@@ -17,9 +17,11 @@ $this->load->view("member/header");
             <div class="panel panel-default" style="width:30%;">
                 <div class="panel-heading">Annual Fee</div>
                 <div class="panel-body"> 
+                Anda tergabung selama <b><?=$fee['name']?></b> dengan fee sebesar <b>Rp.<?=number_format($fee['fee'])?></b><hr>
                     <?php 
                     if($this->session->userdata['lunas']==0){
                         ?>
+                        <span style="color:red">
                         Batas pembayaran iuran tahunan Anda jatuh pada setiap tanggal
                         <b>
                             <?php 
@@ -27,6 +29,7 @@ $this->load->view("member/header");
                             echo $tgl->format("d F");
                             ?>
                         </b>
+                        </span>
                         <?php }else{ ?>
                             <b>-- Lunas --</b>
                             <?php } ?>

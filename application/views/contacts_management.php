@@ -5,140 +5,74 @@
 
 
 	<div class="row-section">
-		<div id="page-down"><span class="down"><a href="http://saujana.com.my/contacts_management.php#page-down">PAGE DOWN</a></span></div>
+		<div id="page-down"></div>
 
 		<div class="block-48-L"><div class="pad-20">
 			<h2 class="tcen">MANAGEMENT</h2>
 			<table width="100%" border="0" cellspacing="0" cellpadding="0" class="cont">
 
 
-				
-				<tbody><tr><td width="100%"><span class="fgo">General Manager</span><br>Ananthanathan A/L Sinnadurai<br><a href="mailto:"></a></td></tr>
 
-					
-					<tr><td width="100%"><span class="fgo">Club Manager</span><br>Ken Kudo<br><a href="mailto:ken.kudo@saujana.com.my">ken.kudo@saujana.com.my
-					</a></td></tr>
-
-					
-					<tr><td width="100%"><span class="fgo">Senior Manager - Group Human Resources</span><br>Muhammad Hilman Rao bin Abdullah<br><a href="mailto:"></a></td></tr>
-
-					
-					<tr><td width="100%"><span class="fgo">Manager - Finance</span><br>Shuhaily Ahmad<br><a href="mailto:"></a></td></tr>
-
-					
-					<tr><td width="100%"><span class="fgo">Acting Course Superintenden</span><br>Mohd Razip Dahalan<br><a href="mailto:razip@saujana.com.my">razip@saujana.com.my</a></td></tr>
-
-					
-					<tr><td width="100%"><span class="fgo">Assistant Manager - Membership Department
-					</span><br>Rozidah Imran<br><a href="mailto:rozidah@saujana.com.my">rozidah@saujana.com.my</a></td></tr>
-
-					
-					<tr><td width="100%"><span class="fgo">Manager - Security Department</span><br>Mohd Fauzi Mohd Yatim<br><a href="mailto:fauziyatim@saujana.com.my">fauziyatim@saujana.com.my</a></td></tr>
-
-					
-					<tr><td width="100%"><span class="fgo">Manager - Golf &amp; Club Operations</span><br>Razlan Dato Alias<br><a href="mailto:razlan@saujana.com.my">razlan@saujana.com.my</a></td></tr>
+				<tbody>
+					<tr><td width="100%">
+						<span class="fgo">Director</span>
+						<br>M. TACHRIL SAPI’IE</a>
+					</td></tr>
+					<tr><td width="100%">
+						<span class="fgo">Director (Corporate Secretary)</span>
+						<br>HERY KUSNANTO</a>
+					</td></tr>
+					<tr><td width="100%">
+						<span class="fgo">Director</span>
+						<br>H.LEO ARMANDSYA S</a>
+					</td></tr>
 				</tbody></table>
 
 			</div></div>
 
 			<div class="block-48-R border-L"><div class="pad-20">
-				<h2 class="tcen">COMMITTEE</h2>
+				<h2 class="tcen">COMMISSIONER</h2>
 				<table width="100%" border="0" cellspacing="0" cellpadding="0" class="cont">
-					<tbody><tr>
-						<td width="100%"><span class="t15 fgr">Golf Committee</span></td>
+					<tbody>
+					<tr>
+						<td width="100%">
+							<span class="fgo">Chief Commisioner</span><br>
+							Dr. H. SURASA GUNAWIDJAJA SE. MM</td>
 					</tr>
 					<tr>
-						<td width="100%"><span class="fgo">Chairman</span><br> Lee Kwok Meng</td>
+						<td width="100%">
+							<span class="fgo">Independent Commisioner</span><br>
+							ROSANO BARACK</td>
 					</tr>
 					<tr>
-						<td width="100%"></td>
+						<td width="100%">
+							<span class="fgo">Commisioner</span><br>
+							RACHMAT SUTIONO</td>
 					</tr>
 					<tr>
-						<td width="100%">Wesley Khaw Tien Swee<br></td>
+						<td width="100%">
+							<span class="fgo">Commisioner</span><br>
+							PRAJOGO PANGESTU</td>
 					</tr>
 					<tr>
-						<td width="100%">Hew Kwee Fah<br></td>
+						<td width="100%">
+							<span class="fgo">Commisioner</span><br>
+							HENRY PRIBADI</td>
 					</tr>
 					<tr>
-						<td width="100%">Edmund Low Chun Hoong<br></td>
+						<td width="100%">
+							<span class="fgo">Commisioner</span><br>
+							SUBAGIO WIRJOATMODJO</td>
 					</tr>
 					<tr>
-						<td width="100%">Thum Wai Choong<br></td>
+						<td width="100%">
+							<span class="fgo">Commisioner</span><br>
+							M. TEDDY THOHIR</td>
 					</tr>
 					<tr>
-						<td width="100%">Seko Hiroyasu<br></td>
-					</tr>
-					<tr>
-						<td width="100%">IJ Lau Hun Siew<br></td>
-					</tr>
-					<tr>
-						<td width="100%">Raymond Tan<br></td>
-					</tr>
-					<tr>
-						<td width="100%"><span class="t15 fgr">Editorial Committee</span></td>
-					</tr>
-					<tr>
-						<td width="100%"><span class="fgo">Chairman</span><br> Patrick Wong</td>
-					</tr>
-					<tr>
-						<td width="100%"></td>
-					</tr>
-					<tr>
-						<td width="100%">Kenny Chiam Hwa Leng<br></td>
-					</tr>
-					<tr>
-						<td width="100%">Nickelas Wong Chee Yean<br></td>
-					</tr>
-					<tr>
-						<td width="100%"><span class="t15 fgr">Discplinary Committee</span></td>
-					</tr>
-					<tr>
-						<td width="100%"><span class="fgo">Chairman</span><br> Dato' Robert Cheim</td>
-					</tr>
-					<tr>
-						<td width="100%"></td>
-					</tr>
-					<tr>
-						<td width="100%">Tan Sri Dato' Ajit Singh<br></td>
-					</tr>
-					<tr>
-						<td width="100%">Tang Kean Onn<br></td>
-					</tr>
-					<tr>
-						<td width="100%">Peter Chen Kait Leong<br></td>
-					</tr>
-					<tr>
-						<td width="100%">Datuk Francis Tan Leh Kiah<br></td>
-					</tr>
-					<tr>
-						<td width="100%">Dato' Sekhar Krishnan<br></td>
-					</tr>
-					<tr>
-						<td width="100%">Maria Soosa A/L Framcis<br></td>
-					</tr>
-					<tr>
-						<td width="100%">Lee Siew Hong<br></td>
-					</tr>
-					<tr>
-						<td width="100%"><span class="t15 fgr">Social Committee</span></td>
-					</tr>
-					<tr>
-						<td width="100%"><span class="fgo">Chairman</span><br> Jerry Ho Shu Keong</td>
-					</tr>
-					<tr>
-						<td width="100%"></td>
-					</tr>
-					<tr>
-						<td width="100%">Oh Teik Siang<br></td>
-					</tr>
-					<tr>
-						<td width="100%">Cheryl Rita De Silva<br></td>
-					</tr>
-					<tr>
-						<td width="100%">Mohammed Yusof Embi<br></td>
-					</tr>
-					<tr>
-						<td width="100%">Calen Choong Ming Wai<br></td>
+						<td width="100%">
+							<span class="fgo">Commisioner</span><br>
+							HENDI HENDARMAN DIPRADJA</td>
 					</tr>
 
 				</tbody></table>
