@@ -27,7 +27,8 @@ class Login extends CI_Controller {
 				'tanggal_berlaku' => $res['tanggal_berlaku'],
 				'tanggal_jatuh_tempo' => $res['tanggal_jatuh_tempo'],
 				'tanggal_dibuat' => $res['tanggal_dibuat'],
-				'lunas' => $res['lunas']
+				'lunas' => $res['lunas'],
+				'type' => $res['member_type']
 				);
 			
 			$this->session->set_userdata($data);

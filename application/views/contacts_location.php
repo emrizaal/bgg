@@ -8,7 +8,7 @@
 
 		<div class="block-74-L border-R" style="height:650px;"><div class="pad-20">
 			<h2>LOCATION</h2>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d126740.61084849926!2d107.775965!3d-6.933073!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1476679245539" width="850" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<iframe style="width:100%;" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d126740.61084849926!2d107.775965!3d-6.933073!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1476679245539" width="850" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div></div>
 
 		<div class="block-22-R"><div class="pad-20">

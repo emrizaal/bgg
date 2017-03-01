@@ -13,6 +13,7 @@ class Member extends CI_Controller {
     {
         $data['ann']=$this->m_admin->getAnnouncement();
         $data['promo']=$this->m_admin->getAllMemberPromotions();
+        $data['fee']=$this->m_admin->getTypeById($this->session->userdata('type'));
         $this->load->view('member/dashboard',$data);
     }
 

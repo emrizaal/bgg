@@ -44,7 +44,7 @@
             maxHeight : '380'
         });
 
-        $(function() {    
+        $(function() {
             $("#tab").organicTabs();
         });
     });
@@ -180,30 +180,34 @@
                         <a href="#">COURSES</a>
                         <div class="cbp-hrsub"><div class="cbp-hrsub-inner"><div class="wrapsub">
                             <div class="col subdesc-L"><p class="menudesc">Bandung Giri Gahana Golf &amp; Country Club offers two championship golf courses, the 'Palm Course' and the 'Bunga Raya Course'.</p></div>
-                            <div class="col sub60 border"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <div class="col border" style="width:78%;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
                                 <tbody><tr>
-                                    <td width="100%" valign="top" align="center">
+                                    <td width="30%" valign="top" align="center" style="padding:0px 20px;">
                                         <img src="<?=base_url()?>assets/image/bgggolf.jpg">
+                                        <br />
+                                        <h4 style="margin-top:10px;">THE "GIRI" 9</h4>
                                     </td>
-                                </tr>
-                                <!--                                <tr>-->
-                                <!--                                    <td valign="top" align="center"><a href="--><?//=base_url()?><!--courses/course"><h4>Palm Course</h4></a></td>-->
-                                <!--                                </tr>-->
+                                    <td width="30%" valign="top" align="center" style="padding:0px 20px;">
+                                        <img src="<?=base_url()?>assets/image/bgggolf.jpg">
+                                        <br />
+                                        <h4 style="margin-top:10px;">THE "GAHANA" 9</h4>
+                                    </td>
+                                    <td width="30%" valign="top" align="center" style="padding:0px 20px;">
+                                        <img src="<?=base_url()?>assets/image/bgggolf.jpg">
+                                        <br />
+                                        <h4 style="margin-top:10px;">BANCH GRASS GREEN</h4>
+                                    </td>
+                                </tr>                  </tr>
                                 <tr>
-                                    <td valign="top" align="center"><h5>Carved out of an oil palm plantation, the Palm Course boasts of a rugged terrain, with slopes which drop to steep ravines.</h5></td>
+                                    <td valign="top" align="center" colspan="3"><h5 style="margin-top:30px;">Carved out of an oil palm plantation, the Palm Course boasts of a rugged terrain, with slopes which drop to steep ravines.</h5></td>
                                 </tr>
                                 <tr>
-                                    <td valign="top" align="center"><a href="<?=base_url()?>courses/layout"><h4>Course Layout</h4></a></td>
+                                    <td valign="top" align="center" colspan="3"><a href="<?=base_url()?>courses/layout"><h4>Course Layout</h4></a></td>
                                 </tr>
                             </tbody></table>
                         </div>
-                        <div class="col sub20 border">
-                            <ul class="menulist">
-                                <li><a href="<?=base_url()?>courses/condition"><h4>Hole Description</h4></a></li>
-                                <li><a href="<?=base_url()?>courses/scorecard"><h4>Score Card</h4></a></li></ul></div>
-                                <div class="col subbottom"><span class="copy">Make your tee-off reservation now</span><a href="#" target="_blank"><span class="button-menu">ONLINE BOOKING</span></a></div>
-                                <div class="clear"></div></div></div><!-- /cbp-hrsub-inner --></div>
-                                <!-- /cbp-hrsub -->
+                        <div class="col subbottom" style="padding-bottom:10px;"><span class="copy">Make your tee-off reservation now</span><a href="#" target="_blank"><span class="button-menu">ONLINE BOOKING</span></a><a href="<?=base_url()?>club/news"><h4 class="floatR">NEWS UPDATES</h4></a></div>
+                      </div>
                             </li>
 
                             <li>
