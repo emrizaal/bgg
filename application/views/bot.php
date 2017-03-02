@@ -54,8 +54,8 @@
           <!-- =========== end footer =========== -->
 
 
-
           <script src="<?=base_url()?>assets/js/cbpHorizontalMenu.js"></script>
+<script src="<?=base_url()?>assets/thumbnails/simplegallery.min.js"></script>
           <script>
             $(function() {
              cbpHorizontalMenu.init();
@@ -108,10 +108,148 @@
                     event.preventDefault();
                   });
           });
+      </script>
+<script type="text/javascript">
+    $(document).ready(function(){
 
-        </script>
+        $('#gallery').simplegallery({
+            galltime : 400,
+            gallcontent: '.content',
+            gallthumbnail: '.thumbnail',
+            gallthumb: '.thumb'
+        });
+
+    });
+</script>
+
+<script type="text/javascript">
+    $(function(){
+
+        //giri dialogBox
+        $('#giri').click(function(){
+            $('#giri-dialogBox').dialogBox({
+                hasClose: true,
+//                hasMask: true,
+                time: 3000,
+                title: 'THE "GIRI" 9',
+                content:
+                    '<section id="gallery" class="simplegallery">' +
+                    '<div class="content">' +
+                '<img src="<?=base_url()?>assets/image/bgggolf.jpg" class="image_1" alt="" />'+
+                '<img src="<?=base_url()?>assets/image/bgggolf2.jpg" class="image_2" style="display:none" alt="" />'+
+                '<img src="<?=base_url()?>assets/image/bggresort.jpg" class="image_3" style="display:none" alt="" />'+
+                '<img src="<?=base_url()?>assets/image/bggresort2.jpg" class="image_4" style="display:none" alt="" />'+
+                '</div>'+
+
+            '<div class="clear"></div>'+
+
+            '<div class="thumbnail">'+
+                '<div class="thumb">'+
+                '<a href="#" rel="1">'+
+                '<img src="<?=base_url()?>assets/image/bgggolf.jpg" id="thumb_1" alt="" />'+
+                '</a>'+
+            '</div>'+
+            '<div class="thumb">'+
+                '<a href="#" rel="2">'+
+                '<img src="<?=base_url()?>assets/image/bgggolf2.jpg" id="thumb_2" alt="" />'+
+                '</a>'+
+            '</div>'+
+            '<div class="thumb">'+
+                '<a href="#" rel="3">'+
+                '<img src="<?=base_url()?>assets/image/bggresort.jpg" id="thumb_3" alt="" />'+
+                '</a>'+
+            '</div>'+
+            '<div class="thumb last">'+
+                '<a href="#" rel="4">'+
+                '<img src="<?=base_url()?>assets/image/bggresort2.jpg" id="thumb_4" alt="" />'+
+                '</a>'+
+            '</div>'+
+            '</div>' +
+            '</section>'
+            });
+        });
 
 
+        //gahana dialogBox
+        $('#gahana').click(function(){
+            $('#gahana-dialogBox').dialogBox({
+                hasClose: true,
+//                hasMask: true,
+                time: 3000,
+                title: 'THE "GAHANA" 9',
+                content:
+                    '<section id="gallery" class="simplegallery">' +
+                        '<div class="content">' +
+                        '<img src="<?=base_url()?>assets/image/bgggolf.jpg" class="image_1" alt="" />'+
+                        '<img src="<?=base_url()?>assets/image/bgggolf2.jpg" class="image_2" style="display:none" alt="" />'+
+                        '<img src="<?=base_url()?>assets/image/bggresort.jpg" class="image_3" style="display:none" alt="" />'+
+                        '<img src="<?=base_url()?>assets/image/bggresort2.jpg" class="image_4" style="display:none" alt="" />'+
+                        '</div>'+
+                        '<div class="clear"></div>'+
+                        '<div class="thumbnail">'+
+                        '<div class="thumb">'+
+                        '<a href="#" rel="1">'+
+                        '<img src="<?=base_url()?>assets/image/bgggolf.jpg" id="thumb_1" alt="" />'+
+                        '</a>'+
+                        '</div>'+
+                        '<div class="thumb">'+
+                        '<a href="#" rel="2">'+
+                        '<img src="<?=base_url()?>assets/image/bgggolf2.jpg" id="thumb_2" alt="" />'+
+                        '</a>'+
+                        '</div>'+
+                        '<div class="thumb">'+
+                        '<a href="#" rel="3">'+
+                        '<img src="<?=base_url()?>assets/image/bggresort.jpg" id="thumb_3" alt="" />'+
+                        '</a>'+
+                        '</div>'+
+                        '<div class="thumb last">'+
+                        '<a href="#" rel="4">'+
+                        '<img src="<?=base_url()?>assets/image/bggresort2.jpg" id="thumb_4" alt="" />'+
+                        '</a>'+
+                        '</div>'+
+                        '</div>' +
+                        '</section>'
+            });
+        });
+
+        //gahana dialogBox
+        $('#banch').click(function(){
+            $('#banch-dialogBox').dialogBox({
+                hasClose: true,
+//                hasMask: true,
+                time: 3000,
+                title: 'BANCH GRASS GREEN',
+                content:
+                    '<section id="gallery" class="simplegallery">' +
+                        '<div class="content">' +
+                        '<img src="<?=base_url()?>assets/image/bgggolf.jpg" class="image_1" alt="" />'+
+                        '<img src="<?=base_url()?>assets/image/bgggolf2.jpg" class="image_2" style="display:none" alt="" />'+
+                        '<img src="<?=base_url()?>assets/image/bggresort.jpg" class="image_3" style="display:none" alt="" />'+
+                        '<img src="<?=base_url()?>assets/image/bggresort2.jpg" class="image_4" style="display:none" alt="" />'+
+                        '</div>'+
+                        '<div class="clear"></div>'+
+
+                        '</section>'
+            });
+        });
+
+    });
+</script>
+
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
 
 
-      </body></html>
+</body></html>

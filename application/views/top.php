@@ -24,11 +24,26 @@
 <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/component_tab.css">
 <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/component_accordion.css">
 <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/slicknav.css">
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/jquery.dialogbox.css">
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/thumbnails/simplegallery.demo1.min.css">
 <script src="<?=base_url()?>assets/js/jquery.slicknav.js"></script>
+<!--    <script src="--><?//=base_url()?><!--assets/thumbnails/simplegallery.min.js"></script>-->
 <script type="text/javascript" src="<?=base_url()?>assets/js/jquery.fancybox.js"></script>
 <script type="text/javascript" src="<?=base_url()?>assets/js/accordion.js"></script>
 <script type="text/javascript" src="<?=base_url()?>assets/js/tab.js"></script>
+    <script type="text/javascript" src="<?=base_url()?>assets/js/jquery.dialogBox.js"></script>
 <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/fancybox.css" media="screen">
+
+    //dialog box
+    <style type="text/css">
+        *{ margin: 0; padding: 0; }
+        dl{ font:12px normal 'Microsoft YaHei'; width: 900px; height: 100%; overflow: hidden; margin: 20px auto;  border:1px solid #eee; background: #f8f8f8; padding: 20px; }
+        dl dt{ width: 100%; height: 30px; line-height: 30px; font-size: 14px; font-weight: bold; }
+        dl dd{ padding: 10px; }
+        pre{ color:#fff; height: 100%; overflow: hidden; background: #66BE8C; margin: 10px 0; word-break: normal; word-wrap:break-word;}
+        code{ word-break: normal;}
+        ul,li{ list-style: none; }
+    </style>
 
 <script type="text/javascript">
     $(document).ready(function(){
@@ -58,7 +73,20 @@
     $(function() {
         $('#ticker').vTicker();
     });
+
+//    $(document).ready(function(){
+//
+//        $('#gallery').simplegallery({
+//            galltime : 400,
+//            gallcontent: '.content',
+//            gallthumbnail: '.thumbnail',
+//            gallthumb: '.thumb'
+//        });
+//
+//    });
+
 </script>
+      
 
 <style type="text/css">.fancybox-margin{margin-right:17px;}</style>
 <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/css/top.css">
@@ -185,17 +213,26 @@
                                     <td width="30%" valign="top" align="center" style="padding:0px 20px;">
                                         <img src="<?=base_url()?>assets/image/bgggolf.jpg">
                                         <br />
-                                        <h4 style="margin-top:10px;">THE "GIRI" 9</h4>
+                                        <div id="giri-dialogBox">
+
+                                        </div>
+                                        <h4 style="margin-top:10px;cursor:pointer;" id="giri">THE "GIRI" 9</h4>
                                     </td>
                                     <td width="30%" valign="top" align="center" style="padding:0px 20px;">
                                         <img src="<?=base_url()?>assets/image/bgggolf.jpg">
                                         <br />
-                                        <h4 style="margin-top:10px;">THE "GAHANA" 9</h4>
+                                        <div id="gahana-dialogBox">
+
+                                        </div>
+                                        <h4 style="margin-top:10px;cursor:pointer;" id="gahana">THE "GAHANA" 9</h4>
                                     </td>
                                     <td width="30%" valign="top" align="center" style="padding:0px 20px;">
                                         <img src="<?=base_url()?>assets/image/bgggolf.jpg">
                                         <br />
-                                        <h4 style="margin-top:10px;">BANCH GRASS GREEN</h4>
+                                        <div id="banch-dialogBox">
+
+                                        </div>
+                                        <h4 style="margin-top:10px;cursor:pointer;" id="banch">BANCH GRASS GREEN</h4>
                                     </td>
                                 </tr>                  </tr>
                                 <tr>
